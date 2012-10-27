@@ -1,4 +1,4 @@
 list-of-top-level-domains
 =========================
 
-A list of top level domains (TLDs) in CSV-format
+A (not yet complete) list of top level domains (TLDs) in CSV-format
