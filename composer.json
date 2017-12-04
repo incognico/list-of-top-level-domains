@@ -1,10 +1,10 @@
 {
-   "name": "TLD Enumerations",
+   "name": "katmore/tld-enum",
    "description" : "Lists of every ICANN TLD in formats that can be natively compiled in various language targets",
    "homepage":"https://github.com/katmore/tld-enum",
     "autoload": {
         "psr-4": {
-            "TldEnum\\": "src/targets/php/TldEnum"
+            "TldEnum\\": "src/formats/php/TldEnum/"
         }
     },
 	"license": [
