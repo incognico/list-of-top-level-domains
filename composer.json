@@ -4,7 +4,7 @@
    "homepage":"https://github.com/katmore/tld-enum",
     "autoload": {
         "psr-4": {
-            "TldEnum\\": "src/target/php/TldEnum"
+            "TldEnum\\": "src/targets/php/TldEnum"
         }
     },
 	"license": [
