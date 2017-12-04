@@ -5,9 +5,9 @@ Lists of every [ICANN TLD](https://www.icann.org/resources/pages/tlds-2012-02-25
 Forked from [list-of-top-level-domains](https://github.com/incognico/list-of-top-level-domains).
 
 ## List Formats
- * **PHP**: [php/TldEnum/TldEnum.php](src/formats/php/TldEnum/TldEnum.php)
- * **JSON**: [json/tld-list.json](src/formats/json/tld-list.json)
- * **CSV**: [csv/tlds-name-only.csv](src/formats/csv/tlds-name-only.csv)
+ * **PHP**: [TldEnum.php](src/formats/php/TldEnum/TldEnum.php)
+ * **JSON**: [tld-list.json](src/formats/json/tld-list.json)
+ * **CSV**: [tlds-name-only.csv](src/formats/csv/tlds-name-only.csv)
 
 ## Legal
 The source code in this project is based on a fork of certain source code originally from the (incognico/list-of-top-level-domains)[https://github.com/incognico/list-of-top-level-domains] project, as retrieved on 2017-12-04, which was published to the public domain.
