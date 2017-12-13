@@ -27,7 +27,7 @@ The following copyright notice applies to all resources in this project unless s
 
 Copyright (c) 2017 Doug Bird, All Rights Reserved.
 
-The following resources of this project are published in the public domain:
+The following resources of this project are hereby published in the public domain:
  * [/tlds.csv](/tlds.csv)
  * [/formats/js/tld-enum.js](/formats/js/tld-enum.js)
  * [/formats/json/tld-list.json](/formats/json/tld-list.json)
