@@ -1,7 +1,6 @@
 .*
 !/.gitignore
 /vendor/
-/web/alive.html
 composer.lock
 *.log
 !**.gitkeep

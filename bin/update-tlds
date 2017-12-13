@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+console.log("updates the 'tlds.csv' file from iana.org and re-generates the native format files in the 'format/' directory");
+console.log("---this script is currently a 'to-do' placeholder!---");
