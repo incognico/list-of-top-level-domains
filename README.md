@@ -23,10 +23,21 @@ The source code in this project is based on a fork of certain source code origin
 ### Copyright
 TLD Enumerations - https://github.com/katmore/tld-enum
 
-Copyright (c) 2017 Doug Bird. All Rights Reserved.
+The following copyright notice applies to all resources in this project unless specifically noted otherwise:
+
+Copyright (c) 2017 Doug Bird, All Rights Reserved.
+
+The following resources of this project are published in the public domain:
+ * [/tlds.csv](/tlds.csv)
+ * [/formats/js/tld-enum.js](/formats/js/tld-enum.js)
+ * [/formats/json/tld-list.json](/formats/json/tld-list.json)
+ * [/formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
 
 ### License
-TLD Enumerations is copyrighted free software.
+All resources in the 'TLD Enumerations' project are copyrighted free software unless specifically noted otherwise.
+
 You may redistribute and modify it under either the terms and conditions of the
 "The MIT License (MIT)"; or the terms and conditions of the "GPL v3 License".
-See [LICENSE](https://github.com/katmore/tld-enum/blob/master/LICENSE) and [GPLv3](https://github.com/katmore/tld-enum/blob/master/GPLv3).
+See [LICENSE](/LICENSE) and [GPLv3](/GPLv3).
+
+This licensing condition does not apply to any resources in the 'TLD Enumerations' project that are published in the public domain. These resources are listed in the **"Copyright"** section of this document.
