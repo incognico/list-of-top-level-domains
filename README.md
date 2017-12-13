@@ -41,4 +41,4 @@ You may redistribute and modify it under either the terms and conditions of the
 "The MIT License (MIT)"; or the terms and conditions of the "GPL v3 License".
 See [LICENSE](/LICENSE) and [GPLv3](/GPLv3).
 
-These licensing conditions do not apply to any resources that have been released into the public domain; which are listed in the [**"Public Domain Resources"**](/README.md##public-domain-resources) section of the 'TLD Enumerations' project's [README](/README.md) document.
+These licensing conditions do not apply to any resources that have been released into the public domain; which are listed in the [**"Public Domain Resources"**](/README.md#public-domain-resources) section of the 'TLD Enumerations' project's [README](/README.md) document.
