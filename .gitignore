@@ -1,6 +1,7 @@
 .*
 !/.gitignore
 /vendor/
+/node_modules/
 composer.lock
 *.log
 !**.gitkeep
