@@ -27,7 +27,8 @@ The following copyright notice applies to all resources in this project unless s
 
 Copyright (c) 2017 Doug Bird, All Rights Reserved.
 
-The following resources of this project are hereby published in the public domain:
+### Public Domain Resources
+The following resources of this project are hereby released into the public domain:
  * [/tlds.csv](/tlds.csv)
  * [/formats/js/tld-enum.js](/formats/js/tld-enum.js)
  * [/formats/json/tld-list.json](/formats/json/tld-list.json)
@@ -40,4 +41,4 @@ You may redistribute and modify it under either the terms and conditions of the
 "The MIT License (MIT)"; or the terms and conditions of the "GPL v3 License".
 See [LICENSE](/LICENSE) and [GPLv3](/GPLv3).
 
-This licensing condition does not apply to any resources in the 'TLD Enumerations' project that are published in the public domain. These resources are listed in the **"Copyright"** section of this document.
+These licensing conditions do not apply to any resources that have been released into the public domain; which are listed in the [**"Public Domain Resources"**](/README.md) section of the 'TLD Enumerations' project's [README](/README.md) document.
