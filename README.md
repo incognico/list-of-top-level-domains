@@ -7,15 +7,15 @@ A [canonical TLD list in CSV format](/tlds.csv) was used to generate the various
 ## List Formats
  * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
  
-    A PHP source file providing a class with constant having an array value comprised of every ICANN TLD.
+    A PHP source file providing a class with a constant having an array value comprised of every ICANN TLD.
   
  * **JSON**: [tld-list.json](/formats/json/tld-list.json)
  
     A JSON formatted array comprised of every ICANN TLD.
  
- * **Node / JavaScript**: [tld-enum.js](/formats/js/tld-enum.js)
+ * **JavaScript**: [tld-enum.js](/formats/js/tld-enum.js)
  
-    A node export module with constant having an array value comprised of every ICANN TLD.
+    An export module with a constant having an array value comprised of every ICANN TLD.
 
 ## Legal
 The source code in this project is based on a fork of certain source code originally from the [incognico/list-of-top-level-domains](https://github.com/incognico/list-of-top-level-domains) project, as retrieved on 2017-12-04, which was published to the public domain.
