@@ -1,6 +1,6 @@
 {
   "name": "tld-enum",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "Lists of every ICANN TLD in formats that can be natively compiled in various language targets",
   "main": "formats/js/tld-enum.js",
   "bin": {
