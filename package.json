@@ -1,38 +1,38 @@
 {
-  "name": "tld-enum",
-  "version": "1.0.4",
-  "description": "Lists of every ICANN TLD in formats that can be natively compiled in various language targets",
-  "main": "formats/js/tld-enum.js",
-  "bin": {
-    "tld-enum": "generate-json-tld-enum.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/katmore/tld-enum.git"
-  },
-  "author": "Doug Bird",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/katmore/tld-enum/issues"
-  },
-  "homepage": "https://github.com/katmore/tld-enum#readme",
-  "dependencies": {
-    "async-request": "^1.2.0",
-    "cheerio": "^1.0.0-rc.2",
-    "commander": "^2.12.2",
-    "country-data": "0.0.31",
-    "countryjs": "^1.8.0",
-    "csv-parse": "^2.0.0",
-    "csv-stringify": "^2.0.0",
-    "es6-promisify": "^5.0.0",
-    "fs": "0.0.1-security",
-    "fs-extra": "^5.0.0",
-    "md5-file": "^3.2.3",
-    "pathinfo": "^0.1.0",
-    "request": "^2.83.0",
-    "tmp": "0.0.33"
-  }
+    "name": "tld-enum",
+    "version": "1.0.4",
+    "description": "Lists of every ICANN TLD in formats that can be natively compiled in various language targets",
+    "main": "formats/js/tld-enum.js",
+    "bin": {
+        "tld-enum": "generate-json-tld-enum.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/katmore/tld-enum.git"
+    },
+    "author": "Doug Bird",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/katmore/tld-enum/issues"
+    },
+    "homepage": "https://github.com/katmore/tld-enum#readme",
+    "devDependencies": {
+        "async-request": "^1.2.0",
+        "cheerio": "^1.0.0-rc.2",
+        "commander": "^2.12.2",
+        "country-data": "0.0.31",
+        "countryjs": "^1.8.0",
+        "csv-parse": "^2.0.0",
+        "csv-stringify": "^2.0.0",
+        "es6-promisify": "^5.0.0",
+        "fs": "0.0.1-security",
+        "fs-extra": "^5.0.0",
+        "md5-file": "^3.2.3",
+        "pathinfo": "^0.1.0",
+        "request": "^2.83.0",
+        "tmp": "0.0.33"
+    }
 }
