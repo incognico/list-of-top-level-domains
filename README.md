@@ -8,7 +8,7 @@ A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the nat
 The lists can be conveniently used in PHP or Node projects including this package.
 
 ### Node
- * use npm to add the `tld-enum` package to your project as needed
+ * use npm to add the `tld-enum` package to your project
    ```sh
    $ npm install tld-enum --save
    ```
@@ -61,12 +61,17 @@ The lists can be conveniently used in PHP or Node projects including this packag
    ```
 
 ### PHP
- * use composer to add the `katmore/tld-enum` package to your project as needed
+ * use composer to add the `katmore/tld-enum` package to your project
    ```sh
    $ composer require katmore/tld-enum
    ```
    
  * access the list by using the `\TldEnum\TldEnum::TLD_ENUM` class constant array
+ 
+   ```php
+   require_once __DIR__ . '/vendor/autoload.php';
+   \TldEnum\TldEnum::TLD_ENUM; //an array with every IANA TLD
+   ```
  
    The following example...
    ```php
