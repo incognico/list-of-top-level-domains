@@ -1,21 +1,18 @@
 {
-    "name": "tld-list",
+    "name": "tld-enum",
     "version": "1.0.4",
-    "description": "Lists of every ICANN TLD in formats that can be natively compiled in various language targets",
+    "description": "Lists of every IANA TLD in formats that can be natively compiled in various language targets",
     "main": "formats/js/tld-enum.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/katmore/tld-list.git"
+        "url": "git+https://github.com/katmore/tld-enum.git"
     },
     "author": "Doug Bird",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/katmore/tld-list/issues"
+        "url": "https://github.com/katmore/tld-enum/issues"
     },
-    "homepage": "https://github.com/katmore/tld-list#readme",
+    "homepage": "https://github.com/katmore/tld-enum#readme",
     "devDependencies": {
         "async-request": "^1.2.0",
         "cheerio": "^1.0.0-rc.2",

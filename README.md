@@ -1,27 +1,27 @@
-# TLD Lists
+# TLD Enumerations
 
-Lists of every [ICANN TLD](https://www.icann.org/resources/pages/tlds-2012-02-25-en) in formats that can be natively compiled in various language targets.
+Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in formats that can be natively compiled in various language targets.
 
 A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the native formats.
 
 ## List Formats
  * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
  
-    A PHP source file providing a class with a constant having an array value comprised of every ICANN TLD.
+    A PHP source file providing a class with a constant having an array value comprised of every IANA TLD.
   
  * **JSON**: [tld-list.json](/formats/json/tld-list.json)
  
-    A JSON formatted array comprised of every ICANN TLD.
+    A JSON formatted array comprised of every IANA TLD.
  
  * **JavaScript**: [tld-enum.js](/formats/js/tld-enum.js)
  
-    An export module with a constant having an array value comprised of every ICANN TLD.
+    An export module with a constant having an array value comprised of every IANA TLD.
 
 ## Legal
 The source code in this project is based on a fork of certain source code originally from the [incognico/list-of-top-level-domains](https://github.com/incognico/list-of-top-level-domains) project, as retrieved on 2017-12-04, which was published to the public domain.
 
 ### Copyright
-TLD Lists - https://github.com/katmore/tld-list
+TLD Enumerations - https://github.com/katmore/tld-enum
 
 The following copyright notice applies to all resources in this project unless specifically noted otherwise:
 
