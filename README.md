@@ -4,6 +4,21 @@ Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in 
 
 A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the native formats.
 
+## Installation
+The lists can be conveniently used in PHP or Node projects including this package.
+
+### Node
+ * use npm to add the **tld-enum** package to your project
+   ```sh
+   $ npm install tld-enum --save
+   ```
+
+### PHP
+ * use composer to add the **tld-enum** package to your project
+   ```sh
+   $ composer require tld-enum
+   ```
+
 ## List Formats
  * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
  
@@ -16,6 +31,20 @@ A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the nat
  * **JavaScript**: [tld-enum.js](/formats/js/tld-enum.js)
  
     An export module with a constant having an array value comprised of every IANA TLD.
+    
+## Updating the TLD lists
+  * [bin/update-formats](/bin/update-formats)
+  
+    ```sh
+    $ bin/update-formats
+    ```
+    
+    This should be all you need to update all the list formats using the latest data from IANA.
+    
+    It uses multiple "helper" scripts to generate the full set of native format lists.
+    
+    The individual "helper" scripts do not need to be directly executed when [update-formats](/bin/update-formats)
+    runs successfully.
 
 ## Legal
 The source code in this project is based on a fork of certain source code originally from the [incognico/list-of-top-level-domains](https://github.com/incognico/list-of-top-level-domains) project, as retrieved on 2017-12-04, which was published to the public domain.
