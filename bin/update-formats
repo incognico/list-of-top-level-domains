@@ -1,4 +1,161 @@
-#!/usr/bin/env node
+#!/bin/bash
+################################################################################
+## "update-formats"
+##     Updates the 'tlds.csv' file from iana.org and re-generates the native 
+##     format files
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+## script localization
+################################################################################
+ME_NAME="update-formats"
+ME_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+HELPER_DIR=$ME_DIR/helpers
+################################################################################
+## enforce dependencies
+################################################################################
+DEPENDENCY_SET=(node php)
+DEPENDENCY_STATUS=0
+for DEP_CMD in "${DEPENDENCY_SET[@]}"
+do
+   which $DEP_CMD > /dev/null 2>&1
+   DEP_STATUS=$?
+   if [ "$DEP_STATUS" -ne "0" ]; then
+      >&2 echo -e "$ME_NAME: (NOTICE) failed dependency check for '$DEP_CMD', command is missing or inaccessible"
+      DEPENDENCY_STATUS=1
+   fi
+done
+if [ "$DEPENDENCY_STATUS" -ne "0" ]; then
+   >&2 echo -e "$ME_NAME: (FATAL) one or more dependency checks failed"
+   exit 1
+fi
+################################################################################
+## read options and flags
+################################################################################
+QUIET_MODE=0
+typeset -A SCRIPT_OPTS_MAP
+SCRIPT_OPTS_MAP=(
+    [quiet]=q
+)
+SCRIPT_OPTS="::-:q"
+#== parse options ==#
+while getopts ${SCRIPT_OPTS} OPTION ; do
+    #== translate long options to short ==#
+    OPTREF="-$OPTARG"
+    if [[ "x$OPTION" == "x-" ]]; then
+        LONG_OPTION=$OPTARG
+        LONG_OPTARG=$(echo $LONG_OPTION | grep "=" | cut -d'=' -f2)
+        LONG_OPTIND=-1
+        [[ "x$LONG_OPTARG" = "x" ]] && LONG_OPTIND=$OPTIND || LONG_OPTION=$(echo $OPTARG | cut -d'=' -f1)
+        [[ $LONG_OPTIND -ne -1 ]] && eval LONG_OPTARG="\$$LONG_OPTIND"
+        OPTION=${SCRIPT_OPTS_MAP[$LONG_OPTION]}
+        [[ "x$OPTION" = "x" ]] &&  OPTION="?" OPTARG="-$LONG_OPTION"
+        OPTREF="--$LONG_OPTION"
+        if [[ $( echo "${SCRIPT_OPTS}" | grep -c "${OPTION}:" ) -eq 1 ]]; then
+            if [[ "x${LONG_OPTARG}" = "x" ]] || [[ "${LONG_OPTARG}" = -* ]]; then 
+                OPTION=":" OPTARG="-$LONG_OPTION"
+            else
+                OPTARG="$LONG_OPTARG";
+                if [[ $LONG_OPTIND -ne -1 ]]; then
+                    [[ $OPTIND -le $Optnum ]] && OPTIND=$(( $OPTIND+1 ))
+                    shift $OPTIND
+                    OPTIND=1
+                fi
+            fi
+        fi
+    fi
 
-console.log("updates the 'tlds.csv' file from iana.org and re-generates the native format files in the 'format/' directory");
-console.log("---this script is currently a 'to-do' placeholder!---");
+    #== options follow by another option instead of argument ==#
+    if [[ "x${OPTION}" != "x:" ]] && [[ "x${OPTION}" != "x?" ]] && [[ "${OPTARG}" = -* ]]; then 
+        OPTARG="$OPTION" OPTION=":"
+    fi
+
+    #== manage options ==#
+    case "$OPTION" in
+        q)
+            QUIET_MODE=1
+            ;;
+        : ) >&2 echo "${ME_NAME}: (FATAL) $OPTREF option requires a value" && echo -e "$ME_USAGE" && exit 1 ;;
+        ? ) >&2 echo "${ME_NAME}: (FATAL) $OPTREF is an unknown option" && echo -e "$ME_USAGE" && exit 1 ;;
+    esac
+done
+shift $((${OPTIND} - 1))
+################################################################################
+## display welcome message
+################################################################################
+if [ "$QUIET_MODE" -ne "1" ]; then
+    echo "update-formats"
+    echo "   (c) 2017 Doug Bird, All Rights Reserved."
+    echo "   see README.md for licensing and other information"
+    echo "   https://github.com/katmore/tld-enum#readme"
+    echo ""
+    echo "   Updates the 'tlds.csv' file from iana.org and re-generates the native format files"
+    echo ""
+fi
+
+################################################################################
+## run the 'generate-tlds-csv.js' helper
+################################################################################
+CUR_HELPER_LABEL="new 'tlds.csv'"
+CUR_HELPER_CMD=generate-tlds-csv.js
+echo -e "generate $CUR_HELPER_LABEL: started\n"
+$HELPER_DIR/$CUR_HELPER_CMD -q
+CMD_STATUS=$?
+# terminate if helper failed
+if [ "$CMD_STATUS" -ne "0" ]; then
+   >&2 echo "$ME_NAME: (FATAL) helper for $CUR_HELPER_LABEL failed ($CUR_HELPER_CMD exit status $CMD_STATUS)"
+   exit $CMD_STATUS
+fi
+echo -e "\ngenerate new $CUR_HELPER_LABEL: success"
+
+################################################################################
+## run the 'generate-php-tld-enum.php' helper
+################################################################################
+CUR_HELPER_LABEL="new PHP format files"
+CUR_HELPER_CMD=generate-php-tld-enum.php
+echo -e "generate $CUR_HELPER_LABEL: started\n"
+$HELPER_DIR/$CUR_HELPER_CMD -q
+CMD_STATUS=$?
+# terminate if helper failed
+if [ "$CMD_STATUS" -ne "0" ]; then
+   >&2 echo "$ME_NAME: (FATAL) helper for $CUR_HELPER_LABEL failed ($CUR_HELPER_CMD exit status $CMD_STATUS)"
+   exit $CMD_STATUS
+fi
+echo -e "\ngenerate new $CUR_HELPER_LABEL: success"
+
+################################################################################
+## run the 'generate-js-tld-enum.js' helper
+################################################################################
+CUR_HELPER_LABEL="new JavaScript format files"
+CUR_HELPER_CMD=generate-js-tld-enum.js
+echo -e "generate $CUR_HELPER_LABEL: started\n"
+$HELPER_DIR/$CUR_HELPER_CMD -q
+CMD_STATUS=$?
+# terminate if helper failed
+if [ "$CMD_STATUS" -ne "0" ]; then
+   >&2 echo "$ME_NAME: (FATAL) helper for $CUR_HELPER_LABEL failed ($CUR_HELPER_CMD exit status $CMD_STATUS)"
+   exit $CMD_STATUS
+fi
+echo -e "\ngenerate new $CUR_HELPER_LABEL: success"
+
+################################################################################
+## run the 'generate-json-tld-enum.js' helper
+################################################################################
+CUR_HELPER_LABEL="new JSON format files"
+CUR_HELPER_CMD=generate-json-tld-enum.js
+echo -e "generate $CUR_HELPER_LABEL: started\n"
+$HELPER_DIR/$CUR_HELPER_CMD -q
+CMD_STATUS=$?
+# terminate if helper failed
+if [ "$CMD_STATUS" -ne "0" ]; then
+   >&2 echo "$ME_NAME: (FATAL) helper for $CUR_HELPER_LABEL failed ($CUR_HELPER_CMD exit status $CMD_STATUS)"
+   exit $CMD_STATUS
+fi
+echo -e "\ngenerate new $CUR_HELPER_LABEL: success"

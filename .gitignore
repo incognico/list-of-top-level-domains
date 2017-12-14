@@ -5,3 +5,7 @@
 composer.lock
 *.log
 !**.gitkeep
+/*-backup.csv
+/formats/php/TldEnum/*-backup.php
+/formats/json/*-backup.json
+/formats/js/*-backup.js
