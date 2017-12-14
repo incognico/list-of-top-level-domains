@@ -4,19 +4,103 @@ Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in 
 
 A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the native formats.
 
-## Installation
+## Usage
 The lists can be conveniently used in PHP or Node projects including this package.
 
 ### Node
- * use npm to add the **tld-enum** package to your project
+ * use npm to add the `tld-enum` package to your project as needed
    ```sh
    $ npm install tld-enum --save
    ```
+   
+ * add the module to your source
+ 
+   ```js
+   const tldEnum = require('tld-enum');
+   ```
+   
+ * access the list by using the `tldEnum.tldList` array
+ 
+   ```js
+   const tldEnum = require('tld-enum');
+   tldEnum.tldList; //an array with every IANA TLD
+   ```
+   
+   The following example...
+   ```js
+   const tldEnum = require('tld-enum');
+
+   console.log("There are " + tldEnum.tldList.length + " IANA TLDs");
+
+   let tldCheck;
+
+   tldCheck = "com";
+   console.log("Is '" + tldCheck + "' a real TLD?");
+   if (tldEnum.tldList.indexOf(tldCheck) != -1) {
+       console.log("   yes");
+   } else {
+       console.log("   no");
+   }
+
+   tldCheck = "somethingWeird";
+   console.log("Is '" + tldCheck + "' a real TLD?");
+   if (tldEnum.tldList.indexOf(tldCheck) != -1) {
+       console.log("   yes");
+   } else {
+       console.log("   no");
+   }
+   ```
+   
+   Should produce the following output...
+   ```txt
+   There are 1573 IANA TLDs
+   Is 'com' a real TLD?
+      yes
+   Is 'somethingWeird' a real TLD?
+      no
+   ```
 
 ### PHP
- * use composer to add the **tld-enum** package to your project
+ * use composer to add the `katmore/tld-enum` package to your project as needed
    ```sh
-   $ ccomposer require katmore/tld-enum
+   $ composer require katmore/tld-enum
+   ```
+   
+ * access the list by using the `\TldEnum\TldEnum::TLD_ENUM` class constant array
+ 
+   The following example...
+   ```php
+   <?php
+   use TldEnum\TldEnum;
+
+   require __DIR__ . '/vendor/autoload.php';
+
+   echo "There are " . count(TldEnum::TLD_ENUM) . " IANA TLDs\n";
+
+   $tldCheck = "com";
+   echo "Is '$tldCheck' a real TLD?\n";
+   if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
+       echo "   yes\n";
+   } else {
+       echo "   no\n";
+   }
+
+   $tldCheck = "somethingWeird";
+   echo "Is '$tldCheck' a real TLD?\n";
+   if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
+       echo "   yes\n";
+   } else {
+       echo "   no\n";
+   }
+   ```
+   
+   should produce the following output...
+   ```txt
+   There are 1573 IANA TLDs
+   Is 'com' a real TLD?
+      yes
+   Is 'somethingWeird' a real TLD?
+      no
    ```
 
 ## List Formats
