@@ -36,18 +36,18 @@ The lists can be conveniently used in PHP or Node projects including this packag
 
    tldCheck = "com";
    console.log("Is '" + tldCheck + "' a real TLD?");
-   if (tldEnum.tldList.indexOf(tldCheck) != -1) {
-       console.log("   yes");
+   if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
+       console.log("  yes");
    } else {
-       console.log("   no");
+       console.log("  no");
    }
 
    tldCheck = "somethingWeird";
    console.log("Is '" + tldCheck + "' a real TLD?");
-   if (tldEnum.tldList.indexOf(tldCheck) != -1) {
-       console.log("   yes");
+   if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
+       console.log("  yes");
    } else {
-       console.log("   no");
+       console.log("  no");
    }
    ```
    
@@ -85,18 +85,18 @@ The lists can be conveniently used in PHP or Node projects including this packag
 
    $tldCheck = "com";
    echo "Is '$tldCheck' a real TLD?\n";
-   if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
-       echo "   yes\n";
+   if (in_array(strtolower($tldCheck), TldEnum::TLD_ENUM)) {
+       echo "  yes\n";
    } else {
-       echo "   no\n";
+       echo "  no\n";
    }
 
    $tldCheck = "somethingWeird";
    echo "Is '$tldCheck' a real TLD?\n";
-   if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
-       echo "   yes\n";
+   if (in_array(strtolower($tldCheck), TldEnum::TLD_ENUM)) {
+       echo "  yes\n";
    } else {
-       echo "   no\n";
+       echo "  no\n";
    }
    ```
    
