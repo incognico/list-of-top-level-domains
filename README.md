@@ -99,7 +99,7 @@ The lists can be conveniently used in PHP or Node projects including this packag
    }
    ```
    
-   should produce the following output...
+   Should produce the following output...
    ```txt
    There are 1573 IANA TLDs
    Is 'com' a real TLD?
@@ -107,6 +107,10 @@ The lists can be conveniently used in PHP or Node projects including this packag
    Is 'somethingWeird' a real TLD?
       no
    ```
+
+## Examples
+ * [php-demo.php](/examples/php-demo.php)
+ * [js-demo.js](/examples/js-demo.js)
 
 ## List Formats
  * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
