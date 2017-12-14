@@ -33,6 +33,7 @@ The following resources of this project are hereby released into the public doma
  * [/formats/js/tld-enum.js](/formats/js/tld-enum.js)
  * [/formats/json/tld-list.json](/formats/json/tld-list.json)
  * [/formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
+ * [/assets/tld-desc.csv](/assets/tld-desc.csv)
 
 ### License
 All resources in the 'TLD Enumerations' project are copyrighted free software unless specifically noted otherwise.
