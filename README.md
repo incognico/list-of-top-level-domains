@@ -16,7 +16,7 @@ The lists can be conveniently used in PHP or Node projects including this packag
 ### PHP
  * use composer to add the **tld-enum** package to your project
    ```sh
-   $ composer require tld-enum
+   $ ccomposer require katmore/tld-enum
    ```
 
 ## List Formats
