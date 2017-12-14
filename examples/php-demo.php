@@ -8,7 +8,7 @@ echo "There are " . count(TldEnum::TLD_ENUM) . " IANA TLDs\n";
 
 $tldCheck = "com";
 echo "Is '$tldCheck' a real TLD?\n";
-if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
+if (in_array(strtolower($tldCheck), TldEnum::TLD_ENUM)) {
     echo "  yes\n";
 } else {
     echo "  no\n";
@@ -16,7 +16,7 @@ if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
 
 $tldCheck = "somethingWeird";
 echo "Is '$tldCheck' a real TLD?\n";
-if (in_array($tldCheck, TldEnum::TLD_ENUM)) {
+if (in_array(strtolower($tldCheck), TldEnum::TLD_ENUM)) {
     echo "  yes\n";
 } else {
     echo "  no\n";
