@@ -1,4 +1,4 @@
-# TLD Enumerations
+# TLD Lists
 
 Lists of every [ICANN TLD](https://www.icann.org/resources/pages/tlds-2012-02-25-en) in formats that can be natively compiled in various language targets.
 
@@ -21,7 +21,7 @@ A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the nat
 The source code in this project is based on a fork of certain source code originally from the [incognico/list-of-top-level-domains](https://github.com/incognico/list-of-top-level-domains) project, as retrieved on 2017-12-04, which was published to the public domain.
 
 ### Copyright
-TLD Enumerations - https://github.com/katmore/tld-enum
+TLD Lists - https://github.com/katmore/tld-list
 
 The following copyright notice applies to all resources in this project unless specifically noted otherwise:
 
@@ -30,7 +30,7 @@ Copyright (c) 2017 Doug Bird, All Rights Reserved.
 ### Public Domain Resources
 The following resources of this project are hereby released into the public domain:
  * [/tlds.csv](/tlds.csv)
- * [/formats/js/tld-enum.js](/formats/js/tld-enum.js)
+ * [/formats/js/tld-enum.js](/formats/js/tld-list.js)
  * [/formats/json/tld-list.json](/formats/json/tld-list.json)
  * [/formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
  * [/assets/tld-desc.csv](/assets/tld-desc.csv)
