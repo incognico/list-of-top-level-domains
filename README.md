@@ -69,6 +69,7 @@ The lists can be conveniently used in PHP or Node projects including this packag
  * access the list by using the `\TldEnum\TldEnum::TLD_ENUM` class constant array
  
    ```php
+   <?php
    require_once __DIR__ . '/vendor/autoload.php';
    \TldEnum\TldEnum::TLD_ENUM; //an array with every IANA TLD
    ```
