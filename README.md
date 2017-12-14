@@ -2,7 +2,7 @@
 
 Lists of every [ICANN TLD](https://www.icann.org/resources/pages/tlds-2012-02-25-en) in formats that can be natively compiled in various language targets.
 
-A [canonical TLD list in CSV format](/tlds.csv) was used to generate the various formats.
+A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the native formats.
 
 ## List Formats
  * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
