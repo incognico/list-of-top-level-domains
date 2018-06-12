@@ -148,15 +148,15 @@ TLD Enumerations - https://github.com/katmore/tld-enum
 
 The following copyright notice applies to all resources in this project unless specifically noted otherwise:
 
-Copyright (c) 2017 Doug Bird, All Rights Reserved.
+Copyright (c) 2017-2018 Doug Bird. All Rights Reserved.
 
 ### Public Domain Resources
 The following resources of this project are hereby released into the public domain:
- * [/tlds.csv](/tlds.csv)
- * [/formats/js/tld-enum.js](/formats/js/tld-list.js)
- * [/formats/json/tld-list.json](/formats/json/tld-list.json)
- * [/formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
- * [/assets/tld-desc.csv](/assets/tld-desc.csv)
+ * [tlds.csv](/tlds.csv)
+ * [formats/js/tld-enum.js](/formats/js/tld-list.js)
+ * [formats/json/tld-list.json](/formats/json/tld-list.json)
+ * [formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
+ * [assets/tld-desc.csv](/assets/tld-desc.csv)
 
 ### License
 All resources in the 'TLD Enumerations' project are copyrighted free software unless specifically noted otherwise.
