@@ -67,7 +67,7 @@ depcheck() { dep_cmd=$1; dep_label=$2
       >&2 echo "$ME_NAME: failed dependency check for '$dep_label', command is missing or inaccessible"
       DEPENDENCY_STATUS=1
 } }
-depcheck "node -v" "node"
+depcheck "nodex -v" "node"
 depcheck "php -v" "php"
 if [ "$DEPENDENCY_STATUS" != "0" ]; then
    >&2 echo "$ME_NAME: (FATAL) one or more dependency checks failed"
