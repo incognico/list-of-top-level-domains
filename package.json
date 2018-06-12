@@ -1,7 +1,7 @@
 {
     "name": "tld-enum",
-    "version": "1.0.6",
-    "description": "Lists of every IANA TLD in formats that can be natively compiled in various language targets",
+    "version": "1.0.8",
+    "description": "Lists of every ICANN TLD in multiple formats",
     "main": "formats/js/tld-enum.js",
     "repository": {
         "type": "git",
