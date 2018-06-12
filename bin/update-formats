@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ################################################################################
 ## "update-formats"
 ##     Updates the 'tlds.csv' file from iana.org and re-generates the native 
