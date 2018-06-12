@@ -127,17 +127,17 @@ The lists can be conveniently used in PHP or Node projects including this packag
     An export module with a constant having an array value comprised of every IANA TLD.
     
 ## Updating the TLD lists
-  * [bin/update-formats](/bin/update-formats)
+  * [bin/update-formats](/bin/update-formats.sh)
   
     ```sh
-    $ bin/update-formats
+    $ bin/update-formats.sh
     ```
     
     This should be all you need to update all the list formats using the latest data from IANA.
     
     It uses multiple "helper" scripts to generate the full set of native format lists.
     
-    The individual "helper" scripts do not need to be directly executed when [update-formats](/bin/update-formats)
+    The individual "helper" scripts do not need to be directly executed when [update-formats.sh](/bin/update-formats.sh)
     runs successfully.
 
 ## Legal
