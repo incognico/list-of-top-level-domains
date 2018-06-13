@@ -176,7 +176,7 @@ Copyright (c) 2017-2018 Doug Bird. All Rights Reserved.
 ### Public Domain Resources
 The following resources of this project are hereby released into the public domain:
  * [tlds.csv](/tlds.csv)
- * [formats/js/tld-enum.js](/formats/js/tld-list.js)
+ * [formats/js/tld-enum.js](/formats/js/tld-enum.js)
  * [formats/json/tld-list.json](/formats/json/tld-list.json)
  * [formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
  * [assets/tld-desc.csv](/assets/tld-desc.csv)
