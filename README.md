@@ -31,7 +31,7 @@ Additionally, for convenience, some native programming language formats have als
  
    ```js
    const tldEnum = require('tld-enum');
-   tldEnum.list; //an array with every IANA TLD
+   console.log(tldEnum.list); //an array with every IANA TLD
    ```
    
    The following example...
