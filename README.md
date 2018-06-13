@@ -200,13 +200,15 @@ $ bin/update-formats.sh
 ### TLD Update Utility Usage
 ```txt
 usage:
-  update-formats.sh [-h] | [-q][--skip-php]
+  update-formats.sh [-h]|[-q][format file options...]
 
-options:
-  -h,--help: Print a help message and exit.
-  -q,--quiet: Print less messages.
-  --force-php: Creating the PHP format file is mandatory.
-  --skip-php: Always skip creating the PHP format file
+-h,--help: Print a help message and exit.
+-q,--quiet: Print only critical messages.
+
+format file options:
+  --force-php: Creating the PHP format files is mandatory.
+  --skip-php: Always skip creating the PHP format files.
+  --skip-csv: Use existing tlds.csv and do not download new data from IANA.
 ```
 
 ### TLD Update Helpers
