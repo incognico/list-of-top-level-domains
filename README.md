@@ -213,7 +213,7 @@ $ bin/update-formats.sh
      npm install tmp --save-dev
      ```
      
-   * If **tld-enum** was installed in an outside project using npm, then the **TLD Update Utility** can be executed from the *node_module* to update the TLD format files without having to wait for an update to the [**tld-enum** npm package](https://www.npmjs.com/package/tld-enum), as in the following example:
+   * If **tld-enum** was installed in an outside project using npm, then the **TLD Update Utility** can be executed from the *node_module* directory, as in the following example:
       
      ```sh
      node_modules/tld-enum/bin/update-formats.sh
