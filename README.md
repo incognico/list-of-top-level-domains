@@ -166,19 +166,19 @@ Additionally, for convenience, some native programming language formats have als
        A JSON formatted array of "info" object elements of every IANA TLD.
        
  * **JavaScript**
-    * [list.js](/formats/js/tld-enum/list.json)
+    * [list.js](/formats/js/tld-enum/list.js)
  
        An export module with an array comprised of every IANA TLD.
        
-    * [desc.js](/formats/js/tld-enum/desc.json)
+    * [desc.js](/formats/js/tld-enum/desc.js)
  
        An export module with an object containing a property for every IANA TLD and the corresponding TLD's "description" as the value.
        
-    * [type.js](/formats/js/tld-enum/type.json)
+    * [type.js](/formats/js/tld-enum/type.js)
  
        An export module with an object containing a property for every IANA TLD and the corresponding TLD's "type" as the value.
        
-    * [info.js](/formats/js/tld-enum/info.json)
+    * [info.js](/formats/js/tld-enum/info.js)
  
        An export module with an array comprised of "info" object elements of every IANA TLD.
     
