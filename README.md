@@ -192,6 +192,10 @@ $ bin/update-formats.sh
 ### TLD Update Utility Prerequisites
  * Node.js version 8.11 or higher.
  * (Optional) PHP command-line version 7.2 or higher, to create the [PHP format class file](#tld-list-formats).
+ * `npm install --dev` must have been performed (in the project root):
+   ```sh
+   npm install --dev
+   ```
 
 ### TLD Update Utility Usage
 ```txt
