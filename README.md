@@ -1,13 +1,17 @@
 # TLD Enumerations
+Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in formats that can be natively compiled in various formats. The lists may be continuously updated using the included utility that uses the latest data from IANA.
 
-Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in formats that can be natively compiled in various language targets.
+ * [Node Usage](#node-usage)
+ * [PHP Usage](#php-usage)
+ * [CSV of every TLD](./tlds.csv)
+ * [All TLD Formats](#)
+ * [Updating the TLDs](#)
 
-A [canonical list of TLDs in CSV format](/tlds.csv) was used to generate the native formats.
 
 ## Usage
-The lists can be conveniently used in PHP or Node projects including this package.
+The lists can be conveniently used in PHP or Node projects.
 
-### Node
+### Node Usage
  * use npm to add the `tld-enum` package to your project
    ```sh
    $ npm install tld-enum --save
@@ -60,7 +64,7 @@ The lists can be conveniently used in PHP or Node projects including this packag
       no
    ```
 
-### PHP
+### PHP Usage
  * use composer to add the `katmore/tld-enum` package to your project
    ```sh
    $ composer require katmore/tld-enum
@@ -113,7 +117,11 @@ The lists can be conveniently used in PHP or Node projects including this packag
  * [php-demo.php](/examples/php-demo.php)
  * [js-demo.js](/examples/js-demo.js)
 
-## List Formats
+## TLD List Formats
+ * **CSV**: [tlds.csv](/tlds.csv)
+ 
+    A CSV file providing a row for each TLD with the following  three columns: *domain* (TLD), *description*, and *type*.
+    
  * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
  
     A PHP source file providing a class with a constant having an array value comprised of every IANA TLD.
@@ -127,18 +135,31 @@ The lists can be conveniently used in PHP or Node projects including this packag
     An export module with a constant having an array value comprised of every IANA TLD.
     
 ## Updating the TLD lists
-  * [bin/update-formats](/bin/update-formats.sh)
-  
-    ```sh
-    $ bin/update-formats.sh
-    ```
-    
-    This should be all you need to update all the list formats using the latest data from IANA.
-    
-    It uses multiple "helper" scripts to generate the full set of native format lists.
-    
-    The individual "helper" scripts do not need to be directly executed when [update-formats.sh](/bin/update-formats.sh)
-    runs successfully.
+All [TLD List Formats](#tld-list-formats) can be with the latest data from IANA by using the [**TLD Update Utility**](/bin/update-formats.sh).
+
+```sh
+$ bin/update-formats.sh
+```
+
+### TLD Update Utility Prerequisites
+ * Node.js version 8.11 or higher.
+ * (Optional) PHP command-line version 7.2 or higher, to create the [PHP format class file](#tld-list-formats).
+
+### TLD Update Utility Usage
+```txt
+usage:
+  update-formats.sh [-h] | [-q][--skip-php]
+
+options:
+  -h,--help: Print a help message and exit.
+  -q,--quiet: Print less messages.
+  --force-php: Creating the PHP format file is mandatory.
+  --skip-php: Always skip creating the PHP format file
+```
+
+### TLD Update Helpers
+Internally, the *TLD Update Utility* uses multiple *"helper" scripts* to generate the full set of native format lists.
+These individual *"helper" scripts* should not be directly executed except for development and troubleshooting purposes.
 
 ## Legal
 The source code in this project is based on a fork of certain source code originally from the [incognico/list-of-top-level-domains](https://github.com/incognico/list-of-top-level-domains) project, as retrieved on 2017-12-04, which was published to the public domain.
