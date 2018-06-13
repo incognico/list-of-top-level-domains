@@ -11,7 +11,9 @@ Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in 
 Because the lists are provided in universial CSV and JSON formats, they can be easily utilitized in most programming environments.
 Additionally, for convenience, some native programming language formats have also been provided.
  * [Node Usage](#node-usage)
+ * [More Node Examples](#more-node-examples)
  * [PHP Usage](#php-usage)
+ * [More PHP Examples](#more-php-examples)
 
 ### Node Usage
  * use npm to add the `tld-enum` package to your project
