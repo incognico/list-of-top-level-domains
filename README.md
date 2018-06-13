@@ -225,14 +225,6 @@ The following copyright notice applies to all resources in this project unless s
 
 Copyright (c) 2017-2018 Doug Bird. All Rights Reserved.
 
-### Public Domain Resources
-The following resources of this project are hereby released into the public domain:
- * [tlds.csv](/tlds.csv)
- * [formats/js/tld-enum.js](/formats/js/tld-enum.js)
- * [formats/json/tld-list.json](/formats/json/tld-list.json)
- * [formats/php/TldEnum/TldEnum.php](/formats/php/TldEnum/TldEnum.php)
- * [assets/tld-desc.csv](/assets/tld-desc.csv)
-
 ### License
 All resources in the 'TLD Enumerations' project are copyrighted free software unless specifically noted otherwise.
 
@@ -241,3 +233,20 @@ You may redistribute and modify it under either the terms and conditions of the
 See [LICENSE](/LICENSE) and [GPLv3](/GPLv3).
 
 These licensing conditions do not apply to any resources that have been released into the public domain; which are listed in the [**"Public Domain Resources"**](/README.md#public-domain-resources) section of the 'TLD Enumerations' project's [README](/README.md) document.
+
+### Public Domain Resources
+The following resources of this project are hereby released into the public domain:
+ * [tlds.csv](/tlds.csv)
+ * [formats/js/tld-enum/list.js](/formats/js/tld-enum/list.js)
+ * [formats/js/tld-enum/desc.js](/formats/js/tld-enum/desc.js)
+ * [formats/js/tld-enum/info.js](/formats/js/tld-enum/info.js)
+ * [formats/js/tld-enum/type.js](/formats/js/tld-enum/type.js)
+ * [formats/json/tld-list.json](/formats/json/tld-list.json)
+ * [formats/json/tld-desc.json](/formats/json/tld-desc.json)
+ * [formats/json/tld-info.json](/formats/json/tld-info.json)
+ * [formats/json/tld-type.json](/formats/json/tld-type.json)
+ * [formats/php/TldEnum/TldList.php](/formats/php/TldEnum/TldList.php)
+ * [formats/php/TldEnum/TldDesc.php](/formats/php/TldEnum/TldDesc.php)
+ * [formats/php/TldEnum/TldInfo.php](/formats/php/TldEnum/TldInfo.php)
+ * [formats/php/TldEnum/TldType.php](/formats/php/TldEnum/TldType.php)
+ * [assets/tld-desc.csv](/assets/tld-desc.csv)
