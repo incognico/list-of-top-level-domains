@@ -80,11 +80,11 @@ Additionally, for convenience, some native programming language formats have als
    $ composer require katmore/tld-enum
    ```
    
- * access the list by using the `\TldList::TLD_LIST` class constant array
+ * access the list by using the `\TldEnum\TldList::TLD_LIST` class constant array
  
    ```php
    <?php
-   print_r(\TldList::TLD_LIST); //an array with every IANA TLD
+   print_r(\TldEnum\TldList::TLD_LIST); //an array with every IANA TLD
    ```
  
    The following example...
