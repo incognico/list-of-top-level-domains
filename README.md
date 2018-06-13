@@ -3,7 +3,7 @@ Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in 
 
  * [CSV format](./tlds.csv)
  * [All Formats](#tld-list-formats)
- * [Updating the TLDs](#ipdating-the-tld-lists)
+ * [Updating the TLDs](#updating-the-tld-lists)
  * [Node Usage](#node-usage)
  * [PHP Usage](#php-usage)
  
