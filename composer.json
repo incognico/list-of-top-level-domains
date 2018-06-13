@@ -11,6 +11,7 @@
         "MIT",
         "GPL-3.0+"
     ],
+    "bin": ["bin/update-formats.sh"],
     "require": {
         "php": ">=7.2.1"
     }
