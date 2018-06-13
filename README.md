@@ -125,7 +125,7 @@ Additionally, for convenience, some native programming language formats have als
 ## TLD List Formats
  * **CSV**: [tlds.csv](/tlds.csv)
  
-    A CSV file providing a row for each TLD with the following  three columns: *domain* (TLD), *description*, and *type*.
+    A CSV file providing a row for every IANA TLD with the following three columns: *domain* (TLD), *description*, and *type*.
     
  * **PHP**
     * [TldList.php](/formats/php/TldEnum/TldList.php)
