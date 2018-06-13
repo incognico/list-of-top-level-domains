@@ -31,7 +31,7 @@ Additionally, for convenience, some native programming language formats have als
  
    ```js
    const tldEnum = require('tld-enum');
-   tldEnum.list; //an array with every IANA TLD
+   console.log(tldEnum.list); //an array with every IANA TLD
    ```
    
    The following example...
@@ -192,10 +192,32 @@ $ bin/update-formats.sh
 ### TLD Update Utility Prerequisites
  * Node.js version 8.11 or higher.
  * (Optional) PHP command-line version 7.2 or higher, to re-generate the [PHP format files](#tld-list-formats).
- * The *devDependencies* from [*package.json*](./package.json) must be fullfilled
-   ```sh
-   $ npm install tld-enum --dev
-   ```
+ * The *devDependencies* from [*package.json*](./package.json) must be available.
+   
+   * If **tld-enum** has installed in an outside project using npm, then these must be installed manually, as in the following example:
+   
+     ```sh
+     npm install async-request --save-dev
+     npm install cheerio --save-dev
+     npm install commander --save-dev
+     npm install country-data --save-dev
+     npm install countryjs --save-dev
+     npm install csv-parse --save-dev
+     npm install csv-stringify --save-dev
+     npm install es6-promisify --save-dev
+     npm install fs --save-dev
+     npm install fs-extra --save-dev
+     npm install md5-file --save-dev
+     npm install pathinfo --save-dev
+     npm install request --save-dev
+     npm install tmp --save-dev
+     ```
+     
+   * If **tld-enum** has installed in an outside project using npm, then the **TLD Update Utility** can be executed from the *node_module* to update the TLD format files without having to wait for an update to the [**tld-enum** npm package](https://www.npmjs.com/package/tld-enum), as in the following example:
+      
+     ```sh
+     node_modules/tld-enum/bin/update-formats.sh
+     ```
 
 ### TLD Update Utility Usage
 ```txt
