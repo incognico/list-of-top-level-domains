@@ -1,5 +1,5 @@
 # TLD Enumerations
-Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in formats that can be natively compiled in various formats. The lists may be continuously updated using the included utility that uses the latest data from IANA.
+Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in various formats. The lists may be continuously updated using the included utility that uses the latest data from IANA.
 
  * [CSV format](./tlds.csv)
  * [All Formats](#tld-list-formats)
