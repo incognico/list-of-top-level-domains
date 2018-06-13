@@ -1,15 +1,17 @@
 # TLD Enumerations
 Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in formats that can be natively compiled in various formats. The lists may be continuously updated using the included utility that uses the latest data from IANA.
 
+ * [CSV format](./tlds.csv)
+ * [All Formats](#tld-list-formats)
+ * [Updating the TLDs](#ipdating-the-tld-lists)
  * [Node Usage](#node-usage)
  * [PHP Usage](#php-usage)
- * [CSV of every TLD](./tlds.csv)
- * [All TLD Formats](#)
- * [Updating the TLDs](#)
-
-
+ 
 ## Usage
-The lists can be conveniently used in PHP or Node projects.
+Because the lists are provided in universial CSV and JSON formats, they easily utilitized in most programming environments.
+Additionally, for convenience, the native programming language formats have also been provided.
+ * [Node Usage](#node-usage)
+ * [PHP Usage](#php-usage)
 
 ### Node Usage
  * use npm to add the `tld-enum` package to your project
