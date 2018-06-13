@@ -127,10 +127,13 @@ helper generate-json-tld-enum.js "new JSON format files"
 if [ "$SKIP_PHP" != "1" ]; then 
    helper generate-php-tld-enum.php "new PHP format files"
 else
-   [ "$QUIET_MODE" = "0" ] && echo "$ME_NAME: (NOTICE) skipped PHP"
+   [ "$QUIET_MODE" = "0" ] && echo "$ME_NAME: (NOTICE) skipped PHP format files"
 fi
 
-echo "$ME_NAME: format updates were successful"
+if [ "$QUIET_MODE" = "0" ]; then 
+   echo "format updates were successful"
+fi
+
 
 
 
