@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 new class() {
-    const ME_NAME = 'generate-php-tld-enum.php';
+    const ME_NAME = 'generate-php-tld-info.php';
     const TLDS_CSV_PATH = __DIR__ . '/../../tlds.csv';
     const TLD_INFO_PATH = __DIR__ . '/../../formats/php/TldEnum/TldInfo.php';
     private static $_quietMode = false;
@@ -17,7 +17,7 @@ new class() {
             echo "   see README.md for licensing and other information\n";
             echo "   https://github.com/katmore/tld-enum#readme\n";
             echo "\n";
-            echo "   Generates new PHP format files from the 'tlds.csv' file\n";
+            echo "   Generates new PHP format file 'TldInfo.php' from the 'tlds.csv' file\n";
             echo "\n";
         }
 

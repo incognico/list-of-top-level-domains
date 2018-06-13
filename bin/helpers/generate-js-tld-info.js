@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meName = 'generate-js-info.js';
+const meName = 'generate-js-tld-info.js';
 
 process.on('unhandledRejection', error => {
     console.error(meName + ": (FATAL)", error);
@@ -32,7 +32,7 @@ if (!program.quiet) {
     console.log("   see README.md for licensing and other information");
     console.log("   https://github.com/katmore/tld-enum#readme");
     console.log("");
-    console.log("   Generates new javascript format file 'info.js' from the 'tlds.csv' file");
+    console.log("   Generates new JavaScript format file 'info.js' from the 'tlds.csv' file");
     console.log("");
 }
 

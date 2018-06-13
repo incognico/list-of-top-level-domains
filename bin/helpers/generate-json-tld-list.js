@@ -32,7 +32,7 @@ if (!program.quiet) {
     console.log("   see README.md for licensing and other information");
     console.log("   https://github.com/katmore/tld-enum#readme");
     console.log("");
-    console.log("   Generates new JSON format files from the 'tlds.csv' file");
+    console.log("   Generates new JSON format file 'tld-list.json' from the 'tlds.csv' file");
     console.log("");
 }
 
