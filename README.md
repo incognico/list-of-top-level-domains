@@ -8,7 +8,7 @@ Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in 
  * [PHP Usage](#php-usage)
  
 ## Usage
-Because the lists are provided in universial CSV and JSON formats, they easily utilitized in most programming environments.
+Because the lists are provided in universial CSV and JSON formats, they can be easily utilitized in most programming environments.
 Additionally, for convenience, some native programming language formats have also been provided.
  * [Node Usage](#node-usage)
  * [PHP Usage](#php-usage)
