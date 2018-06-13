@@ -137,7 +137,7 @@ Additionally, for convenience, some native programming language formats have als
     An export module with a constant having an array value comprised of every IANA TLD.
     
 ## Updating the TLD lists
-All [TLD List Formats](#tld-list-formats) can be with the latest data from IANA by using the [**TLD Update Utility**](/bin/update-formats.sh).
+All [TLD List Formats](#tld-list-formats) can be updated with the latest data from IANA by using the [**TLD Update Utility**](/bin/update-formats.sh).
 
 ```sh
 $ bin/update-formats.sh
