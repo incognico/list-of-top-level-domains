@@ -66,6 +66,12 @@ Additionally, for convenience, some native programming language formats have als
       no
    ```
 
+#### More Node Examples
+ * [js-demo.js](/examples/js-demo.js) Demo using the simple array of every TLD in JavaScript.
+ * [js-desc-demo.js](/examples/js-desc-demo.js) Demo using the TLD description hashmap in JavaScript.
+ * [js-type-demo.js](/examples/js-type-demo.js) Demo using the TLD type hashmap in JavaScript.
+ * [js-info-demo.js](/examples/js-info-demo.js) Demo using the array of TLD info hashmaps in JavaScript.
+
 ### PHP Usage
  * use composer to add the `katmore/tld-enum` package to your project
    ```sh
@@ -112,15 +118,11 @@ Additionally, for convenience, some native programming language formats have als
       no
    ```
 
-## Examples
+#### More PHP Examples
  * [php-demo.php](/examples/php-demo.php) Demo using the simple array of every TLD in PHP.
- * [js-demo.js](/examples/js-demo.js) Demo using the simple array of every TLD in JavaScript.
  * [php-TldDesc-demo.php](/examples/php-TldDesc-demo.php) Demo using the TLD description hashmap in PHP.
  * [php-TldType-demo.php](/examples/php-TldType-demo.php) Demo using the TLD type hashmap in PHP.
  * [php-TldInfo-demo.php](/examples/php-TldInfo-demo.php) Demo using the array of TLD info hashmaps in PHP.
- * [js-desc-demo.js](/examples/js-desc-demo.js) Demo using the TLD description hashmap in JavaScript.
- * [js-type-demo.js](/examples/js-type-demo.js) Demo using the TLD type hashmap in JavaScript.
- * [js-info-demo.js](/examples/js-info-demo.js) Demo using the array of TLD info hashmaps in JavaScript.
 
 ## TLD List Formats
  * **CSV**: [tlds.csv](/tlds.csv)
