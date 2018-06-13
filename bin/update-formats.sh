@@ -106,7 +106,7 @@ helper() { helper_file=$1; helper_label=$2
       cmd_status=$?
       [ "$cmd_status" != "0" ] && [ -n "$cmd_output" ] && >&2 printf "$cmd_output\n"
    else
-      printf "generate $helper_label: started\n\n"
+      printf "generate new $helper_label: started\n\n"
       "$HELPER_DIR/$helper_file" -q
       cmd_status=$?
       [ "$cmd_status" = "0" ] && printf "\ngenerate new $helper_label: success\n"
@@ -121,17 +121,17 @@ helper() { helper_file=$1; helper_label=$2
 #
 # execute the helpers
 #
-helper generate-tlds-csv.js "new 'tlds.csv'"
-helper generate-js-tld-enum.js "new JavaScript format files"
-helper generate-json-tld-enum.js "new JSON format files"
+helper generate-tlds-csv.js "tlds.csv CSV format file"
+helper generate-js-tld-enum.js "JavaScript format files"
+helper generate-json-tld-enum.js "JSON format files"
 if [ "$SKIP_PHP" != "1" ]; then 
-   helper generate-php-tld-enum.php "new PHP format files"
+   helper generate-php-tld-enum.php "PHP format files"
 else
    [ "$QUIET_MODE" = "0" ] && echo "$ME_NAME: (NOTICE) skipped PHP format files"
 fi
 
 if [ "$QUIET_MODE" = "0" ]; then 
-   echo "format updates were successful"
+  echo "format file updates were successful"
 fi
 
 
