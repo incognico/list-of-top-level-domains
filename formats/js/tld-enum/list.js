@@ -1,4 +1,4 @@
-exports.tldList = [
+module.exports = [
   "aaa",
   "aarp",
   "abarth",

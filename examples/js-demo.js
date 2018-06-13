@@ -1,13 +1,12 @@
-//const tldEnum = require('tld-enum');
-const tldEnum = require('../formats/js/tld-enum');
+const tldList = require('../formats/js/tld-enum/list');
 
-console.log("There are " + tldEnum.tldList.length + " IANA TLDs");
+console.log("There are " + tldList.length + " IANA TLDs");
 
 let tldCheck;
 
 tldCheck = "com";
 console.log("Is '" + tldCheck + "' a real TLD?");
-if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
+if (tldList.indexOf(tldCheck.toLowerCase()) != -1) {
     console.log("  yes");
 } else {
     console.log("  no");
@@ -15,7 +14,7 @@ if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
 
 tldCheck = "somethingWeird";
 console.log("Is '" + tldCheck + "' a real TLD?");
-if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
+if (tldList.indexOf(tldCheck.toLowerCase()) != -1) {
     console.log("  yes");
 } else {
     console.log("  no");

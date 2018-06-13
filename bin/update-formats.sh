@@ -1,5 +1,5 @@
 #!/bin/sh
-# Updates the tlds.csv file from IANA and re-generates the native format files
+# Updates the tlds.csv file using IANA data and re-generates the format files
 # 
 # @author D. Bird <retran@gmail.com>
 #
@@ -19,6 +19,7 @@ QUIET_MODE=0
 HELP_MODE=0
 FORCE_PHP=0
 SKIP_PHP=0
+SKIP_CSV=0
 while getopts :?qhua-: arg; do { case $arg in
    q) QUIET_MODE=1;; 
    h|u|a) HELP_MODE=1;;
@@ -26,6 +27,7 @@ while getopts :?qhua-: arg; do { case $arg in
       quiet) QUIET_MODE=1;;
       force-php) FORCE_PHP=1;;
       skip-php) SKIP_PHP=1;;
+      skip-csv) SKIP_CSV=1;;
       help|usage|about) HELP_MODE=1;;
       *) >&2 echo "$ME_NAME: unrecognized long option --$OPTARG"; OPTION_STATUS=2;;
    esac ;; 
@@ -48,27 +50,27 @@ fi
 #
 if ( [ "$QUIET_MODE" != "1" ] || [ "$HELP_MODE" = "1" ] ); then
     echo "TLD update utility"
-    echo ""
-    echo "Updates the tlds.csv file from IANA and re-generates the native format files."
-    echo ""
     echo "(c) 2017-2018 Doug Bird, All Rights Reserved."
-    echo "see README.md for licensing and other information"
     echo "https://github.com/katmore/tld-enum#readme"
-    echo ""
 fi
 
 #
 # apply help mode
 #
 if [ "$HELP_MODE" = "1" ]; then
-   echo "usage:"
-   echo "  $ME_NAME [-h] | [-q][--skip-php]"
    echo ""
-   echo "options:"
-   echo "  -h,--help: Print a help message and exit."
-   echo "  -q,--quiet: Print less messages."
-   echo "  --force-php: Creating the PHP format file is mandatory."
-   echo "  --skip-php: Always skip creating the PHP format file."
+   echo "Updates the tlds.csv file using IANA data and re-generates the format files."
+   echo ""
+   echo "usage:"
+   echo "  $ME_NAME [-h]|[-q][format file options...]"
+   echo ""
+   echo "-h,--help: Print a help message and exit."
+   echo "-q,--quiet: Print only critical messages."
+   echo ""
+   echo "format file options:"
+   echo "  --force-php: Creating the PHP format files is mandatory."
+   echo "  --skip-php: Always skip creating the PHP format files."
+   echo "  --skip-csv: Use existing tlds.csv and do not download new data from IANA."
    exit 0
 fi
 
@@ -106,10 +108,10 @@ helper() { helper_file=$1; helper_label=$2
       cmd_status=$?
       [ "$cmd_status" != "0" ] && [ -n "$cmd_output" ] && >&2 printf "$cmd_output\n"
    else
-      printf "generate new $helper_label: started\n\n"
+      printf "generate new $helper_label format file: started\n"
       "$HELPER_DIR/$helper_file" -q
       cmd_status=$?
-      [ "$cmd_status" = "0" ] && printf "\ngenerate new $helper_label: success\n"
+      [ "$cmd_status" = "0" ] && printf "generate new $helper_label format file: success\n"
    fi
    if [ "$cmd_status" != "0" ]; then
       >&2 echo "$ME_NAME: (FATAL) helper for $helper_label failed ($helper_file exit status $cmd_status)"
@@ -119,19 +121,47 @@ helper() { helper_file=$1; helper_label=$2
 }
 
 #
-# execute the helpers
+# execute CSV helper
 #
-helper generate-tlds-csv.js "tlds.csv CSV format file"
-helper generate-js-tld-enum.js "JavaScript format files"
-helper generate-json-tld-enum.js "JSON format files"
-if [ "$SKIP_PHP" != "1" ]; then 
-   helper generate-php-tld-enum.php "PHP format files"
+if [ "$SKIP_CSV" != "1" ]; then
+   helper generate-tlds-csv.js "CSV 'tlds.csv'"
 else
-   [ "$QUIET_MODE" = "0" ] && echo "$ME_NAME: (NOTICE) skipped PHP format files"
+   [ "$QUIET_MODE" = "0" ] && printf "$ME_NAME: (NOTICE) skipped downloading IANA data and skipped generating new CSV\n"
 fi
 
+#
+# execute JavaScript helpers
+#
+helper generate-js-tld-desc.js "JavaScript 'desc.js'"
+helper generate-js-tld-info.js "JavaScript 'info.js'"
+helper generate-js-tld-list.js "JavaScript 'list.js'"
+helper generate-js-tld-type.js "JavaScript 'type.js'"
+
+#
+# execute JSON helpers
+#
+helper generate-json-tld-desc.js "JSON 'tld-desc.json'"
+helper generate-json-tld-info.js "JSON 'tld-info.json'"
+helper generate-json-tld-list.js "JSON 'tld-list.json'"
+helper generate-json-tld-type.js "JSON 'tld-type.json'"
+
+#
+# execute PHP helpers
+#
+if [ "$SKIP_PHP" != "1" ]; then 
+   helper generate-php-tld-desc.php "PHP 'TldDesc.php'"
+   helper generate-php-tld-info.php "PHP 'TldInfo.php'"
+   helper generate-php-tld-list.php "PHP 'TldList.php'"
+   helper generate-php-tld-type.php "PHP 'TldType.php'"
+else
+   [ "$QUIET_MODE" = "0" ] && printf "$ME_NAME: (NOTICE) skipped generating PHP format files\n"
+fi
+
+#
+# success
+#
 if [ "$QUIET_MODE" = "0" ]; then 
-  echo "format file updates were successful"
+  printf "format file updates were successful\n"
 fi
 
 

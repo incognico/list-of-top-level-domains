@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
 new class() {
-    const ME_NAME = 'generate-php-tld-enum.php';
+    const ME_NAME = 'generate-php-tld-list.php';
     const TLDS_CSV_PATH = __DIR__ . '/../../tlds.csv';
-    const TLD_ENUM_PATH = __DIR__ . '/../../formats/php/TldEnum/TldEnum.php';
+    const TLD_ENUM_PATH = __DIR__ . '/../../formats/php/TldEnum/TldList.php';
     private static $_quietMode = false;
     public function __construct() {
         $opt = getopt ( "q",['quiet']);
@@ -17,7 +17,7 @@ new class() {
             echo "   see README.md for licensing and other information\n";
             echo "   https://github.com/katmore/tld-enum#readme\n";
             echo "\n";
-            echo "   Generates new PHP format files from the 'tlds.csv' file\n";
+            echo "   Generates new PHP format file 'TldList.php' from the 'tlds.csv' file\n";
             echo "\n";
         }
 
@@ -31,17 +31,17 @@ new class() {
         $tldEnumDir = pathinfo($tldEnumFile,\PATHINFO_DIRNAME);
         if (file_exists($tldEnumFile)) {
            if (!is_file($tldEnumFile)) {
-              static::_echo_error("(FATAL) existing path for 'TldEnum.php' was not a file as expected: $tldEnumFile",1);
+              static::_echo_error("(FATAL) existing path for 'TldList.php' was not a file as expected: $tldEnumFile",1);
            }
            if (!is_writable($tldEnumFile)) {
-              static::_echo_error("(FATAL) existing path for 'TldEnum.php' is not writable: $tldEnumFile",1);
+              static::_echo_error("(FATAL) existing path for 'TldList.php' is not writable: $tldEnumFile",1);
            }
         } else {
            if (!file_exists($tldEnumDir) || !is_dir($tldEnumDir)) {
-              static::_echo_error("(FATAL) path for 'TldEnum.php' directory does not exist as expected: $tldEnumDir",1);
+              static::_echo_error("(FATAL) path for 'TldList.php' directory does not exist as expected: $tldEnumDir",1);
            }
            if (!is_writable($tldEnumDir)) {
-              static::_echo_error("(FATAL) path for 'TldEnum.php' directory is not writeable: $tldEnumDir",1);
+              static::_echo_error("(FATAL) path for 'TldList.php' directory is not writeable: $tldEnumDir",1);
            }
         }
         
@@ -52,13 +52,13 @@ new class() {
            $backupTldEnumFile = $tldEnumDir . \DIRECTORY_SEPARATOR . "$tldEnumBasename-$existingMd5-backup.php";
            if (!file_exists($backupTldEnumFile)) {
               if (!copy($tldEnumFile,$backupTldEnumFile)) {
-                 static::_echo_error("(FATAL) failed to create backup for 'TldEnum.php' (source: $tldEnumFile, dest: $backupTldEnumFile)",1);
+                 static::_echo_error("(FATAL) failed to create backup for 'TldList.php' (source: $tldEnumFile, dest: $backupTldEnumFile)",1);
               }
            }
         }
         
         if (false === ($newTldEnumFile = tempnam ( sys_get_temp_dir() , 'tld-enum-' ))) {
-           static::_echo_error("(FATAL) unable to initialize new 'TldEnum.php' file",1);
+           static::_echo_error("(FATAL) unable to initialize new 'TldList.php' file",1);
         }
         
         register_shutdown_function(function() use($newTldEnumFile) {
@@ -85,16 +85,16 @@ new class() {
            echo "done\n";
         }
 
-        //echo "new TldEnum.php: $newTldEnumFile\n";
+        //echo "new TldList.php: $newTldEnumFile\n";
         
-        echo "generating new 'TldEnum.php' file...";
+        echo "generating new 'TldList.php' file...";
 
         if (false === file_put_contents($newTldEnumFile,static::TLD_ENUM_SOURCE_START_CLASS)) {
-           static::_echo_error("(FATAL) failed to write to new 'TldEnum.php' file",1);
+           static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
         if (false === file_put_contents($newTldEnumFile,static::TLD_ENUM_SOURCE_START_TLD_ENUM_CONST,\FILE_APPEND)) {
-           static::_echo_error("(FATAL) failed to write to new 'TldEnum.php' file",1);
+           static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
         $tldEnumExport = var_export($tldEnum, true);
@@ -107,15 +107,15 @@ new class() {
         //$tldEnumExport = json_encode($tldEnum,\JSON_PRETTY_PRINT);
         
         if (false === file_put_contents($newTldEnumFile, $tldEnumExport,\FILE_APPEND)) {
-           static::_echo_error("(FATAL) failed to write to new 'TldEnum.php' file",1);
+           static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
         if (false === file_put_contents($newTldEnumFile,static::TLD_ENUM_SOURCE_END_TLD_ENUM_CONST,\FILE_APPEND)) {
-           static::_echo_error("(FATAL) failed to write to new 'TldEnum.php' file",1);
+           static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
         if (false === file_put_contents($newTldEnumFile,static::TLD_ENUM_SOURCE_END_CLASS,\FILE_APPEND)) {
-           static::_echo_error("(FATAL) failed to write to new 'TldEnum.php' file",1);
+           static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
         echo "done\n";
@@ -123,19 +123,19 @@ new class() {
         if ($existingMd5!==null) {
            $newTldEnumMd5 = md5_file($newTldEnumFile);
            if ($existingMd5 == $newTldEnumMd5) {
-              static::_echo_error("(NOTICE) ignoring newly generated 'TldEnum.php' file that is identical to the existing file (md5: $existingMd5, path: $tldEnumFile)");
+              static::_echo_error("(NOTICE) ignoring newly generated 'TldList.php' file that is identical to the existing file (md5: $existingMd5, path: $tldEnumFile)");
               return;
            }
            if (!unlink($tldEnumFile)) {
-              static::_echo_error("(FATAL) failed to remove stale 'TldEnum.php': $tldEnumFile",1);
+              static::_echo_error("(FATAL) failed to remove stale 'TldList.php': $tldEnumFile",1);
            }
         }
         
         if (!copy($newTldEnumFile,$tldEnumFile)) {
-           static::_echo_error("(FATAL) failed to save new 'TldEnum.php': $tldEnumFile",1);
+           static::_echo_error("(FATAL) failed to save new 'TldList.php': $tldEnumFile",1);
         }
         
-        echo "saved new 'TldEnum.php' file\n";
+        echo "saved new 'TldList.php' file\n";
         
         
     }
@@ -159,12 +159,12 @@ new class() {
 <?php
 namespace TldEnum;
 
-class TldEnum {
+class TldList {
 
 SOURCE;
 
     const TLD_ENUM_SOURCE_START_TLD_ENUM_CONST = <<<SOURCE
-    const TLD_ENUM =
+    const TLD_LIST =
 SOURCE;
     
     const TLD_ENUM_SOURCE_END_TLD_ENUM_CONST = <<<SOURCE

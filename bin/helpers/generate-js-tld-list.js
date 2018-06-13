@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meName = 'generate-js-tld-enum.js';
+const meName = 'generate-js-list.js';
 
 process.on('unhandledRejection', error => {
     console.error(meName + ": (FATAL)", error);
@@ -17,9 +17,7 @@ const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
 
-//tmp.setGracefulCleanup();
-
-const fileTldListJs = path.dirname(require.main.filename) + '/../../formats/js/tld-enum.js';
+const fileTldListJs = path.dirname(require.main.filename) + '/../../formats/js/tld-enum/list.js';
 const fileTldsCsv = path.dirname(require.main.filename) + '/../../tlds.csv';
 
 program
@@ -30,21 +28,20 @@ if (!program.quiet) {
     console.log(meName);
     console.log("   (c) 2017 Doug Bird, All Rights Reserved.");
     console.log("   see README.md for licensing and other information");
-    console.log("   https://github.com/katmore/tld-enum#readme");
+    console.log("   https://github.com/katmore/tld-list#readme");
     console.log("");
-    console.log("   Generates new javascript format files from the 'tlds.csv' file");
+    console.log("   Generates new javascript format file 'list.js' from the 'tlds.csv' file");
     console.log("");
 }
 
 (async() => {
 
-    const tldEnumStartTldList = 'exports.tldList = ';
+    const tldEnumStartTldList = 'module.exports = ';
     const tldEnumEndTldList = ';';
 
-    //const tmpDir = tmp.dirSync({ unsafeCleanup: true });
-    const tmpDir = tmp.dirSync();
+    const tmpDir = tmp.dirSync({ unsafeCleanup: true });
 
-    const fileNewTldListJs = tmpDir.name + '/tld-enum.js';
+    const fileNewTldListJs = tmpDir.name + '/list.js';
 
     let existingMd5 = null;
 
@@ -82,7 +79,7 @@ if (!program.quiet) {
 
     console.log("done");
 
-    process.stdout.write("generating new 'tld-enum.js' file...");
+    process.stdout.write("generating new 'list.js' file...");
 
     fs.writeFileSync(fileNewTldListJs, tldEnumStartTldList);
 
@@ -95,12 +92,12 @@ if (!program.quiet) {
     if (existingMd5) {
         const newMd5 = await md5File(fileNewTldListJs);
         if (newMd5 == existingMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'tld-enum.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldListJs + ")");
+            console.error(meName + ": (NOTICE) ignoring newly generated 'list.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldListJs + ")");
             return;
         }
     }
     fs.copySync(fileNewTldListJs, fileTldListJs);
 
-    console.log("saved new 'tld-enum.js' file");
+    console.log("saved new 'list.js' file");
 
 })();
