@@ -1,9 +1,9 @@
 # TLD Enumerations
 Lists of every [IANA TLD](http://data.iana.org/TLD/tlds-alpha-by-domain.txt) in various formats. The lists may be continuously updated using the [included utility](#updating-the-tld-lists) that pulls the latest data from IANA.
 
- * [CSV format](./tlds.csv)
- * [All Formats](#tld-list-formats)
- * [Updating the TLDs](#updating-the-tld-lists)
+ * [CSV Format](./tlds.csv)
+ * [All Format Files](#tld-list-formats)
+ * [Updating the Format Files](#updating-the-tld-format-files)
  * [Node Usage](#node-usage)
  * [PHP Usage](#php-usage)
  
@@ -29,20 +29,20 @@ Additionally, for convenience, some native programming language formats have als
  
    ```js
    const tldEnum = require('tld-enum');
-   tldEnum.tldList; //an array with every IANA TLD
+   tldEnum.list; //an array with every IANA TLD
    ```
    
    The following example...
    ```js
    const tldEnum = require('tld-enum');
 
-   console.log("There are " + tldEnum.tldList.length + " IANA TLDs");
+   console.log("There are " + tldEnum.list.length + " IANA TLDs");
 
    let tldCheck;
 
    tldCheck = "com";
    console.log("Is '" + tldCheck + "' a real TLD?");
-   if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
+   if (tldEnum.list.indexOf(tldCheck.toLowerCase()) != -1) {
        console.log("  yes");
    } else {
        console.log("  no");
@@ -50,7 +50,7 @@ Additionally, for convenience, some native programming language formats have als
 
    tldCheck = "somethingWeird";
    console.log("Is '" + tldCheck + "' a real TLD?");
-   if (tldEnum.tldList.indexOf(tldCheck.toLowerCase()) != -1) {
+   if (tldEnum.list.indexOf(tldCheck.toLowerCase()) != -1) {
        console.log("  yes");
    } else {
        console.log("  no");
@@ -59,7 +59,7 @@ Additionally, for convenience, some native programming language formats have als
    
    Should produce the following output...
    ```txt
-   There are 1573 IANA TLDs
+   There are 1577 IANA TLDs
    Is 'com' a real TLD?
       yes
    Is 'somethingWeird' a real TLD?
@@ -72,26 +72,23 @@ Additionally, for convenience, some native programming language formats have als
    $ composer require katmore/tld-enum
    ```
    
- * access the list by using the `\TldEnum\TldEnum::TLD_ENUM` class constant array
+ * access the list by using the `\TldList::TLD_LIST` class constant array
  
    ```php
    <?php
-   require_once __DIR__ . '/vendor/autoload.php';
-   \TldEnum\TldEnum::TLD_ENUM; //an array with every IANA TLD
+   print_r(\TldList::TLD_LIST); //an array with every IANA TLD
    ```
  
    The following example...
    ```php
    <?php
-   use TldEnum\TldEnum;
+   use TldEnum\TldList;
 
-   require __DIR__ . '/vendor/autoload.php';
-
-   echo "There are " . count(TldEnum::TLD_ENUM) . " IANA TLDs\n";
+   echo "There are " . count(TldList::TLD_LIST) . " IANA TLDs\n";
 
    $tldCheck = "com";
    echo "Is '$tldCheck' a real TLD?\n";
-   if (in_array(strtolower($tldCheck), TldEnum::TLD_ENUM)) {
+   if (in_array(strtolower($tldCheck), TldList::TLD_LIST)) {
        echo "  yes\n";
    } else {
        echo "  no\n";
@@ -99,7 +96,7 @@ Additionally, for convenience, some native programming language formats have als
 
    $tldCheck = "somethingWeird";
    echo "Is '$tldCheck' a real TLD?\n";
-   if (in_array(strtolower($tldCheck), TldEnum::TLD_ENUM)) {
+   if (in_array(strtolower($tldCheck), TldList::TLD_LIST)) {
        echo "  yes\n";
    } else {
        echo "  no\n";
@@ -108,7 +105,7 @@ Additionally, for convenience, some native programming language formats have als
    
    Should produce the following output...
    ```txt
-   There are 1573 IANA TLDs
+   There are 1577 IANA TLDs
    Is 'com' a real TLD?
       yes
    Is 'somethingWeird' a real TLD?
@@ -116,27 +113,72 @@ Additionally, for convenience, some native programming language formats have als
    ```
 
 ## Examples
- * [php-demo.php](/examples/php-demo.php)
- * [js-demo.js](/examples/js-demo.js)
+ * [php-demo.php](/examples/php-demo.php) Demo using the simple array of every TLD in PHP.
+ * [js-demo.js](/examples/js-demo.js) Demo using the simple array of every TLD in JavaScript.
+ * [php-TldDesc-demo.php](/examples/php-TldDesc-demo.php) Demo using the TLD description hashmap in PHP.
+ * [php-TldType-demo.php](/examples/php-TldType-demo.php) Demo using the TLD type hashmap in PHP.
+ * [php-TldInfo-demo.php](/examples/php-TldInfo-demo.php) Demo using the array of TLD info hashmaps in PHP.
+ * [js-desc-demo.js](/examples/js-desc-demo.js) Demo using the TLD description hashmap in JavaScript.
+ * [js-type-demo.js](/examples/js-type-demo.js) Demo using the TLD type hashmap in JavaScript.
+ * [js-info-demo.js](/examples/js-info-demo.js) Demo using the array of TLD info hashmaps in JavaScript.
 
 ## TLD List Formats
  * **CSV**: [tlds.csv](/tlds.csv)
  
     A CSV file providing a row for each TLD with the following  three columns: *domain* (TLD), *description*, and *type*.
     
- * **PHP**: [TldEnum.php](/formats/php/TldEnum/TldEnum.php)
+ * **PHP**
+    * [TldList.php](/formats/php/TldEnum/TldList.php)
  
-    A PHP source file providing a class with a constant having an array value comprised of every IANA TLD.
+       A PHP source file providing a class constant array comprised of every IANA TLD.
+       
+    * [TldDesc.php](/formats/php/TldEnum/TldDesc.php)
+ 
+       A PHP source file providing a class constant assoc array with a key for every IANA TLD and the corresponding TLD's "description" as the value.
+       
+    * [TldType.php](/formats/php/TldEnum/TldType.php)
+ 
+       A PHP source file providing a class constant assoc array with a key for every IANA TLD and the corresponding TLD's "type" as the value.
+       
+    * [TldInfo.php](/formats/php/TldEnum/TldInfo.php)
+ 
+       A PHP source file providing a class constant array of "info" assoc array elements of every IANA TLD.
   
- * **JSON**: [tld-list.json](/formats/json/tld-list.json)
+ * **JSON**
+    * [tld-list.json](/formats/json/tld-list.json)
  
-    A JSON formatted array comprised of every IANA TLD.
+       A JSON formatted array comprised of every IANA TLD.
+       
+    * [tld-desc.json](/formats/json/tld-desc.json)
  
- * **JavaScript**: [tld-enum.js](/formats/js/tld-enum.js)
+       A JSON formatted object with a property for every IANA TLD and the corresponding TLD's "description" as the value.
+       
+    * [tld-type.json](/formats/json/tld-type.json)
  
-    An export module with a constant having an array value comprised of every IANA TLD.
+       A JSON formatted object with a property for every IANA TLD and the corresponding TLD's "type" as the value.
+       
+    * [tld-info.json](/formats/json/tld-info.json)
+ 
+       A JSON formatted array of "info" object elements of every IANA TLD.
+       
+ * **JavaScript**
+    * [list.js](/formats/js/tld-enum/list.json)
+ 
+       An export module with an array comprised of every IANA TLD.
+       
+    * [desc.js](/formats/js/tld-enum/desc.json)
+ 
+       An export module with an object containing a property for every IANA TLD and the corresponding TLD's "description" as the value.
+       
+    * [type.js](/formats/js/tld-enum/type.json)
+ 
+       An export module with an object containing a property for every IANA TLD and the corresponding TLD's "type" as the value.
+       
+    * [info.js](/formats/js/tld-enum/info.json)
+ 
+       An export module with an array comprised of "info" object elements of every IANA TLD.
     
-## Updating the TLD lists
+## Updating the TLD format files
 All [TLD List Formats](#tld-list-formats) can be updated with the latest data from IANA by using the [**TLD Update Utility**](/bin/update-formats.sh).
 
 ```sh
