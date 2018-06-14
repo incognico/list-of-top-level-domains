@@ -8,7 +8,8 @@ abc,"Disney Enterprises, Inc.",generic
 able,Able Inc.,generic
 abogado,Top Level Domain Holdings Limited,generic
 abudhabi,Abu Dhabi Systems and Information Centre,generic
-ac,Ascension Island,country-code
+ac,"Network Information Center (AC Domain Registry)
+c/o Cable and Wireless (Ascension Island)",country-code
 academy,"Binky Moon, LLC",generic
 accenture,Accenture plc,generic
 accountant,dot Accountant Limited,generic
@@ -16,29 +17,29 @@ accountants,"Binky Moon, LLC",generic
 aco,ACO Severin Ahlmann GmbH & Co. KG,generic
 active,"Active Network, LLC",generic
 actor,United TLD Holdco Ltd.,generic
-ad,Andorra (Principality of),country-code
+ad,Andorra Telecom,country-code
 adac,Allgemeiner Deutscher Automobil-Club e.V. (ADAC),generic
 ads,Charleston Road Registry Inc.,generic
 adult,ICM Registry AD LLC,generic
-ae,United Arab Emirates,country-code
+ae,Telecommunication Regulatory Authority (TRA),country-code
 aeg,Aktiebolaget Electrolux,generic
-aero,Air-transport industry,sponsored
+aero,Societe Internationale de Telecommunications Aeronautique (SITA INC USA),sponsored
 aetna,Aetna Life Insurance Company,generic
-af,Afghanistan (Islamic Republic of),country-code
+af,Ministry of Communications and IT,country-code
 afamilycompany,"Johnson Shareholdings, Inc.",generic
 afl,Australian Football League,generic
 africa,ZA Central Registry NPC trading as Registry.Africa,generic
-ag,Antigua and Barbuda,country-code
+ag,UHSA School of Medicine,country-code
 agakhan,Fondation Aga Khan (Aga Khan Foundation),generic
 agency,"Binky Moon, LLC",generic
-ai,Anguilla,country-code
+ai,Government of Anguilla,country-code
 aig,"American International Group, Inc.",generic
 aigo,"aigo Digital Technology Co,Ltd.",generic
 airbus,Airbus S.A.S.,generic
 airforce,United TLD Holdco Ltd.,generic
 airtel,Bharti Airtel Limited,generic
 akdn,Fondation Aga Khan (Aga Khan Foundation),generic
-al,Albania (Republic of),country-code
+al,Electronic and Postal Communications Authority - AKEP,country-code
 alfaromeo,Fiat Chrysler Automobiles N.V.,generic
 alibaba,Alibaba Group Holding Limited,generic
 alipay,Alibaba Group Holding Limited,generic
@@ -47,41 +48,41 @@ allstate,Allstate Fire and Casualty Insurance Company,generic
 ally,Ally Financial Inc.,generic
 alsace,REGION GRAND EST,generic
 alstom,ALSTOM,generic
-am,Armenia (Republic of),country-code
+am,"""Internet Society"" Non-governmental Organization",country-code
 americanexpress,"American Express Travel Related Services Company, Inc.",generic
 americanfamily,"AmFam, Inc.",generic
 amex,"American Express Travel Related Services Company, Inc.",generic
 amfam,"AmFam, Inc.",generic
 amica,Amica Mutual Insurance Company,generic
 amsterdam,Gemeente Amsterdam,generic
-an,Netherlands Antilles,country-code
+an,Retired,country-code
 analytics,Campus IP LLC,generic
 android,Charleston Road Registry Inc.,generic
 anquan,QIHOO 360 TECHNOLOGY CO. LTD.,generic
 anz,Australia and New Zealand Banking Group Limited,generic
-ao,Angola (Republic of),country-code
+ao,Faculdade de Engenharia da Universidade Agostinho Neto,country-code
 aol,OATH Inc.,generic
 apartments,"Binky Moon, LLC",generic
 app,Charleston Road Registry Inc.,generic
 apple,Apple Inc.,generic
-aq,Antarctica,country-code
+aq,Antarctica Network Information Centre Limited,country-code
 aquarelle,Aquarelle.com,generic
-ar,Argentina (Argentine Republic),country-code
+ar,Presidencia de la Nación – Secretaría Legal y Técnica,country-code
 arab,League of Arab States,generic
 aramco,Aramco Services Company,generic
 archi,STARTING DOT LIMITED,generic
 army,United TLD Holdco Ltd.,generic
-arpa,Address and Routing Parameter Area,infrastructure
+arpa,Internet Architecture Board (IAB),infrastructure
 art,UK Creative Ideas Limited,generic
 arte,Association Relative à la Télévision Européenne G.E.I.E.,generic
-as,American Samoa,country-code
+as,AS Domain Registry,country-code
 asda,"Wal-Mart Stores, Inc.",generic
-asia,Organisations and individuals in the Asia-Pacific region,sponsored
+asia,DotAsia Organisation Ltd.,sponsored
 associates,"Binky Moon, LLC",generic
-at,Austria (Republic of),country-code
+at,nic.at GmbH,country-code
 athleta,"The Gap, Inc.",generic
 attorney,"United TLD Holdco, Ltd",generic
-au,Australia (Commonwealth of),country-code
+au,.au Domain Administration (auDA),country-code
 auction,"United TLD HoldCo, Ltd.",generic
 audi,AUDI Aktiengesellschaft,generic
 audible,"Amazon Registry Services, Inc.",generic
@@ -91,13 +92,13 @@ author,"Amazon Registry Services, Inc.",generic
 auto,Cars Registry Limited,generic
 autos,"DERAutos, LLC",generic
 avianca,Aerovias del Continente Americano S.A. Avianca,generic
-aw,Aruba,country-code
+aw,SETAR,country-code
 aws,"Amazon Registry Services, Inc.",generic
-ax,Åland Islands,country-code
+ax,Ålands landskapsregering,country-code
 axa,AXA SA,generic
-az,Azerbaijan (Republic of),country-code
+az,IntraNS,country-code
 azure,Microsoft Corporation,generic
-ba,Bosnia and Herzegovina,country-code
+ba,Universtiy Telinformatic Centre (UTIC),country-code
 baby,"Johnson & Johnson Services, Inc.",generic
 baidu,"Baidu, Inc.",generic
 banamex,Citigroup Inc.,generic
@@ -114,14 +115,16 @@ baseball,"MLB Advanced Media DH, LLC",generic
 basketball,Fédération Internationale de Basketball (FIBA),generic
 bauhaus,Werkhaus GmbH,generic
 bayern,Bayern Connect GmbH,generic
-bb,Barbados,country-code
+bb,"Government of Barbados
+Ministry of Economic Affairs and Development
+Telecommunications Unit",country-code
 bbc,British Broadcasting Corporation,generic
 bbt,BB&T Corporation,generic
 bbva,"BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",generic
 bcg,"The Boston Consulting Group, Inc.",generic
 bcn,Municipi de Barcelona,generic
-bd,Bangladesh (People's Republic of),country-code
-be,Belgium (Kingdom of),country-code
+bd,Posts and Telecommunications Division,country-code
+be,DNS Belgium vzw/asbl,country-code
 beats,"Beats Electronics, LLC",generic
 beauty,L'Oréal,generic
 beer,Top Level Domain Holdings Limited,generic
@@ -130,20 +133,20 @@ berlin,dotBERLIN GmbH & Co. KG,generic
 best,BestTLD Pty Ltd,generic
 bestbuy,"BBY Solutions, Inc.",generic
 bet,Afilias plc,generic
-bf,Burkina Faso,country-code
-bg,Bulgaria (Republic of),country-code
-bh,Bahrain (Kingdom of),country-code
+bf,ARCE-AutoritÈ de RÈgulation des Communications Electroniques,country-code
+bg,Register.BG,country-code
+bh,Telecommunications Regulatory Authority (TRA),country-code
 bharti,Bharti Enterprises (Holding) Private Limited,generic
-bi,Burundi (Republic of),country-code
+bi,Centre National de l'Informatique,country-code
 bible,American Bible Society,generic
 bid,dot Bid Limited,generic
 bike,"Binky Moon, LLC",generic
 bing,Microsoft Corporation,generic
 bingo,"Binky Moon, LLC",generic
 bio,STARTING DOT LIMITED,generic
-biz,Business,generic-restricted
-bj,Benin (Republic of),country-code
-bl,Saint Barthélemy (Collectivity of) {unassigned - see also: .gp and .fr},country-code
+biz,"Neustar, Inc.",generic-restricted
+bj,Benin Telecoms S.A.,country-code
+bl,Not assigned,country-code
 black,Afilias plc,generic
 blackfriday,"Uniregistry, Corp.",generic
 blanco,BLANCO GmbH + Co KG,generic
@@ -151,13 +154,13 @@ blockbuster,Dish DBS Corporation,generic
 blog,"Knock Knock WHOIS There, LLC",generic
 bloomberg,Bloomberg IP Holdings LLC,generic
 blue,Afilias plc,generic
-bm,Bermuda,country-code
+bm,"Registry General Department, Ministry of Home Affairs",country-code
 bms,Bristol-Myers Squibb Company,generic
 bmw,Bayerische Motoren Werke Aktiengesellschaft,generic
-bn,Brunei (Nation of Brunei - the Abode of Peace) [Negara Brunei Darussalam],country-code
+bn,Authority for Info-communications Technology Industry of Brunei Darussalam (AITI),country-code
 bnl,Banca Nazionale del Lavoro,generic
 bnpparibas,BNP Paribas,generic
-bo,Bolivia (Plurinational State of),country-code
+bo,Agencia para el Desarrollo de la Información de la Sociedad en Bolivia,country-code
 boats,"DERBoats, LLC",generic
 boehringer,Boehringer Ingelheim International GmbH,generic
 bofa,Bank of America Corporation,generic
@@ -173,16 +176,16 @@ boston,"Boston TLD Management, LLC",generic
 bot,"Amazon Registry Services, Inc.",generic
 boutique,"Binky Moon, LLC",generic
 box,NS1 Limited,generic
-bq,Caribbean Netherlands [Bonaire - Sint Eustatius and Saba] {unassigned - see also: .an and .nl},country-code
-br,Brazil (Federative Republic of),country-code
+bq,Not assigned,country-code
+br,Comite Gestor da Internet no Brasil,country-code
 bradesco,Banco Bradesco S.A.,generic
 bridgestone,Bridgestone Corporation,generic
 broadway,"Celebrate Broadway, Inc.",generic
 broker,DOTBROKER REGISTRY LTD,generic
 brother,"Brother Industries, Ltd.",generic
 brussels,DNS.be vzw,generic
-bs,Bahamas (Commonwealth of the),country-code
-bt,Bhutan (Kingdom of),country-code
+bs,The College of the Bahamas,country-code
+bt,Ministry of Information and Communications,country-code
 budapest,Top Level Domain Holdings Limited,generic
 bugatti,Bugatti International SA,generic
 build,Plan Bee LLC,generic
@@ -190,12 +193,12 @@ builders,"Binky Moon, LLC",generic
 business,"Binky Moon, LLC",generic
 buy,"Amazon Registry Services, INC",generic
 buzz,DOTSTRATEGY CO.,generic
-bv,Bouvet Island,country-code
-bw,Botswana (Republic of),country-code
-by,Belarus (Republic of),country-code
-bz,Belize,country-code
+bv,UNINETT Norid A/S,country-code
+bw,Botswana Communications Regulatory Authority (BOCRA),country-code
+by,"Reliable Software, Ltd.",country-code
+bz,University of Belize,country-code
 bzh,Association www.bzh,generic
-ca,Canada,country-code
+ca,Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI),country-code
 cab,"Binky Moon, LLC",generic
 cafe,"Binky Moon, LLC",generic
 cal,Charleston Road Registry Inc.,generic
@@ -222,24 +225,25 @@ case,CNH Industrial N.V.,generic
 caseih,CNH Industrial N.V.,generic
 cash,"Binky Moon, LLC",generic
 casino,"Binky Moon, LLC",generic
-cat,Catalan,sponsored
+cat,Fundacio puntCAT,sponsored
 catering,"Binky Moon, LLC",generic
 catholic,Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication),generic
 cba,COMMONWEALTH BANK OF AUSTRALIA,generic
 cbn,"The Christian Broadcasting Network, Inc.",generic
 cbre,"CBRE, Inc.",generic
 cbs,CBS Domains Inc.,generic
-cc,Cocos (Keeling) Islands (Territory of the),country-code
-cd,Congo (Democratic Republic of the) [Congo-Kinshasa],country-code
+cc,"eNIC Cocos (Keeling) Islands Pty.
+Ltd. d/b/a Island Internet Services",country-code
+cd,Office Congolais des Postes et Télécommunications - OCPT,country-code
 ceb,The Corporate Executive Board Company,generic
 center,"Binky Moon, LLC",generic
 ceo,CEOTLD Pty Ltd,generic
 cern,"European Organization for Nuclear Research (""CERN"")",generic
-cf,Central African Republic,country-code
+cf,Societe Centrafricaine de Telecommunications (SOCATEL),country-code
 cfa,CFA Institute,generic
 cfd,DOTCFD REGISTRY LTD,generic
-cg,Congo (Republic of) [Congo-Brazzaville],country-code
-ch,Switzerland (Swiss Confederation),country-code
+cg,ONPT Congo and Interpoint Switzerland,country-code
+ch,SWITCH The Swiss Education & Research Network,country-code
 chanel,Chanel International B.V.,generic
 channel,Charleston Road Registry Inc.,generic
 charity,"Corn Lake, LLC",generic
@@ -252,7 +256,7 @@ christmas,"Uniregistry, Corp.",generic
 chrome,Charleston Road Registry Inc.,generic
 chrysler,FCA US LLC.,generic
 church,"Binky Moon, LLC",generic
-ci,Ivory Coast (Republic of Côte d'Ivoire),country-code
+ci,Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI),country-code
 cipriani,Hotel Cipriani Srl,generic
 circle,"Amazon Registry Services, Inc.",generic
 cisco,"Cisco Technology, Inc.",generic
@@ -261,8 +265,8 @@ citi,Citigroup Inc.,generic
 citic,CITIC Group Corporation,generic
 city,"Binky Moon, LLC",generic
 cityeats,"Lifestyle Domain Holdings, Inc.",generic
-ck,Cook Islands,country-code
-cl,Chile (Republic of),country-code
+ck,Telecom Cook Islands Ltd.,country-code
+cl,NIC Chile (University of Chile),country-code
 claims,"Binky Moon, LLC",generic
 cleaning,"Binky Moon, LLC",generic
 click,"Uniregistry, Corp.",generic
@@ -272,15 +276,15 @@ clothing,"Binky Moon, LLC",generic
 cloud,ARUBA PEC S.p.A.,generic
 club,".CLUB DOMAINS, LLC",generic
 clubmed,Club Méditerranée S.A.,generic
-cm,Cameroon (Republic of),country-code
-cn,China (People's Republic of),country-code
-co,Colombia (Republic of),country-code
+cm,Cameroon Telecommunications (CAMTEL),country-code
+cn,China Internet Network Information Center (CNNIC),country-code
+co,.CO Internet S.A.S.,country-code
 coach,"Binky Moon, LLC",generic
 codes,"Binky Moon, LLC",generic
 coffee,"Binky Moon, LLC",generic
 college,XYZ.COM LLC,generic
 cologne,punkt.wien GmbH,generic
-com,Commercial organizations,generic
+com,VeriSign Global Registry Services,generic
 comcast,"Comcast IP Holdings I, LLC",generic
 commbank,COMMONWEALTH BANK OF AUSTRALIA,generic
 community,"Binky Moon, LLC",generic
@@ -296,13 +300,14 @@ contractors,"Binky Moon, LLC",generic
 cooking,Top Level Domain Holdings Limited,generic
 cookingchannel,"Lifestyle Domain Holdings, Inc.",generic
 cool,"Binky Moon, LLC",generic
-coop,Cooperatives,sponsored
+coop,DotCooperation LLC,sponsored
 corsica,Collectivité Territoriale de Corse,generic
 country,Top Level Domain Holdings Limited,generic
 coupon,"Amazon Registry Services, Inc.",generic
 coupons,"Binky Moon, LLC",generic
 courses,OPEN UNIVERSITIES AUSTRALIA PTY LTD,generic
-cr,Costa Rica (Republic of),country-code
+cr,"National Academy of Sciences
+Academia Nacional de Ciencias",country-code
 credit,"Binky Moon, LLC",generic
 creditcard,"Binky Moon, LLC",generic
 creditunion,"CUNA Performance Resources, LLC",generic
@@ -312,15 +317,17 @@ crs,Federated Co-operatives Limited,generic
 cruise,Viking River Cruises (Bermuda) Ltd.,generic
 cruises,"Binky Moon, LLC",generic
 csc,"Alliance-One Services, Inc.",generic
-cu,Cuba (Republic of),country-code
+cu,"CENIAInternet
+Industria y San Jose
+Capitolio Nacional",country-code
 cuisinella,SALM S.A.S.,generic
-cv,Cape Verde (Republic of),country-code
-cw,Curaçao (Country of),country-code
-cx,Christmas Island (Territory of),country-code
-cy,Cyprus (Republic of),country-code
+cv,Agência Nacional das Comunicações (ANAC),country-code
+cw,University of Curacao,country-code
+cx,Christmas Island Domain Administration Limited,country-code
+cy,University of Cyprus,country-code
 cymru,Nominet UK,generic
 cyou,"Beijing Gamease Age Digital Technology Co., Ltd.",generic
-cz,Czech Republic,country-code
+cz,"CZ.NIC, z.s.p.o",country-code
 dabur,Dabur India Limited,generic
 dad,Charleston Road Registry Inc.,generic
 dance,United TLD Holdco Ltd.,generic
@@ -331,7 +338,7 @@ datsun,"NISSAN MOTOR CO., LTD.",generic
 day,Charleston Road Registry Inc.,generic
 dclk,Charleston Road Registry Inc.,generic
 dds,Minds + Machines Group Limited,generic
-de,Germany (Federal Republic of),country-code
+de,DENIC eG,country-code
 deal,"Amazon Registry Services, Inc.",generic
 dealer,"Dealer Dot Com, Inc.",generic
 deals,"Binky Moon, LLC",generic
@@ -356,11 +363,12 @@ discount,"Binky Moon, LLC",generic
 discover,Discover Financial Services,generic
 dish,Dish DBS Corporation,generic
 diy,"Lifestyle Domain Holdings, Inc.",generic
-dj,Djibouti (Republic of),country-code
-dk,Denmark (Kingdom of),country-code
-dm,Dominica (Commonwealth of),country-code
+dj,Djibouti Telecom S.A,country-code
+dk,Dansk Internet Forum,country-code
+dm,DotDM Corporation,country-code
 dnp,"Dai Nippon Printing Co., Ltd.",generic
-do,Dominican Republic,country-code
+do,"Pontificia Universidad Catolica Madre y Maestra
+Recinto Santo Tomas de Aquino",country-code
 docs,Charleston Road Registry Inc.,generic
 doctor,"Binky Moon, LLC",generic
 dodge,FCA US LLC.,generic
@@ -380,17 +388,18 @@ dupont,E. I. du Pont de Nemours and Company,generic
 durban,ZA Central Registry NPC trading as ZA Central Registry,generic
 dvag,Deutsche Vermögensberatung Aktiengesellschaft DVAG,generic
 dvr,Hughes Satellite Systems Corporation,generic
-dz,Algeria (People's Democratic Republic of),country-code
+dz,CERIST,country-code
 earth,"Interlink Co., Ltd.",generic
 eat,Charleston Road Registry Inc.,generic
-ec,Ecuador (Republic of),country-code
+ec,ECUADORDOMAIN S.A.,country-code
 eco,Big Room Inc.,generic
 edeka,EDEKA Verband kaufmännischer Genossenschaften e.V.,generic
-edu,Educational establishments,sponsored
+edu,EDUCAUSE,sponsored
 education,"Binky Moon, LLC",generic
-ee,Estonia (Republic of),country-code
-eg,Egypt (Arab Republic of),country-code
-eh,Western Sahara {reserved},country-code
+ee,Eesti Interneti Sihtasutus (EIS),country-code
+eg,"Egyptian Universities Network (EUN)
+Supreme Council of Universities",country-code
+eh,Not assigned,country-code
 email,"Binky Moon, LLC",generic
 emerck,Merck KGaA,generic
 energy,"Binky Moon, LLC",generic
@@ -400,16 +409,16 @@ enterprises,"Binky Moon, LLC",generic
 epost,Deutsche Post AG,generic
 epson,Seiko Epson Corporation,generic
 equipment,"Binky Moon, LLC",generic
-er,Eritrea (State of),country-code
+er,Eritrea Telecommunication Services Corporation (EriTel),country-code
 ericsson,Telefonaktiebolaget L M Ericsson,generic
 erni,ERNI Group Holding AG,generic
-es,Spain (Kingdom of),country-code
+es,Red.es,country-code
 esq,Charleston Road Registry Inc.,generic
 estate,"Binky Moon, LLC",generic
 esurance,Esurance Insurance Company,generic
-et,Ethiopia (Federal Democratic Republic of),country-code
+et,Ethio telecom,country-code
 etisalat,Emirates Telecommunications Corporation (trading as Etisalat),generic
-eu,European Union,country-code
+eu,EURid vzw/asbl,country-code
 eurovision,European Broadcasting Union (EBU),generic
 eus,Puntueus Fundazioa,generic
 events,"Binky Moon, LLC",generic
@@ -434,7 +443,7 @@ fedex,Federal Express Corporation,generic
 feedback,"Top Level Spectrum, Inc.",generic
 ferrari,Fiat Chrysler Automobiles N.V.,generic
 ferrero,Ferrero Trading Lux S.A.,generic
-fi,Finland (Republic of),country-code
+fi,Finnish Communications Regulatory Authority,country-code
 fiat,Fiat Chrysler Automobiles N.V.,generic
 fidelity,Fidelity Brokerage Services LLC,generic
 fido,Rogers Communications Canada Inc.,generic
@@ -449,8 +458,9 @@ fish,"Binky Moon, LLC",generic
 fishing,Top Level Domain Holdings Limited,generic
 fit,Minds + Machines Group Limited,generic
 fitness,"Binky Moon, LLC",generic
-fj,Fiji (Republic of),country-code
-fk,Falkland Islands (Malvinas),country-code
+fj,"The University of the South Pacific
+IT Services",country-code
+fk,Falkland Islands Government,country-code
 flickr,Yahoo! Domain Services Inc.,generic
 flights,"Binky Moon, LLC",generic
 flir,"FLIR Systems, Inc.",generic
@@ -458,8 +468,8 @@ florist,"Binky Moon, LLC",generic
 flowers,"Uniregistry, Corp.",generic
 flsmidth,Retired,generic
 fly,Charleston Road Registry Inc.,generic
-fm,Micronesia (Federated States of),country-code
-fo,Faroe Islands,country-code
+fm,FSM Telecommunications Corporation,country-code
+fo,FO Council,country-code
 foo,Charleston Road Registry Inc.,generic
 food,"Lifestyle Domain Holdings, Inc.",generic
 foodnetwork,"Lifestyle Domain Holdings, Inc.",generic
@@ -470,7 +480,7 @@ forsale,"United TLD Holdco, LLC",generic
 forum,"Fegistry, LLC",generic
 foundation,"Binky Moon, LLC",generic
 fox,"FOX Registry, LLC",generic
-fr,France (French Republic),country-code
+fr,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),country-code
 free,"Amazon Registry Services, Inc.",generic
 fresenius,Fresenius Immobilien-Verwaltungs-GmbH,generic
 frl,FRLregistry B.V.,generic
@@ -485,7 +495,7 @@ fund,"Binky Moon, LLC",generic
 furniture,"Binky Moon, LLC",generic
 futbol,"United TLD Holdco, Ltd.",generic
 fyi,"Binky Moon, LLC",generic
-ga,Gabon (Gabonese Republic),country-code
+ga,Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF),country-code
 gal,Asociación puntoGAL,generic
 gallery,"Binky Moon, LLC",generic
 gallo,"Gallo Vineyards, Inc.",generic
@@ -494,36 +504,36 @@ game,"Uniregistry, Corp.",generic
 games,United TLD Holdco Ltd.,generic
 gap,"The Gap, Inc.",generic
 garden,Top Level Domain Holdings Limited,generic
-gb,United Kingdom (United Kingdom of Great Britain and Northern Ireland),country-code
+gb,Reserved Domain - IANA,country-code
 gbiz,Charleston Road Registry Inc.,generic
-gd,Grenada,country-code
+gd,The National Telecommunications Regulatory Commission (NTRC),country-code
 gdn,"Joint Stock Company ""Navigation-information systems""",generic
-ge,Georgia,country-code
+ge,Caucasus Online LLC,country-code
 gea,GEA Group Aktiengesellschaft,generic
 gent,Combell nv,generic
 genting,Resorts World Inc. Pte. Ltd.,generic
 george,"Wal-Mart Stores, Inc.",generic
-gf,French Guiana,country-code
-gg,Guernsey (Bailiwick of),country-code
+gf,Net Plus,country-code
+gg,Island Networks Ltd.,country-code
 ggee,"GMO Internet, Inc.",generic
-gh,Ghana (Republic of),country-code
-gi,Gibraltar,country-code
+gh,Network Computer Systems Limited,country-code
+gi,Sapphire Networks,country-code
 gift,"Uniregistry, Corp.",generic
 gifts,"Binky Moon, LLC",generic
 gives,United TLD Holdco Ltd.,generic
 giving,Giving Limited,generic
-gl,Greenland,country-code
+gl,TELE Greenland A/S,country-code
 glade,"Johnson Shareholdings, Inc.",generic
 glass,"Binky Moon, LLC",generic
 gle,Charleston Road Registry Inc.,generic
 global,Dot Global Domain Registry Limited,generic
 globo,Globo Comunicação e Participações S.A,generic
-gm,Gambia (Republic of The),country-code
+gm,GM-NIC,country-code
 gmail,Charleston Road Registry Inc.,generic
 gmbh,"Binky Moon, LLC",generic
 gmo,"GMO Internet, Inc.",generic
 gmx,1&1 Mail & Media GmbH,generic
-gn,Guinea (Republic of),country-code
+gn,Centre National des Sciences Halieutiques de Boussoura,country-code
 godaddy,"Go Daddy East, LLC",generic
 gold,"Binky Moon, LLC",generic
 goldpoint,"YODOBASHI CAMERA CO.,LTD.",generic
@@ -535,10 +545,11 @@ goog,Charleston Road Registry Inc.,generic
 google,Charleston Road Registry Inc.,generic
 gop,"Republican State Leadership Committee, Inc.",generic
 got,"Amazon Registry Services, Inc.",generic
-gov,US government,sponsored
-gp,Guadeloupe,country-code
-gq,Equatorial Guinea (Republic of),country-code
-gr,Greece (Hellenic Republic),country-code
+gov,"General Services Administration
+Attn: QTDC, 2E08 (.gov Domain Registration)",sponsored
+gp,Networking Technologies Group,country-code
+gq,GETESA,country-code
+gr,ICS-FORTH GR,country-code
 grainger,"Grainger Registry Services, LLC",generic
 graphics,"Binky Moon, LLC",generic
 gratis,"Binky Moon, LLC",generic
@@ -546,17 +557,17 @@ green,DotGreen Registry Limited,generic
 gripe,"Binky Moon, LLC",generic
 grocery,"Wal-Mart Stores, Inc.",generic
 group,"Binky Moon, LLC",generic
-gs,South Georgia and the South Sandwich Islands,country-code
-gt,Guatemala (Republic of),country-code
-gu,Guam,country-code
+gs,Government of South Georgia and South Sandwich Islands (GSGSSI),country-code
+gt,Universidad del Valle de Guatemala,country-code
+gu,University of Guam,country-code
 guardian,The Guardian Life Insurance Company of America,generic
 gucci,Guccio Gucci S.p.a.,generic
 guge,Charleston Road Registry Inc.,generic
 guide,"Binky Moon, LLC",generic
 guitars,"Uniregistry, Corp.",generic
 guru,"Binky Moon, LLC",generic
-gw,Guinea-Bissau (Republic of),country-code
-gy,Guyana (Co-operative Republic of),country-code
+gw,Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau,country-code
+gy,University of Guyana,country-code
 hair,L'Oreal,generic
 hamburg,Hamburg Top-Level-Domain GmbH,generic
 hangout,Charleston Road Registry Inc.,generic
@@ -575,10 +586,10 @@ hiphop,"Uniregistry, Corp.",generic
 hisamitsu,"Hisamitsu Pharmaceutical Co.,Inc.",generic
 hitachi,"Hitachi, Ltd.",generic
 hiv,"Uniregistry, Corp.",generic
-hk,Hong Kong (Hong Kong Special Administrative Region of the People's Republic of China),country-code
+hk,Hong Kong Internet Registration Corporation Ltd.,country-code
 hkt,PCCW-HKT DataCom Services Limited,generic
-hm,Heard Island and McDonald Islands,country-code
-hn,Honduras (Republic of),country-code
+hm,HM Domain Registry,country-code
+hn,Red de Desarrollo Sostenible Honduras,country-code
 hockey,"Binky Moon, LLC",generic
 holdings,"Binky Moon, LLC",generic
 holiday,"Binky Moon, LLC",generic
@@ -598,11 +609,11 @@ hotels,Booking.com B.V.,generic
 hotmail,Microsoft Corporation,generic
 house,"Binky Moon, LLC",generic
 how,Charleston Road Registry Inc.,generic
-hr,Croatia (Republic of),country-code
+hr,CARNet - Croatian Academic and Research Network,country-code
 hsbc,HSBC Global Services (UK) Limited,generic
-ht,Haiti (Republic of),country-code
+ht,Consortium FDS/RDDH,country-code
 htc,Not assigned,generic
-hu,Hungary,country-code
+hu,Council of Hungarian Internet Providers (CHIP),country-code
 hughes,Hughes Satellite Systems Corporation,generic
 hyatt,"Hyatt GTLD, L.L.C.",generic
 hyundai,Hyundai Motor Company,generic
@@ -610,43 +621,46 @@ ibm,International Business Machines Corporation,generic
 icbc,Industrial and Commercial Bank of China Limited,generic
 ice,"IntercontinentalExchange, Inc.",generic
 icu,Shortdot SA,generic
-id,Indonesia (Republic of),country-code
-ie,Ireland (Republic of),country-code
+id,Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI),country-code
+ie,"University College Dublin
+Computing Services
+Computer Centre",country-code
 ieee,IEEE Global LLC,generic
 ifm,ifm electronic gmbh,generic
 iinet,Retired,generic
 ikano,Ikano S.A.,generic
-il,Israel (State of),country-code
-im,Isle of Man,country-code
+il,Internet Society of Israel,country-code
+im,Isle of Man Government,country-code
 imamat,Fondation Aga Khan (Aga Khan Foundation),generic
 imdb,"Amazon Registry Services, Inc.",generic
 immo,"Binky Moon, LLC",generic
 immobilien,United TLD Holdco Ltd.,generic
-in,India (Republic of),country-code
+in,National Internet Exchange of India,country-code
 industries,"Binky Moon, LLC",generic
 infiniti,"NISSAN MOTOR CO., LTD.",generic
-info,Informational sites,generic
+info,Afilias Limited,generic
 ing,Charleston Road Registry Inc.,generic
 ink,"Top Level Design, LLC",generic
 institute,"Binky Moon, LLC",generic
 insurance,fTLD Registry Services LLC,generic
 insure,"Binky Moon, LLC",generic
-int,International treaty-based organizations,sponsored
+int,Internet Assigned Numbers Authority,sponsored
 intel,Intel Corporation,generic
 international,"Binky Moon, LLC",generic
 intuit,"Intuit Administrative Services, Inc.",generic
 investments,"Binky Moon, LLC",generic
-io,British Indian Ocean Territory,country-code
+io,"IO Top Level Domain Registry
+Cable and Wireless",country-code
 ipiranga,Ipiranga Produtos de Petroleo S.A.,generic
-iq,Iraq (Republic of),country-code
-ir,Iran (Islamic Republic of),country-code
+iq,Communications and Media Commission (CMC),country-code
+ir,Institute for Research in Fundamental Sciences,country-code
 irish,"Binky Moon, LLC",generic
-is,Iceland,country-code
+is,ISNIC - Internet Iceland ltd.,country-code
 iselect,iSelect Ltd,generic
 ismaili,Fondation Aga Khan (Aga Khan Foundation),generic
 ist,Istanbul Metropolitan Municipality,generic
 istanbul,Istanbul Metropolitan Municipality,generic
-it,Italy (Italian Republic),country-code
+it,IIT - CNR,country-code
 itau,Itau Unibanco Holding S.A.,generic
 itv,ITV Services Limited,generic
 iveco,CNH Industrial N.V.,generic
@@ -655,59 +669,59 @@ jaguar,Jaguar Land Rover Ltd,generic
 java,Oracle Corporation,generic
 jcb,"JCB Co., Ltd.",generic
 jcp,"JCP Media, Inc.",generic
-je,Jersey (Bailiwick of),country-code
+je,Island Networks (Jersey) Ltd.,country-code
 jeep,FCA US LLC.,generic
 jetzt,"Binky Moon, LLC",generic
 jewelry,"Binky Moon, LLC",generic
 jio,"Affinity Names, Inc.",generic
 jlc,Richemont DNS Inc.,generic
 jll,Jones Lang LaSalle Incorporated,generic
-jm,Jamaica (Commonwealth of),country-code
+jm,University of West Indies,country-code
 jmp,Matrix IP LLC,generic
 jnj,"Johnson & Johnson Services, Inc.",generic
-jo,Jordan (Hashemite Kingdom of),country-code
-jobs,Employment-related sites,sponsored
+jo,National Information Technology Center (NITC),country-code
+jobs,Employ Media LLC,sponsored
 joburg,ZA Central Registry NPC trading as ZA Central Registry,generic
 jot,"Amazon Registry Services, Inc.",generic
 joy,"Amazon Registry Services, Inc.",generic
-jp,Japan,country-code
+jp,"Japan Registry Services Co., Ltd.",country-code
 jpmorgan,"JPMorgan Chase Bank, National Association",generic
 jprs,"Japan Registry Services Co., Ltd.",generic
 juegos,"Uniregistry, Corp.",generic
 juniper,"JUNIPER NETWORKS, INC.",generic
 kaufen,United TLD Holdco Ltd.,generic
 kddi,KDDI CORPORATION,generic
-ke,Kenya (Republic of),country-code
+ke,Kenya Network Information Center (KeNIC),country-code
 kerryhotels,Kerry Trading Co. Limited,generic
 kerrylogistics,Kerry Trading Co. Limited,generic
 kerryproperties,Kerry Trading Co. Limited,generic
 kfh,Kuwait Finance House,generic
-kg,Kyrgyzstan (Kyrgyz Republic),country-code
-kh,Cambodia (Kingdom of),country-code
-ki,Kiribati (Republic of),country-code
+kg,AsiaInfo Telecommunication Enterprise,country-code
+kh,Telecommunication Regulator of Cambodia (TRC),country-code
+ki,"Ministry of Communications, Transport, and Tourism Development",country-code
 kia,KIA MOTORS CORPORATION,generic
 kim,Afilias plc,generic
 kinder,Ferrero Trading Lux S.A.,generic
 kindle,"Amazon Registry Services, Inc.",generic
 kitchen,"Binky Moon, LLC",generic
 kiwi,DOT KIWI LIMITED,generic
-km,Comoros (Union of the),country-code
-kn,Saint Kitts and Nevis (Federation of),country-code
+km,Comores Telecom,country-code
+kn,"Ministry of Finance, Sustainable Development Information & Technology",country-code
 koeln,punkt.wien GmbH,generic
 komatsu,Komatsu Ltd.,generic
 kosher,Kosher Marketing Assets LLC,generic
-kp,Korea (Democratic People's Republic of) [North Korea],country-code
+kp,Star Joint Venture Company,country-code
 kpmg,KPMG International Cooperative (KPMG International Genossenschaft),generic
 kpn,Koninklijke KPN N.V.,generic
-kr,Korea (Republic of) [South Korea],country-code
+kr,Korea Internet & Security Agency (KISA),country-code
 krd,KRG Department of Information Technology,generic
 kred,KredTLD Pty Ltd,generic
 kuokgroup,Kerry Trading Co. Limited,generic
-kw,Kuwait (State of Kuwait),country-code
-ky,Cayman Islands,country-code
+kw,Communications and Information Technology Regulatory Authority,country-code
+ky,Utility Regulation and Competition Office (OfReg),country-code
 kyoto,Academic Institution: Kyoto Jyoho Gakuen,generic
-kz,Kazakhstan (Republic of),country-code
-la,Laos (Lao People's Democratic Republic),country-code
+kz,Association of IT Companies of Kazakhstan,country-code
+la,"Lao National Internet Committee (LANIC), Ministry of Posts and Telecommunications",country-code
 lacaixa,CAIXA D'ESTALVIS I PENSIONS DE BARCELONA,generic
 ladbrokes,LADBROKES INTERNATIONAL PLC,generic
 lamborghini,Automobili Lamborghini S.p.A.,generic
@@ -724,8 +738,9 @@ latino,Dish DBS Corporation,generic
 latrobe,La Trobe University,generic
 law,Minds + Machines Group Limited,generic
 lawyer,"United TLD Holdco, Ltd",generic
-lb,Lebanon (Lebanese Republic),country-code
-lc,Saint Lucia,country-code
+lb,"American University of Beirut
+Computing and Networking Services",country-code
+lc,University of Puerto Rico,country-code
 lds,"IRI Domain Management, LLC",generic
 lease,"Binky Moon, LLC",generic
 leclerc,A.C.D. LEC Association des Centres Distributeurs Edouard Leclerc,generic
@@ -734,7 +749,7 @@ legal,"Binky Moon, LLC",generic
 lego,LEGO Juris A/S,generic
 lexus,TOYOTA MOTOR CORPORATION,generic
 lgbt,Afilias plc,generic
-li,Liechtenstein (Principality of),country-code
+li,SWITCH The Swiss Education & Research Network,country-code
 liaison,"Liaison Technologies, Incorporated",generic
 lidl,Schwarz Domains und Services GmbH & Co. KG,generic
 life,"Binky Moon, LLC",generic
@@ -752,7 +767,8 @@ lipsy,Lipsy Ltd,generic
 live,United TLD Holdco Ltd.,generic
 living,"Lifestyle Domain Holdings, Inc.",generic
 lixil,LIXIL Group Corporation,generic
-lk,Sri Lanka (Democratic Socialist Republic of),country-code
+lk,"Council for Information Technology
+LK Domain Registrar",country-code
 llc,Afilias plc,generic
 loan,dot Loan Limited,generic
 loans,"Binky Moon, LLC",generic
@@ -766,19 +782,21 @@ lotto,Afilias plc,generic
 love,Merchant Law Group LLP,generic
 lpl,"LPL Holdings, Inc.",generic
 lplfinancial,"LPL Holdings, Inc.",generic
-lr,Liberia (Republic of),country-code
-ls,Lesotho (Kingdom of),country-code
-lt,Lithuania (Republic of),country-code
+lr,"Data Technology Solutions, Inc.",country-code
+ls,National University of Lesotho,country-code
+lt,Kaunas University of Technology,country-code
 ltd,"Binky Moon, LLC",generic
 ltda,InterNetX Corp.,generic
-lu,Luxembourg (Grand Duchy of),country-code
+lu,RESTENA,country-code
 lundbeck,H. Lundbeck A/S,generic
 lupin,LUPIN LIMITED,generic
 luxe,Top Level Domain Holdings Limited,generic
 luxury,Luxury Partners LLC,generic
-lv,Latvia (Republic of),country-code
-ly,Libya,country-code
-ma,Morocco,country-code
+lv,"University of Latvia
+Institute of Mathematics and Computer Science
+Department of Network Solutions (DNS)",country-code
+ly,General Post and Telecommunication Company,country-code
+ma,Agence Nationale de Réglementation des Télécommunications (ANRT),country-code
 macys,"Macys, Inc.",generic
 madrid,Comunidad de Madrid,generic
 maif,Mutuelle Assurance Instituteur France (MAIF),generic
@@ -796,12 +814,13 @@ marshalls,"The TJX Companies, Inc.",generic
 maserati,Fiat Chrysler Automobiles N.V.,generic
 mattel,"Mattel Sites, Inc.",generic
 mba,"Binky Moon, LLC",generic
-mc,Monaco (Principality of),country-code
+mc,"Gouvernement de Monaco
+Direction des Communications Electroniques",country-code
 mcd,Not assigned,generic
 mcdonalds,Not assigned,generic
 mckinsey,"McKinsey Holdings, Inc.",generic
-md,Moldova (Republic of),country-code
-me,Montenegro,country-code
+md,MoldData S.E.,country-code
+me,Government of Montenegro,country-code
 med,Medistry LLC,generic
 media,"Binky Moon, LLC",generic
 meet,Charleston Road Registry Inc.,generic
@@ -813,25 +832,25 @@ menu,"Wedding TLD2, LLC",generic
 meo,Not assigned,generic
 merckmsd,"MSD Registry Holdings, Inc.",generic
 metlife,"MetLife Services and Solutions, LLC",generic
-mf,Saint Martin (Collectivity of) {unassigned - see also: .gp and .fr},country-code
-mg,Madagascar (Republic of),country-code
-mh,Marshall Islands (Republic of the),country-code
+mf,Not assigned,country-code
+mg,NIC-MG (Network Information Center Madagascar),country-code
+mh,Office of the Cabinet,country-code
 miami,Top Level Domain Holdings Limited,generic
 microsoft,Microsoft Corporation,generic
-mil,US military,sponsored
+mil,DoD Network Information Center,sponsored
 mini,Bayerische Motoren Werke Aktiengesellschaft,generic
 mint,"Intuit Administrative Services, Inc.",generic
 mit,Massachusetts Institute of Technology,generic
 mitsubishi,Mitsubishi Corporation,generic
-mk,Macedonia (Republic of),country-code
-ml,Mali (Republic of),country-code
+mk,Macedonian Academic Research Network Skopje,country-code
+ml,Agence des Technologies de l’Information et de la Communication,country-code
 mlb,"MLB Advanced Media DH, LLC",generic
 mls,The Canadian Real Estate Association,generic
-mm,Myanmar (Republic of the Union of) [Burma],country-code
+mm,"Ministry of Communications, Posts & Telegraphs",country-code
 mma,MMA IARD,generic
-mn,Mongolia,country-code
-mo,Macau (Macau Special Administrative Region of the People's Republic of China) [Macao],country-code
-mobi,Mobile,generic
+mn,"Datacom Co., Ltd.",country-code
+mo,Macao Post and Telecommunications Bureau (CTT),country-code
+mobi,Afilias Technologies Limited dba dotMobi,generic
 mobile,Dish DBS Corporation,generic
 mobily,GreenTech Consultancy Company W.L.L.,generic
 moda,United TLD Holdco Ltd.,generic
@@ -851,37 +870,39 @@ motorcycles,"DERMotorcycles, LLC",generic
 mov,Charleston Road Registry Inc.,generic
 movie,"Binky Moon, LLC",generic
 movistar,Telefónica S.A.,generic
-mp,Northern Mariana Islands (Commonwealth of the),country-code
-mq,Martinique,country-code
-mr,Mauritania (Islamic Republic of),country-code
-ms,Montserrat,country-code
+mp,"Saipan Datacom, Inc.",country-code
+mq,MEDIASERV,country-code
+mr,Université de Nouakchott Al Aasriya,country-code
+ms,MNI Networks Ltd.,country-code
 msd,"MSD Registry Holdings, Inc.",generic
-mt,Malta (Republic of),country-code
+mt,NIC (Malta),country-code
 mtn,MTN Dubai Limited,generic
 mtpc,Retired,generic
 mtr,MTR Corporation Limited,generic
-mu,Mauritius (Republic of),country-code
-museum,Museums,sponsored
+mu,Internet Direct Ltd,country-code
+museum,Museum Domain Management Association,sponsored
 mutual,"Northwestern Mutual MU TLD Registry, LLC",generic
 mutuelle,Retired,generic
-mv,Maldives (Republic of),country-code
-mw,Malawi (Republic of),country-code
-mx,Mexico (United Mexican States),country-code
-my,Malaysia,country-code
-mz,Mozambique (Republic of),country-code
-na,Namibia (Republic of),country-code
+mv,Dhiraagu Pvt. Ltd. (DHIVEHINET),country-code
+mw,"Malawi Sustainable Development Network Programme
+(Malawi SDNP)",country-code
+mx,"NIC-Mexico
+ITESM - Campus Monterrey",country-code
+my,MYNIC Berhad,country-code
+mz,Centro de Informatica de Universidade Eduardo Mondlane,country-code
+na,Namibian Network Information Center,country-code
 nab,National Australia Bank Limited,generic
 nadex,"Nadex Domains, Inc",generic
 nagoya,"GMO Registry, Inc.",generic
-name,Individuals,generic-restricted
+name,"VeriSign Information Services, Inc.",generic-restricted
 nationwide,Nationwide Mutual Insurance Company,generic
 natura,NATURA COSMÉTICOS S.A.,generic
 navy,United TLD Holdco Ltd.,generic
 nba,"NBA REGISTRY, LLC",generic
-nc,New Caledonia,country-code
-ne,Niger (Republic of),country-code
+nc,Office des Postes et Telecommunications,country-code
+ne,SONITEL,country-code
 nec,NEC Corporation,generic
-net,Network,generic
+net,VeriSign Global Registry Services,generic
 netbank,COMMONWEALTH BANK OF AUSTRALIA,generic
 netflix,"Netflix, Inc.",generic
 network,"Binky Moon, LLC",generic
@@ -892,34 +913,35 @@ news,United TLD Holdco Ltd.,generic
 next,Next plc,generic
 nextdirect,Next plc,generic
 nexus,Charleston Road Registry Inc.,generic
-nf,Norfolk Island (Territory of),country-code
+nf,Norfolk Island Data Services,country-code
 nfl,NFL Reg Ops LLC,generic
-ng,Nigeria (Federal Republic of),country-code
+ng,Nigeria Internet Registration Association,country-code
 ngo,Public Interest Registry,generic
 nhk,Japan Broadcasting Corporation (NHK),generic
-ni,Nicaragua (Republic of),country-code
+ni,"Universidad Nacional del Ingernieria
+Centro de Computo",country-code
 nico,"DWANGO Co., Ltd.",generic
 nike,"NIKE, Inc.",generic
 nikon,NIKON CORPORATION,generic
 ninja,United TLD Holdco Ltd.,generic
 nissan,"NISSAN MOTOR CO., LTD.",generic
 nissay,Nippon Life Insurance Company,generic
-nl,Netherlands,country-code
-no,Norway (Kingdom of),country-code
+nl,SIDN (Stichting Internet  Domeinregistratie Nederland),country-code
+no,UNINETT Norid A/S,country-code
 nokia,Nokia Corporation,generic
 northwesternmutual,"Northwestern Mutual Registry, LLC",generic
 norton,Symantec Corporation,generic
 now,"Amazon Registry Services, Inc.",generic
 nowruz,Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.,generic
 nowtv,Starbucks (HK) Limited,generic
-np,Nepal (Federal Democratic Republic of),country-code
-nr,Nauru (Republic of),country-code
+np,Mercantile Communications Pvt. Ltd.,country-code
+nr,CENPAC NET,country-code
 nra,"NRA Holdings Company, INC.",generic
 nrw,Minds + Machines GmbH,generic
 ntt,NIPPON TELEGRAPH AND TELEPHONE CORPORATION,generic
-nu,Niue,country-code
+nu,The IUSN Foundation,country-code
 nyc,The City of New York by and through the New York City Department of Information Technology & Telecommunications,generic
-nz,New Zealand,country-code
+nz,InternetNZ,country-code
 obi,OBI Group Holding SE & Co. KGaA,generic
 observer,"Top Level Spectrum, Inc.",generic
 off,"Johnson Shareholdings, Inc.",generic
@@ -929,7 +951,7 @@ olayan,Crescent Holding GmbH,generic
 olayangroup,Crescent Holding GmbH,generic
 oldnavy,"The Gap, Inc.",generic
 ollo,Dish DBS Corporation,generic
-om,Oman (Sultanate of),country-code
+om,Telecommunications Regulatory Authority (TRA),country-code
 omega,The Swatch Group Ltd,generic
 one,One.com A/S,generic
 ong,Public Interest Registry,generic
@@ -940,7 +962,7 @@ ooo,INFIBEAM INCORPORATION LIMITED,generic
 open,"American Express Travel Related Services Company, Inc.",generic
 oracle,Oracle Corporation,generic
 orange,Orange Brand Services Limited,generic
-org,Non-profit organizations,generic
+org,Public Interest Registry (PIR),generic
 organic,Afilias plc,generic
 orientexpress,Retired,generic
 origins,The Estée Lauder Companies Inc.,generic
@@ -948,7 +970,7 @@ osaka,"Osaka Registry Co., Ltd.",generic
 otsuka,"Otsuka Holdings Co., Ltd.",generic
 ott,Dish DBS Corporation,generic
 ovh,OVH SAS,generic
-pa,Panama (Republic of),country-code
+pa,Universidad Tecnologica de Panama,country-code
 page,Charleston Road Registry Inc.,generic
 pamperedchef,Not assigned,generic
 panasonic,Panasonic Corporation,generic
@@ -961,12 +983,14 @@ party,Blue Sky Registry Limited,generic
 passagens,Travel Reservations SRL,generic
 pay,"Amazon Registry Services, Inc.",generic
 pccw,PCCW Enterprises Limited,generic
-pe,Peru (Republic of),country-code
+pe,Red Cientifica Peruana,country-code
 pet,Afilias plc,generic
-pf,French Polynesia and Clipperton Island,country-code
+pf,Gouvernement de la Polynésie française,country-code
 pfizer,Pfizer Inc.,generic
-pg,Papua New Guinea (Independent State of),country-code
-ph,Philippines (Republic of the),country-code
+pg,"PNG DNS Administration
+Vice Chancellors Office
+The Papua New Guinea University of Technology",country-code
+ph,PH Domain Foundation,country-code
 pharmacy,National Association of Boards of Pharmacy,generic
 phd,Charleston Road Registry Inc.,generic
 philips,Koninklijke Philips N.V.,generic
@@ -985,27 +1009,28 @@ ping,"Ping Registry Provider, Inc.",generic
 pink,Afilias plc,generic
 pioneer,Pioneer Corporation,generic
 pizza,"Binky Moon, LLC",generic
-pk,Pakistan (Islamic Republic of),country-code
-pl,Poland (Republic of),country-code
+pk,PKNIC,country-code
+pl,Research and Academic Computer Network,country-code
 place,"Binky Moon, LLC",generic
 play,Charleston Road Registry Inc.,generic
 playstation,Sony Computer Entertainment Inc.,generic
 plumbing,"Binky Moon, LLC",generic
 plus,"Binky Moon, LLC",generic
-pm,Saint Pierre and Miquelon,country-code
-pn,Pitcairn Islands (Pitcairn - Henderson - Ducie and Oeno Islands),country-code
+pm,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),country-code
+pn,Pitcairn Island Administration,country-code
 pnc,"PNC Domain Co., LLC",generic
 pohl,Deutsche Vermögensberatung Aktiengesellschaft DVAG,generic
 poker,Afilias plc,generic
 politie,Politie Nederland,generic
 porn,ICM Registry PN LLC,generic
 post,Universal Postal Union,sponsored
-pr,Puerto Rico (Commonwealth of),country-code
+pr,Gauss Research Laboratory Inc.,country-code
 pramerica,"Prudential Financial, Inc.",generic
 praxi,Praxi S.p.A.,generic
 press,DotPress Inc.,generic
 prime,"Amazon Registry Services, Inc.",generic
-pro,Profession,generic-restricted
+pro,"Registry Services Corporation
+dba RegistryPro",generic-restricted
 prod,Charleston Road Registry Inc.,generic
 productions,"Binky Moon, LLC",generic
 prof,Charleston Road Registry Inc.,generic
@@ -1016,13 +1041,15 @@ property,"Uniregistry, Corp.",generic
 protection,XYZ.COM LLC,generic
 pru,"Prudential Financial, Inc.",generic
 prudential,"Prudential Financial, Inc.",generic
-ps,Palestine (State of),country-code
-pt,Portugal (Portuguese Republic),country-code
+ps,"Ministry Of Telecommunications &
+Information Technology,
+Government Computer Center.",country-code
+pt,Associação DNS.PT,country-code
 pub,United TLD Holdco Ltd.,generic
-pw,Palau (Republic of),country-code
+pw,Micronesia Investment and Development Corporation,country-code
 pwc,PricewaterhouseCoopers LLP,generic
-py,Paraguay (Republic of),country-code
-qa,Qatar (State of),country-code
+py,NIC-PY,country-code
+qa,Communications Regulatory Authority,country-code
 qpon,"dotCOOL, Inc.",generic
 quebec,PointQuébec Inc,generic
 quest,Quest ION Limited,generic
@@ -1030,7 +1057,7 @@ qvc,"QVC, Inc.",generic
 racing,Premier Registry Limited,generic
 radio,European Broadcasting Union (EBU),generic
 raid,"Johnson Shareholdings, Inc.",generic
-re,Réunion,country-code
+re,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),country-code
 read,"Amazon Registry Services, Inc.",generic
 realestate,dotRealEstate LLC,generic
 realtor,Real Estate Domains LLC,generic
@@ -1063,22 +1090,22 @@ ril,Reliance Industries Limited,generic
 rio,Empresa Municipal de Informática SA - IPLANRIO,generic
 rip,United TLD Holdco Ltd.,generic
 rmit,Royal Melbourne Institute of Technology,generic
-ro,Romania,country-code
+ro,National Institute for R&D in Informatics,country-code
 rocher,Ferrero Trading Lux S.A.,generic
 rocks,"United TLD Holdco, LTD.",generic
 rodeo,Top Level Domain Holdings Limited,generic
 rogers,Rogers Communications Canada Inc.,generic
 room,"Amazon Registry Services, Inc.",generic
-rs,Serbia (Republic of),country-code
+rs,Serbian National Internet Domain Registry (RNIDS),country-code
 rsvp,Charleston Road Registry Inc.,generic
-ru,Russia (Russian Federation),country-code
+ru,Coordination Center for TLD RU,country-code
 rugby,World Rugby Strategic Developments Limited,generic
 ruhr,regiodot GmbH & Co. KG,generic
 run,"Binky Moon, LLC",generic
-rw,Rwanda (Republic of),country-code
+rw,Rwanda Information Communication and Technology Association (RICTA),country-code
 rwe,RWE AG,generic
 ryukyu,"BRregistry, Inc.",generic
-sa,Saudi Arabia (Kingdom of),country-code
+sa,Communications and Information Technology Commission,country-code
 saarland,dotSaarland GmbH,generic
 safe,"Amazon Registry Services, Inc.",generic
 safety,"Safety Registry Services, LLC.",generic
@@ -1096,10 +1123,10 @@ sarl,"Binky Moon, LLC",generic
 sas,Research IP LLC,generic
 save,"Amazon Registry Services, Inc.",generic
 saxo,Saxo Bank A/S,generic
-sb,Solomon Islands,country-code
+sb,Solomon Telekom Company Limited,country-code
 sbi,STATE BANK OF INDIA,generic
 sbs,SPECIAL BROADCASTING SERVICE CORPORATION,generic
-sc,Seychelles (Republic of),country-code
+sc,VCS Pty Ltd,country-code
 sca,SVENSKA CELLULOSA AKTIEBOLAGET SCA (publ),generic
 scb,"The Siam Commercial Bank Public Company Limited (""SCB"")",generic
 schaeffler,Schaeffler Technologies AG & Co. KG,generic
@@ -1112,8 +1139,8 @@ science,dot Science Limited,generic
 scjohnson,"Johnson Shareholdings, Inc.",generic
 scor,SCOR SE,generic
 scot,Dot Scot Registry Limited,generic
-sd,Sudan (Republic of),country-code
-se,Sweden (Kingdom of),country-code
+sd,Sudan Internet Society,country-code
+se,The Internet Infrastructure Foundation,country-code
 search,Charleston Road Registry Inc.,generic
 seat,"SEAT, S.A. (Sociedad Unipersonal)",generic
 secure,"Amazon Registry Services, Inc.",generic
@@ -1128,8 +1155,8 @@ sew,SEW-EURODRIVE GmbH & Co KG,generic
 sex,ICM Registry SX LLC,generic
 sexy,"Uniregistry, Corp.",generic
 sfr,Societe Francaise du Radiotelephone - SFR,generic
-sg,Singapore (Republic of),country-code
-sh,Saint Helena,country-code
+sg,Singapore Network Information Centre (SGNIC) Pte Ltd,country-code
+sh,Government of St. Helena,country-code
 shangrila,Shangri‐La International Hotel Management Limited,generic
 sharp,Sharp Corporation,generic
 shaw,Shaw Cablesystems G.P.,generic
@@ -1143,25 +1170,26 @@ shouji,QIHOO 360 TECHNOLOGY CO. LTD.,generic
 show,"Binky Moon, LLC",generic
 showtime,CBS Domains Inc.,generic
 shriram,Shriram Capital Ltd.,generic
-si,Slovenia (Republic of),country-code
+si,Academic and Research Network of Slovenia (ARNES),country-code
 silk,"Amazon Registry Services, Inc.",generic
 sina,Sina Corporation,generic
 singles,"Binky Moon, LLC",generic
 site,DotSite Inc.,generic
-sj,Svalbard and Jan Mayen {not in use - see also: .no},country-code
-sk,Slovakia (Slovak Republic),country-code
+sj,UNINETT Norid A/S,country-code
+sk,"SK-NIC, a.s.",country-code
 ski,STARTING DOT LIMITED,generic
 skin,L'Oréal,generic
 sky,Sky International AG,generic
 skype,Microsoft Corporation,generic
-sl,Sierra Leone (Republic of),country-code
+sl,Sierratel,country-code
 sling,Hughes Satellite Systems Corporation,generic
-sm,San Marino (Republic of),country-code
+sm,Telecom Italia San Marino S.p.A.,country-code
 smart,"Smart Communications, Inc. (SMART)",generic
 smile,"Amazon Registry Services, Inc.",generic
-sn,Senegal (Republic of),country-code
+sn,"Universite Cheikh Anta Diop
+NIC Senegal",country-code
 sncf,SNCF (Société Nationale des Chemins de fer Francais),generic
-so,Somalia (Federal Republic of),country-code
+so,Ministry of Post and Telecommunications,country-code
 soccer,"Binky Moon, LLC",generic
 social,United TLD Holdco Ltd.,generic
 softbank,SoftBank Group Corp.,generic
@@ -1177,11 +1205,11 @@ spiegel,SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG,generic
 sport,Global Association of International Sports Federations (GAISF),generic
 spot,"Amazon Registry Services, Inc.",generic
 spreadbetting,DOTSPREADBETTING REGISTRY LTD,generic
-sr,Suriname (Republic of),country-code
+sr,Telesur,country-code
 srl,InterNetX Corp.,generic
 srt,FCA US LLC.,generic
-ss,South Sudan (Republic of),country-code
-st,São Tomé and Príncipe (Democratic Republic of),country-code
+ss,Not assigned,country-code
+st,Tecnisys,country-code
 stada,STADA Arzneimittel AG,generic
 staples,"Staples, Inc.",generic
 star,Star India Private Limited,generic
@@ -1198,7 +1226,8 @@ stream,dot Stream Limited,generic
 studio,United TLD Holdco Ltd.,generic
 study,OPEN UNIVERSITIES AUSTRALIA PTY LTD,generic
 style,"Binky Moon, LLC",generic
-su,Soviet Union (Union of Soviet Socialist Republics),country-code
+su,"Russian Institute for Development of Public Networks
+(ROSNIIROS)",country-code
 sucks,Vox Populi Registry Ltd.,generic
 supplies,"Binky Moon, LLC",generic
 supply,"Binky Moon, LLC",generic
@@ -1206,16 +1235,17 @@ support,"Binky Moon, LLC",generic
 surf,Top Level Domain Holdings Limited,generic
 surgery,"Binky Moon, LLC",generic
 suzuki,SUZUKI MOTOR CORPORATION,generic
-sv,El Salvador (Republic of),country-code
+sv,SVNet,country-code
 swatch,The Swatch Group Ltd,generic
 swiftcover,Swiftcover Insurance Services Limited,generic
 swiss,Swiss Confederation,generic
-sx,Sint Maarten,country-code
-sy,Syria (Syrian Arab Republic),country-code
+sx,SX Registry SA B.V.,country-code
+sy,National Agency for Network Services (NANS),country-code
 sydney,"State of New South Wales, Department of Premier and Cabinet",generic
 symantec,Symantec Corporation,generic
 systems,"Binky Moon, LLC",generic
-sz,Swaziland (Kingdom of),country-code
+sz,"University of Swaziland
+Department of Computer Science",country-code
 tab,Tabcorp Holdings Limited,generic
 taipei,Taipei City Government,generic
 talk,"Amazon Registry Services, Inc.",generic
@@ -1226,22 +1256,22 @@ tatar,"Limited Liability Company ""Coordination Center of Regional Domain of Tat
 tattoo,"Uniregistry, Corp.",generic
 tax,"Binky Moon, LLC",generic
 taxi,"Binky Moon, LLC",generic
-tc,Turks and Caicos Islands,country-code
+tc,Melrex TC,country-code
 tci,Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.,generic
-td,Chad (Republic of),country-code
+td,l'Agence de Développement des Technologies de l'Information et de la Communication (ADETIC),country-code
 tdk,TDK Corporation,generic
 team,"Binky Moon, LLC",generic
 tech,Dot Tech LLC,generic
 technology,"Binky Moon, LLC",generic
-tel,Telephone,sponsored
+tel,Telnames Ltd.,sponsored
 telecity,TelecityGroup International Limited,generic
 telefonica,Telefónica S.A.,generic
 temasek,Temasek Holdings (Private) Limited,generic
 tennis,"Binky Moon, LLC",generic
 teva,Teva Pharmaceutical Industries Limited,generic
-tf,French Southern and Antarctic Lands (Territory of the),country-code
-tg,Togo (Togolese Republic),country-code
-th,Thailand (Kingdom of),country-code
+tf,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),country-code
+tg,Autorite de Reglementation des secteurs de Postes et de Telecommunications (ART&P),country-code
+th,Thai Network Information Center Foundation,country-code
 thd,"Home Depot Product Authority, LLC",generic
 theater,"Binky Moon, LLC",generic
 theatre,XYZ.COM LLC,generic
@@ -1252,16 +1282,18 @@ tiffany,Tiffany and Company,generic
 tips,"Binky Moon, LLC",generic
 tires,"Binky Moon, LLC",generic
 tirol,punkt Tirol GmbH,generic
-tj,Tajikistan (Republic of),country-code
+tj,Information Technology Center,country-code
 tjmaxx,"The TJX Companies, Inc.",generic
 tjx,"The TJX Companies, Inc.",generic
-tk,Tokelau,country-code
+tk,Telecommunication Tokelau Corporation (Teletok),country-code
 tkmaxx,"The TJX Companies, Inc.",generic
-tl,Timor-Leste (Democratic Republic of) [East Timor],country-code
-tm,Turkmenistan,country-code
+tl,Autoridade Nacional de Comunicações,country-code
+tm,TM Domain Registry Ltd,country-code
 tmall,Alibaba Group Holding Limited,generic
-tn,Tunisia (Republic of),country-code
-to,Tonga (Kingdom of),country-code
+tn,Agence Tunisienne d'Internet,country-code
+to,"Government of the Kingdom of Tonga
+H.R.H. Crown Prince Tupouto'a
+c/o Consulate of Tonga",country-code
 today,"Binky Moon, LLC",generic
 tokyo,"GMO Registry, Inc.",generic
 tools,"Binky Moon, LLC",generic
@@ -1273,54 +1305,57 @@ tours,"Binky Moon, LLC",generic
 town,"Binky Moon, LLC",generic
 toyota,TOYOTA MOTOR CORPORATION,generic
 toys,"Binky Moon, LLC",generic
-tp,Timor-Leste (Democratic Republic of) [East Timor] {being phased out - also see: .tl},country-code
-tr,Turkey (Republic of),country-code
+tp,Retired,country-code
+tr,"Middle East Technical University
+Department of Computer Engineering",country-code
 trade,Elite Registry Limited,generic
 trading,DOTTRADING REGISTRY LTD,generic
 training,"Binky Moon, LLC",generic
-travel,Travel,sponsored
+travel,"Dog	Beach, LLC",sponsored
 travelchannel,"Lifestyle Domain Holdings, Inc.",generic
 travelers,"Travelers TLD, LLC",generic
 travelersinsurance,"Travelers TLD, LLC",generic
 trust,Artemis Internet Inc,generic
 trv,"Travelers TLD, LLC",generic
-tt,Trinidad and Tobago (Republic of),country-code
+tt,"University of the West Indies
+Faculty of Engineering",country-code
 tube,Latin American Telecom LLC,generic
 tui,TUI AG,generic
 tunes,"Amazon Registry Services, Inc.",generic
 tushu,"Amazon Registry Services, Inc.",generic
-tv,Tuvalu,country-code
+tv,Ministry of Finance and Tourism,country-code
 tvs,T V SUNDRAM IYENGAR  & SONS PRIVATE LIMITED,generic
-tw,Taiwan (Republic of China),country-code
-tz,Tanzania (United Republic of),country-code
-ua,Ukraine,country-code
+tw,Taiwan Network Information Center (TWNIC),country-code
+tz,Tanzania Network Information Centre (tzNIC),country-code
+ua,Hostmaster Ltd.,country-code
 ubank,National Australia Bank Limited,generic
 ubs,UBS AG,generic
 uconnect,FCA US LLC.,generic
-ug,Uganda (Republic of),country-code
-uk,United Kingdom (United Kingdom of Great Britain and Northern Ireland),country-code
-um,United States Minor Outlying Islands {formerly - retired 2010 - see also: .us},country-code
+ug,Uganda Online Ltd.,country-code
+uk,Nominet UK,country-code
+um,Not assigned,country-code
 unicom,China United Network Communications Corporation Limited,generic
 university,"Binky Moon, LLC",generic
 uno,Dot Latin LLC,generic
 uol,UBN INTERNET LTDA.,generic
 ups,"UPS Market Driver, Inc.",generic
-us,United States of America and United States Minor Outlying Islands,country-code
-uy,Uruguay (Oriental Republic of),country-code
-uz,Uzbekistan (Republic of),country-code
-va,Vatican City (Vatican City State),country-code
+us,"NeuStar, Inc.",country-code
+uy,SeCIU - Universidad de la Republica,country-code
+uz,"Computerization and Information Technologies Developing Center
+UZINFOCOM",country-code
+va,Holy See - Vatican City State,country-code
 vacations,"Binky Moon, LLC",generic
 vana,"Lifestyle Domain Holdings, Inc.",generic
 vanguard,"The Vanguard Group, Inc.",generic
-vc,Saint Vincent and the Grenadines,country-code
-ve,Venezuela (Bolivarian Republic of),country-code
+vc,"Ministry of Telecommunications, Science, Technology and Industry",country-code
+ve,Comisión Nacional de Telecomunicaciones (CONATEL),country-code
 vegas,"Dot Vegas, Inc.",generic
 ventures,"Binky Moon, LLC",generic
 verisign,"VeriSign, Inc.",generic
 versicherung,TLD-BOX Registrydienstleistungen GmbH,generic
 vet,"United TLD Holdco, Ltd",generic
-vg,British Virgin Islands (Virgin Islands),country-code
-vi,United States Virgin Islands (United States Virgin Islands),country-code
+vg,Telecommunications Regulatory Commission of the Virgin Islands,country-code
+vi,"Virgin Islands Public Telecommunications System, Inc.",country-code
 viajes,"Binky Moon, LLC",generic
 video,"United TLD Holdco, Ltd",generic
 vig,VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe,generic
@@ -1336,7 +1371,7 @@ vistaprint,Vistaprint Limited,generic
 viva,Saudi Telecom Company,generic
 vivo,Telefonica Brasil S.A.,generic
 vlaanderen,DNS.be vzw,generic
-vn,Vietnam (Socialist Republic of),country-code
+vn,Ministry of Information and Communications of Socialist Republic of Viet Nam,country-code
 vodka,Top Level Domain Holdings Limited,generic
 volkswagen,Volkswagen Group of America Inc.,generic
 volvo,Volvo Holding Sverige Aktiebolag,generic
@@ -1344,7 +1379,7 @@ vote,Monolith Registry LLC,generic
 voting,Valuetainment Corp.,generic
 voto,Monolith Registry LLC,generic
 voyage,"Binky Moon, LLC",generic
-vu,Vanuatu (Republic of),country-code
+vu,Telecom Vanuatu Limited,country-code
 vuelos,Travel Reservations SRL,generic
 wales,Nominet UK,generic
 walmart,"Wal-Mart Stores, Inc.",generic
@@ -1363,7 +1398,7 @@ wed,Emergency Back-End Registry Operator Program - ICANN,generic
 wedding,Top Level Domain Holdings Limited,generic
 weibo,Sina Corporation,generic
 weir,Weir Group IP Limited,generic
-wf,Wallis and Futuna (Territory of the Wallis and Futuna Islands),country-code
+wf,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),country-code
 whoswho,Who's Who Registry,generic
 wien,punkt.wien GmbH,generic
 wiki,"Top Level Design, LLC",generic
@@ -1379,7 +1414,7 @@ work,Top Level Domain Holdings Limited,generic
 works,"Binky Moon, LLC",generic
 world,"Binky Moon, LLC",generic
 wow,"Amazon Registry Services, Inc.",generic
-ws,Samoa (Independent State of),country-code
+ws,Government of Samoa Ministry of Foreign Affairs & Trade,country-code
 wtc,"World Trade Centers Association, Inc.",generic
 wtf,"Binky Moon, LLC",generic
 xbox,Microsoft Corporation,generic
@@ -1551,27 +1586,27 @@ vermögensberatung,Deutsche Vermögensberatung Aktiengesellschaft DVAG,generic
 テスト,Internet Assigned Numbers Authority,test
 政务,China Organizational Name Administration Center,generic
 xperia,Sony Mobile Communications AB,generic
-xxx,Adult entertainment,sponsored
+xxx,ICM Registry LLC,sponsored
 xyz,XYZ.COM LLC,generic
 yachts,"DERYachts, LLC",generic
 yahoo,Yahoo! Domain Services Inc.,generic
 yamaxun,"Amazon Registry Services, Inc.",generic
 yandex,"YANDEX, LLC",generic
-ye,Yemen (Republic of),country-code
+ye,TeleYemen,country-code
 yodobashi,"YODOBASHI CAMERA CO.,LTD.",generic
 yoga,Top Level Domain Holdings Limited,generic
 yokohama,"GMO Registry, Inc.",generic
 you,"Amazon Registry Services, Inc.",generic
 youtube,Charleston Road Registry Inc.,generic
-yt,Mayotte (Department of),country-code
+yt,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),country-code
 yun,QIHOO 360 TECHNOLOGY CO. LTD.,generic
-za,South Africa (Republic of),country-code
+za,ZA Domain Name Authority,country-code
 zappos,"Amazon Registry Services, Inc.",generic
 zara,"Industria de Diseño Textil, S.A. (INDITEX, S.A.)",generic
 zero,"Amazon Registry Services, Inc.",generic
 zip,Charleston Road Registry Inc.,generic
 zippo,Zadco Company,generic
-zm,Zambia (Republic of),country-code
+zm,Zambia Information and Communications Technology Authority (ZICTA),country-code
 zone,"Binky Moon, LLC",generic
 zuerich,Kanton Zürich (Canton of Zurich),generic
-zw,Zimbabwe (Republic of),country-code
+zw,Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ),country-code

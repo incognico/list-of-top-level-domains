@@ -54,7 +54,8 @@ class TldInfo {
 ],
  [
   'domain' => 'ac',
-  'description' => 'Ascension Island',
+  'description' => 'Network Information Center [AC Domain Registry]
+c/o Cable and Wireless [Ascension Island]',
   'type' => 'country-code',
 ],
  [
@@ -94,7 +95,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ad',
-  'description' => 'Andorra [Principality of]',
+  'description' => 'Andorra Telecom',
   'type' => 'country-code',
 ],
  [
@@ -114,7 +115,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ae',
-  'description' => 'United Arab Emirates',
+  'description' => 'Telecommunication Regulatory Authority [TRA]',
   'type' => 'country-code',
 ],
  [
@@ -124,7 +125,7 @@ class TldInfo {
 ],
  [
   'domain' => 'aero',
-  'description' => 'Air-transport industry',
+  'description' => 'Societe Internationale de Telecommunications Aeronautique [SITA INC USA]',
   'type' => 'sponsored',
 ],
  [
@@ -134,7 +135,7 @@ class TldInfo {
 ],
  [
   'domain' => 'af',
-  'description' => 'Afghanistan [Islamic Republic of]',
+  'description' => 'Ministry of Communications and IT',
   'type' => 'country-code',
 ],
  [
@@ -154,7 +155,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ag',
-  'description' => 'Antigua and Barbuda',
+  'description' => 'UHSA School of Medicine',
   'type' => 'country-code',
 ],
  [
@@ -169,7 +170,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ai',
-  'description' => 'Anguilla',
+  'description' => 'Government of Anguilla',
   'type' => 'country-code',
 ],
  [
@@ -204,7 +205,7 @@ class TldInfo {
 ],
  [
   'domain' => 'al',
-  'description' => 'Albania [Republic of]',
+  'description' => 'Electronic and Postal Communications Authority - AKEP',
   'type' => 'country-code',
 ],
  [
@@ -249,7 +250,7 @@ class TldInfo {
 ],
  [
   'domain' => 'am',
-  'description' => 'Armenia [Republic of]',
+  'description' => '"Internet Society" Non-governmental Organization',
   'type' => 'country-code',
 ],
  [
@@ -284,7 +285,7 @@ class TldInfo {
 ],
  [
   'domain' => 'an',
-  'description' => 'Netherlands Antilles',
+  'description' => 'Retired',
   'type' => 'country-code',
 ],
  [
@@ -309,7 +310,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ao',
-  'description' => 'Angola [Republic of]',
+  'description' => 'Faculdade de Engenharia da Universidade Agostinho Neto',
   'type' => 'country-code',
 ],
  [
@@ -334,7 +335,7 @@ class TldInfo {
 ],
  [
   'domain' => 'aq',
-  'description' => 'Antarctica',
+  'description' => 'Antarctica Network Information Centre Limited',
   'type' => 'country-code',
 ],
  [
@@ -344,7 +345,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ar',
-  'description' => 'Argentina [Argentine Republic]',
+  'description' => 'Presidencia de la Nación – Secretaría Legal y Técnica',
   'type' => 'country-code',
 ],
  [
@@ -369,7 +370,7 @@ class TldInfo {
 ],
  [
   'domain' => 'arpa',
-  'description' => 'Address and Routing Parameter Area',
+  'description' => 'Internet Architecture Board [IAB]',
   'type' => 'infrastructure',
 ],
  [
@@ -384,7 +385,7 @@ class TldInfo {
 ],
  [
   'domain' => 'as',
-  'description' => 'American Samoa',
+  'description' => 'AS Domain Registry',
   'type' => 'country-code',
 ],
  [
@@ -394,7 +395,7 @@ class TldInfo {
 ],
  [
   'domain' => 'asia',
-  'description' => 'Organisations and individuals in the Asia-Pacific region',
+  'description' => 'DotAsia Organisation Ltd.',
   'type' => 'sponsored',
 ],
  [
@@ -404,7 +405,7 @@ class TldInfo {
 ],
  [
   'domain' => 'at',
-  'description' => 'Austria [Republic of]',
+  'description' => 'nic.at GmbH',
   'type' => 'country-code',
 ],
  [
@@ -419,7 +420,7 @@ class TldInfo {
 ],
  [
   'domain' => 'au',
-  'description' => 'Australia [Commonwealth of]',
+  'description' => '.au Domain Administration [auDA]',
   'type' => 'country-code',
 ],
  [
@@ -469,7 +470,7 @@ class TldInfo {
 ],
  [
   'domain' => 'aw',
-  'description' => 'Aruba',
+  'description' => 'SETAR',
   'type' => 'country-code',
 ],
  [
@@ -479,7 +480,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ax',
-  'description' => 'Åland Islands',
+  'description' => 'Ålands landskapsregering',
   'type' => 'country-code',
 ],
  [
@@ -489,7 +490,7 @@ class TldInfo {
 ],
  [
   'domain' => 'az',
-  'description' => 'Azerbaijan [Republic of]',
+  'description' => 'IntraNS',
   'type' => 'country-code',
 ],
  [
@@ -499,7 +500,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ba',
-  'description' => 'Bosnia and Herzegovina',
+  'description' => 'Universtiy Telinformatic Centre [UTIC]',
   'type' => 'country-code',
 ],
  [
@@ -584,7 +585,9 @@ class TldInfo {
 ],
  [
   'domain' => 'bb',
-  'description' => 'Barbados',
+  'description' => 'Government of Barbados
+Ministry of Economic Affairs and Development
+Telecommunications Unit',
   'type' => 'country-code',
 ],
  [
@@ -614,12 +617,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bd',
-  'description' => 'Bangladesh [People\'s Republic of]',
+  'description' => 'Posts and Telecommunications Division',
   'type' => 'country-code',
 ],
  [
   'domain' => 'be',
-  'description' => 'Belgium [Kingdom of]',
+  'description' => 'DNS Belgium vzw/asbl',
   'type' => 'country-code',
 ],
  [
@@ -664,17 +667,17 @@ class TldInfo {
 ],
  [
   'domain' => 'bf',
-  'description' => 'Burkina Faso',
+  'description' => 'ARCE-AutoritÈ de RÈgulation des Communications Electroniques',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bg',
-  'description' => 'Bulgaria [Republic of]',
+  'description' => 'Register.BG',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bh',
-  'description' => 'Bahrain [Kingdom of]',
+  'description' => 'Telecommunications Regulatory Authority [TRA]',
   'type' => 'country-code',
 ],
  [
@@ -684,7 +687,7 @@ class TldInfo {
 ],
  [
   'domain' => 'bi',
-  'description' => 'Burundi [Republic of]',
+  'description' => 'Centre National de l\'Informatique',
   'type' => 'country-code',
 ],
  [
@@ -719,17 +722,17 @@ class TldInfo {
 ],
  [
   'domain' => 'biz',
-  'description' => 'Business',
+  'description' => 'Neustar, Inc.',
   'type' => 'generic-restricted',
 ],
  [
   'domain' => 'bj',
-  'description' => 'Benin [Republic of]',
+  'description' => 'Benin Telecoms S.A.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bl',
-  'description' => 'Saint Barthélemy [Collectivity of] {unassigned - see also: .gp and .fr}',
+  'description' => 'Not assigned',
   'type' => 'country-code',
 ],
  [
@@ -769,7 +772,7 @@ class TldInfo {
 ],
  [
   'domain' => 'bm',
-  'description' => 'Bermuda',
+  'description' => 'Registry General Department, Ministry of Home Affairs',
   'type' => 'country-code',
 ],
  [
@@ -784,7 +787,7 @@ class TldInfo {
 ],
  [
   'domain' => 'bn',
-  'description' => 'Brunei [Nation of Brunei - the Abode of Peace] [Negara Brunei Darussalam]',
+  'description' => 'Authority for Info-communications Technology Industry of Brunei Darussalam [AITI]',
   'type' => 'country-code',
 ],
  [
@@ -799,7 +802,7 @@ class TldInfo {
 ],
  [
   'domain' => 'bo',
-  'description' => 'Bolivia [Plurinational State of]',
+  'description' => 'Agencia para el Desarrollo de la Información de la Sociedad en Bolivia',
   'type' => 'country-code',
 ],
  [
@@ -879,12 +882,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bq',
-  'description' => 'Caribbean Netherlands [Bonaire - Sint Eustatius and Saba] {unassigned - see also: .an and .nl}',
+  'description' => 'Not assigned',
   'type' => 'country-code',
 ],
  [
   'domain' => 'br',
-  'description' => 'Brazil [Federative Republic of]',
+  'description' => 'Comite Gestor da Internet no Brasil',
   'type' => 'country-code',
 ],
  [
@@ -919,12 +922,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bs',
-  'description' => 'Bahamas [Commonwealth of the]',
+  'description' => 'The College of the Bahamas',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bt',
-  'description' => 'Bhutan [Kingdom of]',
+  'description' => 'Ministry of Information and Communications',
   'type' => 'country-code',
 ],
  [
@@ -964,22 +967,22 @@ class TldInfo {
 ],
  [
   'domain' => 'bv',
-  'description' => 'Bouvet Island',
+  'description' => 'UNINETT Norid A/S',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bw',
-  'description' => 'Botswana [Republic of]',
+  'description' => 'Botswana Communications Regulatory Authority [BOCRA]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'by',
-  'description' => 'Belarus [Republic of]',
+  'description' => 'Reliable Software, Ltd.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bz',
-  'description' => 'Belize',
+  'description' => 'University of Belize',
   'type' => 'country-code',
 ],
  [
@@ -989,7 +992,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ca',
-  'description' => 'Canada',
+  'description' => 'Canadian Internet Registration Authority [CIRA] Autorité Canadienne pour les enregistrements Internet [ACEI]',
   'type' => 'country-code',
 ],
  [
@@ -1124,7 +1127,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cat',
-  'description' => 'Catalan',
+  'description' => 'Fundacio puntCAT',
   'type' => 'sponsored',
 ],
  [
@@ -1159,12 +1162,13 @@ class TldInfo {
 ],
  [
   'domain' => 'cc',
-  'description' => 'Cocos [Keeling] Islands [Territory of the]',
+  'description' => 'eNIC Cocos [Keeling] Islands Pty.
+Ltd. d/b/a Island Internet Services',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cd',
-  'description' => 'Congo [Democratic Republic of the] [Congo-Kinshasa]',
+  'description' => 'Office Congolais des Postes et Télécommunications - OCPT',
   'type' => 'country-code',
 ],
  [
@@ -1189,7 +1193,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cf',
-  'description' => 'Central African Republic',
+  'description' => 'Societe Centrafricaine de Telecommunications [SOCATEL]',
   'type' => 'country-code',
 ],
  [
@@ -1204,12 +1208,12 @@ class TldInfo {
 ],
  [
   'domain' => 'cg',
-  'description' => 'Congo [Republic of] [Congo-Brazzaville]',
+  'description' => 'ONPT Congo and Interpoint Switzerland',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ch',
-  'description' => 'Switzerland [Swiss Confederation]',
+  'description' => 'SWITCH The Swiss Education & Research Network',
   'type' => 'country-code',
 ],
  [
@@ -1274,7 +1278,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ci',
-  'description' => 'Ivory Coast [Republic of Côte d\'Ivoire]',
+  'description' => 'Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire [ARTCI]',
   'type' => 'country-code',
 ],
  [
@@ -1319,12 +1323,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ck',
-  'description' => 'Cook Islands',
+  'description' => 'Telecom Cook Islands Ltd.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cl',
-  'description' => 'Chile [Republic of]',
+  'description' => 'NIC Chile [University of Chile]',
   'type' => 'country-code',
 ],
  [
@@ -1374,17 +1378,17 @@ class TldInfo {
 ],
  [
   'domain' => 'cm',
-  'description' => 'Cameroon [Republic of]',
+  'description' => 'Cameroon Telecommunications [CAMTEL]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cn',
-  'description' => 'China [People\'s Republic of]',
+  'description' => 'China Internet Network Information Center [CNNIC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'co',
-  'description' => 'Colombia [Republic of]',
+  'description' => '.CO Internet S.A.S.',
   'type' => 'country-code',
 ],
  [
@@ -1414,7 +1418,7 @@ class TldInfo {
 ],
  [
   'domain' => 'com',
-  'description' => 'Commercial organizations',
+  'description' => 'VeriSign Global Registry Services',
   'type' => 'generic',
 ],
  [
@@ -1494,7 +1498,7 @@ class TldInfo {
 ],
  [
   'domain' => 'coop',
-  'description' => 'Cooperatives',
+  'description' => 'DotCooperation LLC',
   'type' => 'sponsored',
 ],
  [
@@ -1524,7 +1528,8 @@ class TldInfo {
 ],
  [
   'domain' => 'cr',
-  'description' => 'Costa Rica [Republic of]',
+  'description' => 'National Academy of Sciences
+Academia Nacional de Ciencias',
   'type' => 'country-code',
 ],
  [
@@ -1574,7 +1579,9 @@ class TldInfo {
 ],
  [
   'domain' => 'cu',
-  'description' => 'Cuba [Republic of]',
+  'description' => 'CENIAInternet
+Industria y San Jose
+Capitolio Nacional',
   'type' => 'country-code',
 ],
  [
@@ -1584,22 +1591,22 @@ class TldInfo {
 ],
  [
   'domain' => 'cv',
-  'description' => 'Cape Verde [Republic of]',
+  'description' => 'Agência Nacional das Comunicações [ANAC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cw',
-  'description' => 'Curaçao [Country of]',
+  'description' => 'University of Curacao',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cx',
-  'description' => 'Christmas Island [Territory of]',
+  'description' => 'Christmas Island Domain Administration Limited',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cy',
-  'description' => 'Cyprus [Republic of]',
+  'description' => 'University of Cyprus',
   'type' => 'country-code',
 ],
  [
@@ -1614,7 +1621,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cz',
-  'description' => 'Czech Republic',
+  'description' => 'CZ.NIC, z.s.p.o',
   'type' => 'country-code',
 ],
  [
@@ -1669,7 +1676,7 @@ class TldInfo {
 ],
  [
   'domain' => 'de',
-  'description' => 'Germany [Federal Republic of]',
+  'description' => 'DENIC eG',
   'type' => 'country-code',
 ],
  [
@@ -1794,17 +1801,17 @@ class TldInfo {
 ],
  [
   'domain' => 'dj',
-  'description' => 'Djibouti [Republic of]',
+  'description' => 'Djibouti Telecom S.A',
   'type' => 'country-code',
 ],
  [
   'domain' => 'dk',
-  'description' => 'Denmark [Kingdom of]',
+  'description' => 'Dansk Internet Forum',
   'type' => 'country-code',
 ],
  [
   'domain' => 'dm',
-  'description' => 'Dominica [Commonwealth of]',
+  'description' => 'DotDM Corporation',
   'type' => 'country-code',
 ],
  [
@@ -1814,7 +1821,8 @@ class TldInfo {
 ],
  [
   'domain' => 'do',
-  'description' => 'Dominican Republic',
+  'description' => 'Pontificia Universidad Catolica Madre y Maestra
+Recinto Santo Tomas de Aquino',
   'type' => 'country-code',
 ],
  [
@@ -1914,7 +1922,7 @@ class TldInfo {
 ],
  [
   'domain' => 'dz',
-  'description' => 'Algeria [People\'s Democratic Republic of]',
+  'description' => 'CERIST',
   'type' => 'country-code',
 ],
  [
@@ -1929,7 +1937,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ec',
-  'description' => 'Ecuador [Republic of]',
+  'description' => 'ECUADORDOMAIN S.A.',
   'type' => 'country-code',
 ],
  [
@@ -1944,7 +1952,7 @@ class TldInfo {
 ],
  [
   'domain' => 'edu',
-  'description' => 'Educational establishments',
+  'description' => 'EDUCAUSE',
   'type' => 'sponsored',
 ],
  [
@@ -1954,17 +1962,18 @@ class TldInfo {
 ],
  [
   'domain' => 'ee',
-  'description' => 'Estonia [Republic of]',
+  'description' => 'Eesti Interneti Sihtasutus [EIS]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'eg',
-  'description' => 'Egypt [Arab Republic of]',
+  'description' => 'Egyptian Universities Network [EUN]
+Supreme Council of Universities',
   'type' => 'country-code',
 ],
  [
   'domain' => 'eh',
-  'description' => 'Western Sahara {reserved}',
+  'description' => 'Not assigned',
   'type' => 'country-code',
 ],
  [
@@ -2014,7 +2023,7 @@ class TldInfo {
 ],
  [
   'domain' => 'er',
-  'description' => 'Eritrea [State of]',
+  'description' => 'Eritrea Telecommunication Services Corporation [EriTel]',
   'type' => 'country-code',
 ],
  [
@@ -2029,7 +2038,7 @@ class TldInfo {
 ],
  [
   'domain' => 'es',
-  'description' => 'Spain [Kingdom of]',
+  'description' => 'Red.es',
   'type' => 'country-code',
 ],
  [
@@ -2049,7 +2058,7 @@ class TldInfo {
 ],
  [
   'domain' => 'et',
-  'description' => 'Ethiopia [Federal Democratic Republic of]',
+  'description' => 'Ethio telecom',
   'type' => 'country-code',
 ],
  [
@@ -2059,7 +2068,7 @@ class TldInfo {
 ],
  [
   'domain' => 'eu',
-  'description' => 'European Union',
+  'description' => 'EURid vzw/asbl',
   'type' => 'country-code',
 ],
  [
@@ -2184,7 +2193,7 @@ class TldInfo {
 ],
  [
   'domain' => 'fi',
-  'description' => 'Finland [Republic of]',
+  'description' => 'Finnish Communications Regulatory Authority',
   'type' => 'country-code',
 ],
  [
@@ -2259,12 +2268,13 @@ class TldInfo {
 ],
  [
   'domain' => 'fj',
-  'description' => 'Fiji [Republic of]',
+  'description' => 'The University of the South Pacific
+IT Services',
   'type' => 'country-code',
 ],
  [
   'domain' => 'fk',
-  'description' => 'Falkland Islands [Malvinas]',
+  'description' => 'Falkland Islands Government',
   'type' => 'country-code',
 ],
  [
@@ -2304,12 +2314,12 @@ class TldInfo {
 ],
  [
   'domain' => 'fm',
-  'description' => 'Micronesia [Federated States of]',
+  'description' => 'FSM Telecommunications Corporation',
   'type' => 'country-code',
 ],
  [
   'domain' => 'fo',
-  'description' => 'Faroe Islands',
+  'description' => 'FO Council',
   'type' => 'country-code',
 ],
  [
@@ -2364,7 +2374,7 @@ class TldInfo {
 ],
  [
   'domain' => 'fr',
-  'description' => 'France [French Republic]',
+  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
   'type' => 'country-code',
 ],
  [
@@ -2439,7 +2449,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ga',
-  'description' => 'Gabon [Gabonese Republic]',
+  'description' => 'Agence Nationale des Infrastructures Numériques et des Fréquences [ANINF]',
   'type' => 'country-code',
 ],
  [
@@ -2484,7 +2494,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gb',
-  'description' => 'United Kingdom [United Kingdom of Great Britain and Northern Ireland]',
+  'description' => 'Reserved Domain - IANA',
   'type' => 'country-code',
 ],
  [
@@ -2494,7 +2504,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gd',
-  'description' => 'Grenada',
+  'description' => 'The National Telecommunications Regulatory Commission [NTRC]',
   'type' => 'country-code',
 ],
  [
@@ -2504,7 +2514,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ge',
-  'description' => 'Georgia',
+  'description' => 'Caucasus Online LLC',
   'type' => 'country-code',
 ],
  [
@@ -2529,12 +2539,12 @@ class TldInfo {
 ],
  [
   'domain' => 'gf',
-  'description' => 'French Guiana',
+  'description' => 'Net Plus',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gg',
-  'description' => 'Guernsey [Bailiwick of]',
+  'description' => 'Island Networks Ltd.',
   'type' => 'country-code',
 ],
  [
@@ -2544,12 +2554,12 @@ class TldInfo {
 ],
  [
   'domain' => 'gh',
-  'description' => 'Ghana [Republic of]',
+  'description' => 'Network Computer Systems Limited',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gi',
-  'description' => 'Gibraltar',
+  'description' => 'Sapphire Networks',
   'type' => 'country-code',
 ],
  [
@@ -2574,7 +2584,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gl',
-  'description' => 'Greenland',
+  'description' => 'TELE Greenland A/S',
   'type' => 'country-code',
 ],
  [
@@ -2604,7 +2614,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gm',
-  'description' => 'Gambia [Republic of The]',
+  'description' => 'GM-NIC',
   'type' => 'country-code',
 ],
  [
@@ -2629,7 +2639,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gn',
-  'description' => 'Guinea [Republic of]',
+  'description' => 'Centre National des Sciences Halieutiques de Boussoura',
   'type' => 'country-code',
 ],
  [
@@ -2689,22 +2699,23 @@ class TldInfo {
 ],
  [
   'domain' => 'gov',
-  'description' => 'US government',
+  'description' => 'General Services Administration
+Attn: QTDC, 2E08 [.gov Domain Registration]',
   'type' => 'sponsored',
 ],
  [
   'domain' => 'gp',
-  'description' => 'Guadeloupe',
+  'description' => 'Networking Technologies Group',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gq',
-  'description' => 'Equatorial Guinea [Republic of]',
+  'description' => 'GETESA',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gr',
-  'description' => 'Greece [Hellenic Republic]',
+  'description' => 'ICS-FORTH GR',
   'type' => 'country-code',
 ],
  [
@@ -2744,17 +2755,17 @@ class TldInfo {
 ],
  [
   'domain' => 'gs',
-  'description' => 'South Georgia and the South Sandwich Islands',
+  'description' => 'Government of South Georgia and South Sandwich Islands [GSGSSI]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gt',
-  'description' => 'Guatemala [Republic of]',
+  'description' => 'Universidad del Valle de Guatemala',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gu',
-  'description' => 'Guam',
+  'description' => 'University of Guam',
   'type' => 'country-code',
 ],
  [
@@ -2789,12 +2800,12 @@ class TldInfo {
 ],
  [
   'domain' => 'gw',
-  'description' => 'Guinea-Bissau [Republic of]',
+  'description' => 'Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gy',
-  'description' => 'Guyana [Co-operative Republic of]',
+  'description' => 'University of Guyana',
   'type' => 'country-code',
 ],
  [
@@ -2889,7 +2900,7 @@ class TldInfo {
 ],
  [
   'domain' => 'hk',
-  'description' => 'Hong Kong [Hong Kong Special Administrative Region of the People\'s Republic of China]',
+  'description' => 'Hong Kong Internet Registration Corporation Ltd.',
   'type' => 'country-code',
 ],
  [
@@ -2899,12 +2910,12 @@ class TldInfo {
 ],
  [
   'domain' => 'hm',
-  'description' => 'Heard Island and McDonald Islands',
+  'description' => 'HM Domain Registry',
   'type' => 'country-code',
 ],
  [
   'domain' => 'hn',
-  'description' => 'Honduras [Republic of]',
+  'description' => 'Red de Desarrollo Sostenible Honduras',
   'type' => 'country-code',
 ],
  [
@@ -3004,7 +3015,7 @@ class TldInfo {
 ],
  [
   'domain' => 'hr',
-  'description' => 'Croatia [Republic of]',
+  'description' => 'CARNet - Croatian Academic and Research Network',
   'type' => 'country-code',
 ],
  [
@@ -3014,7 +3025,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ht',
-  'description' => 'Haiti [Republic of]',
+  'description' => 'Consortium FDS/RDDH',
   'type' => 'country-code',
 ],
  [
@@ -3024,7 +3035,7 @@ class TldInfo {
 ],
  [
   'domain' => 'hu',
-  'description' => 'Hungary',
+  'description' => 'Council of Hungarian Internet Providers [CHIP]',
   'type' => 'country-code',
 ],
  [
@@ -3064,12 +3075,14 @@ class TldInfo {
 ],
  [
   'domain' => 'id',
-  'description' => 'Indonesia [Republic of]',
+  'description' => 'Perkumpulan Pengelola Nama Domain Internet Indonesia [PANDI]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ie',
-  'description' => 'Ireland [Republic of]',
+  'description' => 'University College Dublin
+Computing Services
+Computer Centre',
   'type' => 'country-code',
 ],
  [
@@ -3094,12 +3107,12 @@ class TldInfo {
 ],
  [
   'domain' => 'il',
-  'description' => 'Israel [State of]',
+  'description' => 'Internet Society of Israel',
   'type' => 'country-code',
 ],
  [
   'domain' => 'im',
-  'description' => 'Isle of Man',
+  'description' => 'Isle of Man Government',
   'type' => 'country-code',
 ],
  [
@@ -3124,7 +3137,7 @@ class TldInfo {
 ],
  [
   'domain' => 'in',
-  'description' => 'India [Republic of]',
+  'description' => 'National Internet Exchange of India',
   'type' => 'country-code',
 ],
  [
@@ -3139,7 +3152,7 @@ class TldInfo {
 ],
  [
   'domain' => 'info',
-  'description' => 'Informational sites',
+  'description' => 'Afilias Limited',
   'type' => 'generic',
 ],
  [
@@ -3169,7 +3182,7 @@ class TldInfo {
 ],
  [
   'domain' => 'int',
-  'description' => 'International treaty-based organizations',
+  'description' => 'Internet Assigned Numbers Authority',
   'type' => 'sponsored',
 ],
  [
@@ -3194,7 +3207,8 @@ class TldInfo {
 ],
  [
   'domain' => 'io',
-  'description' => 'British Indian Ocean Territory',
+  'description' => 'IO Top Level Domain Registry
+Cable and Wireless',
   'type' => 'country-code',
 ],
  [
@@ -3204,12 +3218,12 @@ class TldInfo {
 ],
  [
   'domain' => 'iq',
-  'description' => 'Iraq [Republic of]',
+  'description' => 'Communications and Media Commission [CMC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ir',
-  'description' => 'Iran [Islamic Republic of]',
+  'description' => 'Institute for Research in Fundamental Sciences',
   'type' => 'country-code',
 ],
  [
@@ -3219,7 +3233,7 @@ class TldInfo {
 ],
  [
   'domain' => 'is',
-  'description' => 'Iceland',
+  'description' => 'ISNIC - Internet Iceland ltd.',
   'type' => 'country-code',
 ],
  [
@@ -3244,7 +3258,7 @@ class TldInfo {
 ],
  [
   'domain' => 'it',
-  'description' => 'Italy [Italian Republic]',
+  'description' => 'IIT - CNR',
   'type' => 'country-code',
 ],
  [
@@ -3289,7 +3303,7 @@ class TldInfo {
 ],
  [
   'domain' => 'je',
-  'description' => 'Jersey [Bailiwick of]',
+  'description' => 'Island Networks [Jersey] Ltd.',
   'type' => 'country-code',
 ],
  [
@@ -3324,7 +3338,7 @@ class TldInfo {
 ],
  [
   'domain' => 'jm',
-  'description' => 'Jamaica [Commonwealth of]',
+  'description' => 'University of West Indies',
   'type' => 'country-code',
 ],
  [
@@ -3339,12 +3353,12 @@ class TldInfo {
 ],
  [
   'domain' => 'jo',
-  'description' => 'Jordan [Hashemite Kingdom of]',
+  'description' => 'National Information Technology Center [NITC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'jobs',
-  'description' => 'Employment-related sites',
+  'description' => 'Employ Media LLC',
   'type' => 'sponsored',
 ],
  [
@@ -3364,7 +3378,7 @@ class TldInfo {
 ],
  [
   'domain' => 'jp',
-  'description' => 'Japan',
+  'description' => 'Japan Registry Services Co., Ltd.',
   'type' => 'country-code',
 ],
  [
@@ -3399,7 +3413,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ke',
-  'description' => 'Kenya [Republic of]',
+  'description' => 'Kenya Network Information Center [KeNIC]',
   'type' => 'country-code',
 ],
  [
@@ -3424,17 +3438,17 @@ class TldInfo {
 ],
  [
   'domain' => 'kg',
-  'description' => 'Kyrgyzstan [Kyrgyz Republic]',
+  'description' => 'AsiaInfo Telecommunication Enterprise',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kh',
-  'description' => 'Cambodia [Kingdom of]',
+  'description' => 'Telecommunication Regulator of Cambodia [TRC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ki',
-  'description' => 'Kiribati [Republic of]',
+  'description' => 'Ministry of Communications, Transport, and Tourism Development',
   'type' => 'country-code',
 ],
  [
@@ -3469,12 +3483,12 @@ class TldInfo {
 ],
  [
   'domain' => 'km',
-  'description' => 'Comoros [Union of the]',
+  'description' => 'Comores Telecom',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kn',
-  'description' => 'Saint Kitts and Nevis [Federation of]',
+  'description' => 'Ministry of Finance, Sustainable Development Information & Technology',
   'type' => 'country-code',
 ],
  [
@@ -3494,7 +3508,7 @@ class TldInfo {
 ],
  [
   'domain' => 'kp',
-  'description' => 'Korea [Democratic People\'s Republic of] [North Korea]',
+  'description' => 'Star Joint Venture Company',
   'type' => 'country-code',
 ],
  [
@@ -3509,7 +3523,7 @@ class TldInfo {
 ],
  [
   'domain' => 'kr',
-  'description' => 'Korea [Republic of] [South Korea]',
+  'description' => 'Korea Internet & Security Agency [KISA]',
   'type' => 'country-code',
 ],
  [
@@ -3529,12 +3543,12 @@ class TldInfo {
 ],
  [
   'domain' => 'kw',
-  'description' => 'Kuwait [State of Kuwait]',
+  'description' => 'Communications and Information Technology Regulatory Authority',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ky',
-  'description' => 'Cayman Islands',
+  'description' => 'Utility Regulation and Competition Office [OfReg]',
   'type' => 'country-code',
 ],
  [
@@ -3544,12 +3558,12 @@ class TldInfo {
 ],
  [
   'domain' => 'kz',
-  'description' => 'Kazakhstan [Republic of]',
+  'description' => 'Association of IT Companies of Kazakhstan',
   'type' => 'country-code',
 ],
  [
   'domain' => 'la',
-  'description' => 'Laos [Lao People\'s Democratic Republic]',
+  'description' => 'Lao National Internet Committee [LANIC], Ministry of Posts and Telecommunications',
   'type' => 'country-code',
 ],
  [
@@ -3634,12 +3648,13 @@ class TldInfo {
 ],
  [
   'domain' => 'lb',
-  'description' => 'Lebanon [Lebanese Republic]',
+  'description' => 'American University of Beirut
+Computing and Networking Services',
   'type' => 'country-code',
 ],
  [
   'domain' => 'lc',
-  'description' => 'Saint Lucia',
+  'description' => 'University of Puerto Rico',
   'type' => 'country-code',
 ],
  [
@@ -3684,7 +3699,7 @@ class TldInfo {
 ],
  [
   'domain' => 'li',
-  'description' => 'Liechtenstein [Principality of]',
+  'description' => 'SWITCH The Swiss Education & Research Network',
   'type' => 'country-code',
 ],
  [
@@ -3774,7 +3789,8 @@ class TldInfo {
 ],
  [
   'domain' => 'lk',
-  'description' => 'Sri Lanka [Democratic Socialist Republic of]',
+  'description' => 'Council for Information Technology
+LK Domain Registrar',
   'type' => 'country-code',
 ],
  [
@@ -3844,17 +3860,17 @@ class TldInfo {
 ],
  [
   'domain' => 'lr',
-  'description' => 'Liberia [Republic of]',
+  'description' => 'Data Technology Solutions, Inc.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ls',
-  'description' => 'Lesotho [Kingdom of]',
+  'description' => 'National University of Lesotho',
   'type' => 'country-code',
 ],
  [
   'domain' => 'lt',
-  'description' => 'Lithuania [Republic of]',
+  'description' => 'Kaunas University of Technology',
   'type' => 'country-code',
 ],
  [
@@ -3869,7 +3885,7 @@ class TldInfo {
 ],
  [
   'domain' => 'lu',
-  'description' => 'Luxembourg [Grand Duchy of]',
+  'description' => 'RESTENA',
   'type' => 'country-code',
 ],
  [
@@ -3894,17 +3910,19 @@ class TldInfo {
 ],
  [
   'domain' => 'lv',
-  'description' => 'Latvia [Republic of]',
+  'description' => 'University of Latvia
+Institute of Mathematics and Computer Science
+Department of Network Solutions [DNS]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ly',
-  'description' => 'Libya',
+  'description' => 'General Post and Telecommunication Company',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ma',
-  'description' => 'Morocco',
+  'description' => 'Agence Nationale de Réglementation des Télécommunications [ANRT]',
   'type' => 'country-code',
 ],
  [
@@ -3994,7 +4012,8 @@ class TldInfo {
 ],
  [
   'domain' => 'mc',
-  'description' => 'Monaco [Principality of]',
+  'description' => 'Gouvernement de Monaco
+Direction des Communications Electroniques',
   'type' => 'country-code',
 ],
  [
@@ -4014,12 +4033,12 @@ class TldInfo {
 ],
  [
   'domain' => 'md',
-  'description' => 'Moldova [Republic of]',
+  'description' => 'MoldData S.E.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'me',
-  'description' => 'Montenegro',
+  'description' => 'Government of Montenegro',
   'type' => 'country-code',
 ],
  [
@@ -4079,17 +4098,17 @@ class TldInfo {
 ],
  [
   'domain' => 'mf',
-  'description' => 'Saint Martin [Collectivity of] {unassigned - see also: .gp and .fr}',
+  'description' => 'Not assigned',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mg',
-  'description' => 'Madagascar [Republic of]',
+  'description' => 'NIC-MG [Network Information Center Madagascar]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mh',
-  'description' => 'Marshall Islands [Republic of the]',
+  'description' => 'Office of the Cabinet',
   'type' => 'country-code',
 ],
  [
@@ -4104,7 +4123,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mil',
-  'description' => 'US military',
+  'description' => 'DoD Network Information Center',
   'type' => 'sponsored',
 ],
  [
@@ -4129,12 +4148,12 @@ class TldInfo {
 ],
  [
   'domain' => 'mk',
-  'description' => 'Macedonia [Republic of]',
+  'description' => 'Macedonian Academic Research Network Skopje',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ml',
-  'description' => 'Mali [Republic of]',
+  'description' => 'Agence des Technologies de l’Information et de la Communication',
   'type' => 'country-code',
 ],
  [
@@ -4149,7 +4168,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mm',
-  'description' => 'Myanmar [Republic of the Union of] [Burma]',
+  'description' => 'Ministry of Communications, Posts & Telegraphs',
   'type' => 'country-code',
 ],
  [
@@ -4159,17 +4178,17 @@ class TldInfo {
 ],
  [
   'domain' => 'mn',
-  'description' => 'Mongolia',
+  'description' => 'Datacom Co., Ltd.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mo',
-  'description' => 'Macau [Macau Special Administrative Region of the People\'s Republic of China] [Macao]',
+  'description' => 'Macao Post and Telecommunications Bureau [CTT]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mobi',
-  'description' => 'Mobile',
+  'description' => 'Afilias Technologies Limited dba dotMobi',
   'type' => 'generic',
 ],
  [
@@ -4269,22 +4288,22 @@ class TldInfo {
 ],
  [
   'domain' => 'mp',
-  'description' => 'Northern Mariana Islands [Commonwealth of the]',
+  'description' => 'Saipan Datacom, Inc.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mq',
-  'description' => 'Martinique',
+  'description' => 'MEDIASERV',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mr',
-  'description' => 'Mauritania [Islamic Republic of]',
+  'description' => 'Université de Nouakchott Al Aasriya',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ms',
-  'description' => 'Montserrat',
+  'description' => 'MNI Networks Ltd.',
   'type' => 'country-code',
 ],
  [
@@ -4294,7 +4313,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mt',
-  'description' => 'Malta [Republic of]',
+  'description' => 'NIC [Malta]',
   'type' => 'country-code',
 ],
  [
@@ -4314,12 +4333,12 @@ class TldInfo {
 ],
  [
   'domain' => 'mu',
-  'description' => 'Mauritius [Republic of]',
+  'description' => 'Internet Direct Ltd',
   'type' => 'country-code',
 ],
  [
   'domain' => 'museum',
-  'description' => 'Museums',
+  'description' => 'Museum Domain Management Association',
   'type' => 'sponsored',
 ],
  [
@@ -4334,32 +4353,34 @@ class TldInfo {
 ],
  [
   'domain' => 'mv',
-  'description' => 'Maldives [Republic of]',
+  'description' => 'Dhiraagu Pvt. Ltd. [DHIVEHINET]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mw',
-  'description' => 'Malawi [Republic of]',
+  'description' => 'Malawi Sustainable Development Network Programme
+[Malawi SDNP]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mx',
-  'description' => 'Mexico [United Mexican States]',
+  'description' => 'NIC-Mexico
+ITESM - Campus Monterrey',
   'type' => 'country-code',
 ],
  [
   'domain' => 'my',
-  'description' => 'Malaysia',
+  'description' => 'MYNIC Berhad',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mz',
-  'description' => 'Mozambique [Republic of]',
+  'description' => 'Centro de Informatica de Universidade Eduardo Mondlane',
   'type' => 'country-code',
 ],
  [
   'domain' => 'na',
-  'description' => 'Namibia [Republic of]',
+  'description' => 'Namibian Network Information Center',
   'type' => 'country-code',
 ],
  [
@@ -4379,7 +4400,7 @@ class TldInfo {
 ],
  [
   'domain' => 'name',
-  'description' => 'Individuals',
+  'description' => 'VeriSign Information Services, Inc.',
   'type' => 'generic-restricted',
 ],
  [
@@ -4404,12 +4425,12 @@ class TldInfo {
 ],
  [
   'domain' => 'nc',
-  'description' => 'New Caledonia',
+  'description' => 'Office des Postes et Telecommunications',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ne',
-  'description' => 'Niger [Republic of]',
+  'description' => 'SONITEL',
   'type' => 'country-code',
 ],
  [
@@ -4419,7 +4440,7 @@ class TldInfo {
 ],
  [
   'domain' => 'net',
-  'description' => 'Network',
+  'description' => 'VeriSign Global Registry Services',
   'type' => 'generic',
 ],
  [
@@ -4474,7 +4495,7 @@ class TldInfo {
 ],
  [
   'domain' => 'nf',
-  'description' => 'Norfolk Island [Territory of]',
+  'description' => 'Norfolk Island Data Services',
   'type' => 'country-code',
 ],
  [
@@ -4484,7 +4505,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ng',
-  'description' => 'Nigeria [Federal Republic of]',
+  'description' => 'Nigeria Internet Registration Association',
   'type' => 'country-code',
 ],
  [
@@ -4499,7 +4520,8 @@ class TldInfo {
 ],
  [
   'domain' => 'ni',
-  'description' => 'Nicaragua [Republic of]',
+  'description' => 'Universidad Nacional del Ingernieria
+Centro de Computo',
   'type' => 'country-code',
 ],
  [
@@ -4534,12 +4556,12 @@ class TldInfo {
 ],
  [
   'domain' => 'nl',
-  'description' => 'Netherlands',
+  'description' => 'SIDN [Stichting Internet  Domeinregistratie Nederland]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'no',
-  'description' => 'Norway [Kingdom of]',
+  'description' => 'UNINETT Norid A/S',
   'type' => 'country-code',
 ],
  [
@@ -4574,12 +4596,12 @@ class TldInfo {
 ],
  [
   'domain' => 'np',
-  'description' => 'Nepal [Federal Democratic Republic of]',
+  'description' => 'Mercantile Communications Pvt. Ltd.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'nr',
-  'description' => 'Nauru [Republic of]',
+  'description' => 'CENPAC NET',
   'type' => 'country-code',
 ],
  [
@@ -4599,7 +4621,7 @@ class TldInfo {
 ],
  [
   'domain' => 'nu',
-  'description' => 'Niue',
+  'description' => 'The IUSN Foundation',
   'type' => 'country-code',
 ],
  [
@@ -4609,7 +4631,7 @@ class TldInfo {
 ],
  [
   'domain' => 'nz',
-  'description' => 'New Zealand',
+  'description' => 'InternetNZ',
   'type' => 'country-code',
 ],
  [
@@ -4659,7 +4681,7 @@ class TldInfo {
 ],
  [
   'domain' => 'om',
-  'description' => 'Oman [Sultanate of]',
+  'description' => 'Telecommunications Regulatory Authority [TRA]',
   'type' => 'country-code',
 ],
  [
@@ -4714,7 +4736,7 @@ class TldInfo {
 ],
  [
   'domain' => 'org',
-  'description' => 'Non-profit organizations',
+  'description' => 'Public Interest Registry [PIR]',
   'type' => 'generic',
 ],
  [
@@ -4754,7 +4776,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pa',
-  'description' => 'Panama [Republic of]',
+  'description' => 'Universidad Tecnologica de Panama',
   'type' => 'country-code',
 ],
  [
@@ -4819,7 +4841,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pe',
-  'description' => 'Peru [Republic of]',
+  'description' => 'Red Cientifica Peruana',
   'type' => 'country-code',
 ],
  [
@@ -4829,7 +4851,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pf',
-  'description' => 'French Polynesia and Clipperton Island',
+  'description' => 'Gouvernement de la Polynésie française',
   'type' => 'country-code',
 ],
  [
@@ -4839,12 +4861,14 @@ class TldInfo {
 ],
  [
   'domain' => 'pg',
-  'description' => 'Papua New Guinea [Independent State of]',
+  'description' => 'PNG DNS Administration
+Vice Chancellors Office
+The Papua New Guinea University of Technology',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ph',
-  'description' => 'Philippines [Republic of the]',
+  'description' => 'PH Domain Foundation',
   'type' => 'country-code',
 ],
  [
@@ -4939,12 +4963,12 @@ class TldInfo {
 ],
  [
   'domain' => 'pk',
-  'description' => 'Pakistan [Islamic Republic of]',
+  'description' => 'PKNIC',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pl',
-  'description' => 'Poland [Republic of]',
+  'description' => 'Research and Academic Computer Network',
   'type' => 'country-code',
 ],
  [
@@ -4974,12 +4998,12 @@ class TldInfo {
 ],
  [
   'domain' => 'pm',
-  'description' => 'Saint Pierre and Miquelon',
+  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pn',
-  'description' => 'Pitcairn Islands [Pitcairn - Henderson - Ducie and Oeno Islands]',
+  'description' => 'Pitcairn Island Administration',
   'type' => 'country-code',
 ],
  [
@@ -5014,7 +5038,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pr',
-  'description' => 'Puerto Rico [Commonwealth of]',
+  'description' => 'Gauss Research Laboratory Inc.',
   'type' => 'country-code',
 ],
  [
@@ -5039,7 +5063,8 @@ class TldInfo {
 ],
  [
   'domain' => 'pro',
-  'description' => 'Profession',
+  'description' => 'Registry Services Corporation
+dba RegistryPro',
   'type' => 'generic-restricted',
 ],
  [
@@ -5094,12 +5119,14 @@ class TldInfo {
 ],
  [
   'domain' => 'ps',
-  'description' => 'Palestine [State of]',
+  'description' => 'Ministry Of Telecommunications &
+Information Technology,
+Government Computer Center.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pt',
-  'description' => 'Portugal [Portuguese Republic]',
+  'description' => 'Associação DNS.PT',
   'type' => 'country-code',
 ],
  [
@@ -5109,7 +5136,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pw',
-  'description' => 'Palau [Republic of]',
+  'description' => 'Micronesia Investment and Development Corporation',
   'type' => 'country-code',
 ],
  [
@@ -5119,12 +5146,12 @@ class TldInfo {
 ],
  [
   'domain' => 'py',
-  'description' => 'Paraguay [Republic of]',
+  'description' => 'NIC-PY',
   'type' => 'country-code',
 ],
  [
   'domain' => 'qa',
-  'description' => 'Qatar [State of]',
+  'description' => 'Communications Regulatory Authority',
   'type' => 'country-code',
 ],
  [
@@ -5164,7 +5191,7 @@ class TldInfo {
 ],
  [
   'domain' => 're',
-  'description' => 'Réunion',
+  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
   'type' => 'country-code',
 ],
  [
@@ -5329,7 +5356,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ro',
-  'description' => 'Romania',
+  'description' => 'National Institute for R&D in Informatics',
   'type' => 'country-code',
 ],
  [
@@ -5359,7 +5386,7 @@ class TldInfo {
 ],
  [
   'domain' => 'rs',
-  'description' => 'Serbia [Republic of]',
+  'description' => 'Serbian National Internet Domain Registry [RNIDS]',
   'type' => 'country-code',
 ],
  [
@@ -5369,7 +5396,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ru',
-  'description' => 'Russia [Russian Federation]',
+  'description' => 'Coordination Center for TLD RU',
   'type' => 'country-code',
 ],
  [
@@ -5389,7 +5416,7 @@ class TldInfo {
 ],
  [
   'domain' => 'rw',
-  'description' => 'Rwanda [Republic of]',
+  'description' => 'Rwanda Information Communication and Technology Association [RICTA]',
   'type' => 'country-code',
 ],
  [
@@ -5404,7 +5431,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sa',
-  'description' => 'Saudi Arabia [Kingdom of]',
+  'description' => 'Communications and Information Technology Commission',
   'type' => 'country-code',
 ],
  [
@@ -5494,7 +5521,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sb',
-  'description' => 'Solomon Islands',
+  'description' => 'Solomon Telekom Company Limited',
   'type' => 'country-code',
 ],
  [
@@ -5509,7 +5536,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sc',
-  'description' => 'Seychelles [Republic of]',
+  'description' => 'VCS Pty Ltd',
   'type' => 'country-code',
 ],
  [
@@ -5574,12 +5601,12 @@ class TldInfo {
 ],
  [
   'domain' => 'sd',
-  'description' => 'Sudan [Republic of]',
+  'description' => 'Sudan Internet Society',
   'type' => 'country-code',
 ],
  [
   'domain' => 'se',
-  'description' => 'Sweden [Kingdom of]',
+  'description' => 'The Internet Infrastructure Foundation',
   'type' => 'country-code',
 ],
  [
@@ -5654,12 +5681,12 @@ class TldInfo {
 ],
  [
   'domain' => 'sg',
-  'description' => 'Singapore [Republic of]',
+  'description' => 'Singapore Network Information Centre [SGNIC] Pte Ltd',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sh',
-  'description' => 'Saint Helena',
+  'description' => 'Government of St. Helena',
   'type' => 'country-code',
 ],
  [
@@ -5729,7 +5756,7 @@ class TldInfo {
 ],
  [
   'domain' => 'si',
-  'description' => 'Slovenia [Republic of]',
+  'description' => 'Academic and Research Network of Slovenia [ARNES]',
   'type' => 'country-code',
 ],
  [
@@ -5754,12 +5781,12 @@ class TldInfo {
 ],
  [
   'domain' => 'sj',
-  'description' => 'Svalbard and Jan Mayen {not in use - see also: .no}',
+  'description' => 'UNINETT Norid A/S',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sk',
-  'description' => 'Slovakia [Slovak Republic]',
+  'description' => 'SK-NIC, a.s.',
   'type' => 'country-code',
 ],
  [
@@ -5784,7 +5811,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sl',
-  'description' => 'Sierra Leone [Republic of]',
+  'description' => 'Sierratel',
   'type' => 'country-code',
 ],
  [
@@ -5794,7 +5821,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sm',
-  'description' => 'San Marino [Republic of]',
+  'description' => 'Telecom Italia San Marino S.p.A.',
   'type' => 'country-code',
 ],
  [
@@ -5809,7 +5836,8 @@ class TldInfo {
 ],
  [
   'domain' => 'sn',
-  'description' => 'Senegal [Republic of]',
+  'description' => 'Universite Cheikh Anta Diop
+NIC Senegal',
   'type' => 'country-code',
 ],
  [
@@ -5819,7 +5847,7 @@ class TldInfo {
 ],
  [
   'domain' => 'so',
-  'description' => 'Somalia [Federal Republic of]',
+  'description' => 'Ministry of Post and Telecommunications',
   'type' => 'country-code',
 ],
  [
@@ -5899,7 +5927,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sr',
-  'description' => 'Suriname [Republic of]',
+  'description' => 'Telesur',
   'type' => 'country-code',
 ],
  [
@@ -5914,12 +5942,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ss',
-  'description' => 'South Sudan [Republic of]',
+  'description' => 'Not assigned',
   'type' => 'country-code',
 ],
  [
   'domain' => 'st',
-  'description' => 'São Tomé and Príncipe [Democratic Republic of]',
+  'description' => 'Tecnisys',
   'type' => 'country-code',
 ],
  [
@@ -6004,7 +6032,8 @@ class TldInfo {
 ],
  [
   'domain' => 'su',
-  'description' => 'Soviet Union [Union of Soviet Socialist Republics]',
+  'description' => 'Russian Institute for Development of Public Networks
+[ROSNIIROS]',
   'type' => 'country-code',
 ],
  [
@@ -6044,7 +6073,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sv',
-  'description' => 'El Salvador [Republic of]',
+  'description' => 'SVNet',
   'type' => 'country-code',
 ],
  [
@@ -6064,12 +6093,12 @@ class TldInfo {
 ],
  [
   'domain' => 'sx',
-  'description' => 'Sint Maarten',
+  'description' => 'SX Registry SA B.V.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sy',
-  'description' => 'Syria [Syrian Arab Republic]',
+  'description' => 'National Agency for Network Services [NANS]',
   'type' => 'country-code',
 ],
  [
@@ -6089,7 +6118,8 @@ class TldInfo {
 ],
  [
   'domain' => 'sz',
-  'description' => 'Swaziland [Kingdom of]',
+  'description' => 'University of Swaziland
+Department of Computer Science',
   'type' => 'country-code',
 ],
  [
@@ -6144,7 +6174,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tc',
-  'description' => 'Turks and Caicos Islands',
+  'description' => 'Melrex TC',
   'type' => 'country-code',
 ],
  [
@@ -6154,7 +6184,7 @@ class TldInfo {
 ],
  [
   'domain' => 'td',
-  'description' => 'Chad [Republic of]',
+  'description' => 'l\'Agence de Développement des Technologies de l\'Information et de la Communication [ADETIC]',
   'type' => 'country-code',
 ],
  [
@@ -6179,7 +6209,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tel',
-  'description' => 'Telephone',
+  'description' => 'Telnames Ltd.',
   'type' => 'sponsored',
 ],
  [
@@ -6209,17 +6239,17 @@ class TldInfo {
 ],
  [
   'domain' => 'tf',
-  'description' => 'French Southern and Antarctic Lands [Territory of the]',
+  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tg',
-  'description' => 'Togo [Togolese Republic]',
+  'description' => 'Autorite de Reglementation des secteurs de Postes et de Telecommunications [ART&P]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'th',
-  'description' => 'Thailand [Kingdom of]',
+  'description' => 'Thai Network Information Center Foundation',
   'type' => 'country-code',
 ],
  [
@@ -6274,7 +6304,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tj',
-  'description' => 'Tajikistan [Republic of]',
+  'description' => 'Information Technology Center',
   'type' => 'country-code',
 ],
  [
@@ -6289,7 +6319,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tk',
-  'description' => 'Tokelau',
+  'description' => 'Telecommunication Tokelau Corporation [Teletok]',
   'type' => 'country-code',
 ],
  [
@@ -6299,12 +6329,12 @@ class TldInfo {
 ],
  [
   'domain' => 'tl',
-  'description' => 'Timor-Leste [Democratic Republic of] [East Timor]',
+  'description' => 'Autoridade Nacional de Comunicações',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tm',
-  'description' => 'Turkmenistan',
+  'description' => 'TM Domain Registry Ltd',
   'type' => 'country-code',
 ],
  [
@@ -6314,12 +6344,14 @@ class TldInfo {
 ],
  [
   'domain' => 'tn',
-  'description' => 'Tunisia [Republic of]',
+  'description' => 'Agence Tunisienne d\'Internet',
   'type' => 'country-code',
 ],
  [
   'domain' => 'to',
-  'description' => 'Tonga [Kingdom of]',
+  'description' => 'Government of the Kingdom of Tonga
+H.R.H. Crown Prince Tupouto\'a
+c/o Consulate of Tonga',
   'type' => 'country-code',
 ],
  [
@@ -6379,12 +6411,13 @@ class TldInfo {
 ],
  [
   'domain' => 'tp',
-  'description' => 'Timor-Leste [Democratic Republic of] [East Timor] {being phased out - also see: .tl}',
+  'description' => 'Retired',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tr',
-  'description' => 'Turkey [Republic of]',
+  'description' => 'Middle East Technical University
+Department of Computer Engineering',
   'type' => 'country-code',
 ],
  [
@@ -6404,7 +6437,7 @@ class TldInfo {
 ],
  [
   'domain' => 'travel',
-  'description' => 'Travel',
+  'description' => 'Dog	Beach, LLC',
   'type' => 'sponsored',
 ],
  [
@@ -6434,7 +6467,8 @@ class TldInfo {
 ],
  [
   'domain' => 'tt',
-  'description' => 'Trinidad and Tobago [Republic of]',
+  'description' => 'University of the West Indies
+Faculty of Engineering',
   'type' => 'country-code',
 ],
  [
@@ -6459,7 +6493,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tv',
-  'description' => 'Tuvalu',
+  'description' => 'Ministry of Finance and Tourism',
   'type' => 'country-code',
 ],
  [
@@ -6469,17 +6503,17 @@ class TldInfo {
 ],
  [
   'domain' => 'tw',
-  'description' => 'Taiwan [Republic of China]',
+  'description' => 'Taiwan Network Information Center [TWNIC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tz',
-  'description' => 'Tanzania [United Republic of]',
+  'description' => 'Tanzania Network Information Centre [tzNIC]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ua',
-  'description' => 'Ukraine',
+  'description' => 'Hostmaster Ltd.',
   'type' => 'country-code',
 ],
  [
@@ -6499,17 +6533,17 @@ class TldInfo {
 ],
  [
   'domain' => 'ug',
-  'description' => 'Uganda [Republic of]',
+  'description' => 'Uganda Online Ltd.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uk',
-  'description' => 'United Kingdom [United Kingdom of Great Britain and Northern Ireland]',
+  'description' => 'Nominet UK',
   'type' => 'country-code',
 ],
  [
   'domain' => 'um',
-  'description' => 'United States Minor Outlying Islands {formerly - retired 2010 - see also: .us}',
+  'description' => 'Not assigned',
   'type' => 'country-code',
 ],
  [
@@ -6539,22 +6573,23 @@ class TldInfo {
 ],
  [
   'domain' => 'us',
-  'description' => 'United States of America and United States Minor Outlying Islands',
+  'description' => 'NeuStar, Inc.',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uy',
-  'description' => 'Uruguay [Oriental Republic of]',
+  'description' => 'SeCIU - Universidad de la Republica',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uz',
-  'description' => 'Uzbekistan [Republic of]',
+  'description' => 'Computerization and Information Technologies Developing Center
+UZINFOCOM',
   'type' => 'country-code',
 ],
  [
   'domain' => 'va',
-  'description' => 'Vatican City [Vatican City State]',
+  'description' => 'Holy See - Vatican City State',
   'type' => 'country-code',
 ],
  [
@@ -6574,12 +6609,12 @@ class TldInfo {
 ],
  [
   'domain' => 'vc',
-  'description' => 'Saint Vincent and the Grenadines',
+  'description' => 'Ministry of Telecommunications, Science, Technology and Industry',
   'type' => 'country-code',
 ],
  [
   'domain' => 've',
-  'description' => 'Venezuela [Bolivarian Republic of]',
+  'description' => 'Comisión Nacional de Telecomunicaciones [CONATEL]',
   'type' => 'country-code',
 ],
  [
@@ -6609,12 +6644,12 @@ class TldInfo {
 ],
  [
   'domain' => 'vg',
-  'description' => 'British Virgin Islands [Virgin Islands]',
+  'description' => 'Telecommunications Regulatory Commission of the Virgin Islands',
   'type' => 'country-code',
 ],
  [
   'domain' => 'vi',
-  'description' => 'United States Virgin Islands [United States Virgin Islands]',
+  'description' => 'Virgin Islands Public Telecommunications System, Inc.',
   'type' => 'country-code',
 ],
  [
@@ -6694,7 +6729,7 @@ class TldInfo {
 ],
  [
   'domain' => 'vn',
-  'description' => 'Vietnam [Socialist Republic of]',
+  'description' => 'Ministry of Information and Communications of Socialist Republic of Viet Nam',
   'type' => 'country-code',
 ],
  [
@@ -6734,7 +6769,7 @@ class TldInfo {
 ],
  [
   'domain' => 'vu',
-  'description' => 'Vanuatu [Republic of]',
+  'description' => 'Telecom Vanuatu Limited',
   'type' => 'country-code',
 ],
  [
@@ -6829,7 +6864,7 @@ class TldInfo {
 ],
  [
   'domain' => 'wf',
-  'description' => 'Wallis and Futuna [Territory of the Wallis and Futuna Islands]',
+  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
   'type' => 'country-code',
 ],
  [
@@ -6909,7 +6944,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ws',
-  'description' => 'Samoa [Independent State of]',
+  'description' => 'Government of Samoa Ministry of Foreign Affairs & Trade',
   'type' => 'country-code',
 ],
  [
@@ -7769,7 +7804,7 @@ class TldInfo {
 ],
  [
   'domain' => 'xxx',
-  'description' => 'Adult entertainment',
+  'description' => 'ICM Registry LLC',
   'type' => 'sponsored',
 ],
  [
@@ -7799,7 +7834,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ye',
-  'description' => 'Yemen [Republic of]',
+  'description' => 'TeleYemen',
   'type' => 'country-code',
 ],
  [
@@ -7829,7 +7864,7 @@ class TldInfo {
 ],
  [
   'domain' => 'yt',
-  'description' => 'Mayotte [Department of]',
+  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
   'type' => 'country-code',
 ],
  [
@@ -7839,7 +7874,7 @@ class TldInfo {
 ],
  [
   'domain' => 'za',
-  'description' => 'South Africa [Republic of]',
+  'description' => 'ZA Domain Name Authority',
   'type' => 'country-code',
 ],
  [
@@ -7869,7 +7904,7 @@ class TldInfo {
 ],
  [
   'domain' => 'zm',
-  'description' => 'Zambia [Republic of]',
+  'description' => 'Zambia Information and Communications Technology Authority [ZICTA]',
   'type' => 'country-code',
 ],
  [
@@ -7884,7 +7919,7 @@ class TldInfo {
 ],
  [
   'domain' => 'zw',
-  'description' => 'Zimbabwe [Republic of]',
+  'description' => 'Postal and Telecommunications Regulatory Authority of Zimbabwe [POTRAZ]',
   'type' => 'country-code',
 ]];
     
