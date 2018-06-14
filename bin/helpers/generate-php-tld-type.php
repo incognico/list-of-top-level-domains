@@ -102,9 +102,9 @@ new class() {
         }
         
         $tldTypeExport = var_export($tldType, true);
-        $tldTypeExport = str_replace('array','',$tldTypeExport);
-        $tldTypeExport = str_replace('(','[',$tldTypeExport);
-        $tldTypeExport = str_replace(')',']',$tldTypeExport);
+        $tldTypeExport = substr($tldTypeExport,strlen("array ("));
+        $tldTypeExport = substr($tldTypeExport,0,-1);
+        $tldTypeExport = ' ['.$tldTypeExport.']';
         
         if (false === file_put_contents($newTldTypeFile, $tldTypeExport,\FILE_APPEND)) {
            static::_echo_error("(FATAL) failed to write to new 'TldType.php' file",1);

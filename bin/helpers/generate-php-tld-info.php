@@ -103,9 +103,9 @@ new class() {
               ];
               
               $tldInfoElem = var_export($tldInfoElem, true);
-              $tldInfoElem = str_replace('array','',$tldInfoElem);
-              $tldInfoElem = str_replace('(','[',$tldInfoElem);
-              $tldInfoElem = str_replace(')',']',$tldInfoElem);
+              $tldInfoElem = substr($tldInfoElem,strlen("array ("));
+              $tldInfoElem = substr($tldInfoElem,0,-1);
+              $tldInfoElem = ' ['.$tldInfoElem.']';
               
               if ($i!=0) {
                  $tldInfoElem = ",\n$tldInfoElem";

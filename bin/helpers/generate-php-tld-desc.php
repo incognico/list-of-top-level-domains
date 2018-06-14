@@ -88,8 +88,6 @@ new class() {
            fclose($handle);
            echo "done\n";
         }
-
-        //echo "new TldDesc.php: $newTldDescFile\n";
         
         echo "generating new 'TldDesc.php' file...";
 
@@ -102,9 +100,9 @@ new class() {
         }
         
         $tldDescExport = var_export($tldDesc, true);
-        $tldDescExport = str_replace('array','',$tldDescExport);
-        $tldDescExport = str_replace('(','[',$tldDescExport);
-        $tldDescExport = str_replace(')',']',$tldDescExport);
+        $tldDescExport = substr($tldDescExport,strlen("array ("));
+        $tldDescExport = substr($tldDescExport,0,-1);
+        $tldDescExport = ' ['.$tldDescExport.']';
         
         if (false === file_put_contents($newTldDescFile, $tldDescExport,\FILE_APPEND)) {
            static::_echo_error("(FATAL) failed to write to new 'TldDesc.php' file",1);

@@ -97,16 +97,19 @@ new class() {
            static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
-        $tldEnumExport = var_export($tldEnum, true);
-        $tldEnumExport = str_replace('array','',$tldEnumExport);
-        $tldEnumExport = str_replace('(','[',$tldEnumExport);
-        $tldEnumExport = str_replace(')',']',$tldEnumExport);
-        $tldEnumExport = str_replace('=>','',$tldEnumExport);
-        $tldEnumExport = preg_replace('/[0-9]+/', '', $tldEnumExport);
+        $tldEnumExport = var_export($tldEnum,true);
+        $tldEnumExport = substr($tldEnumExport,strlen("array ("));
+        $tldEnumExport = substr($tldEnumExport,0,-1);
+        $tldEnumLine = [];
+        $i=0;
+        foreach(explode("\n",$tldEnumExport) as $line) {
+           $filteredLine = preg_replace('/[0-9]+ => \'/', "'", $line);
+           $tldEnumLine []= $filteredLine;
+           $i++;
+        }
+        unset($line);
         
-        //$tldEnumExport = json_encode($tldEnum,\JSON_PRETTY_PRINT);
-        
-        if (false === file_put_contents($newTldEnumFile, $tldEnumExport,\FILE_APPEND)) {
+        if (false === file_put_contents($newTldEnumFile, " [".implode("\n",$tldEnumLine)."]",\FILE_APPEND)) {
            static::_echo_error("(FATAL) failed to write to new 'TldList.php' file",1);
         }
         
