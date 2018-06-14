@@ -54,8 +54,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ac',
-  'description' => 'Network Information Center [AC Domain Registry]
-c/o Cable and Wireless [Ascension Island]',
+  'description' => 'Ascension Island',
   'type' => 'country-code',
 ],
  [
@@ -95,7 +94,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ad',
-  'description' => 'Andorra Telecom',
+  'description' => 'Andorra [Principality of]',
   'type' => 'country-code',
 ],
  [
@@ -115,7 +114,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ae',
-  'description' => 'Telecommunication Regulatory Authority [TRA]',
+  'description' => 'United Arab Emirates',
   'type' => 'country-code',
 ],
  [
@@ -125,7 +124,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'aero',
-  'description' => 'Societe Internationale de Telecommunications Aeronautique [SITA INC USA]',
+  'description' => 'Air-transport industry',
   'type' => 'sponsored',
 ],
  [
@@ -135,7 +134,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'af',
-  'description' => 'Ministry of Communications and IT',
+  'description' => 'Afghanistan [Islamic Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -155,7 +154,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ag',
-  'description' => 'UHSA School of Medicine',
+  'description' => 'Antigua and Barbuda',
   'type' => 'country-code',
 ],
  [
@@ -170,7 +169,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ai',
-  'description' => 'Government of Anguilla',
+  'description' => 'Anguilla',
   'type' => 'country-code',
 ],
  [
@@ -205,7 +204,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'al',
-  'description' => 'Electronic and Postal Communications Authority - AKEP',
+  'description' => 'Albania [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -250,7 +249,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'am',
-  'description' => '"Internet Society" Non-governmental Organization',
+  'description' => 'Armenia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -285,7 +284,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'an',
-  'description' => 'Retired',
+  'description' => 'Netherlands Antilles',
   'type' => 'country-code',
 ],
  [
@@ -310,7 +309,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ao',
-  'description' => 'Faculdade de Engenharia da Universidade Agostinho Neto',
+  'description' => 'Angola [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -335,7 +334,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'aq',
-  'description' => 'Antarctica Network Information Centre Limited',
+  'description' => 'Antarctica',
   'type' => 'country-code',
 ],
  [
@@ -345,7 +344,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ar',
-  'description' => 'Presidencia de la Nación – Secretaría Legal y Técnica',
+  'description' => 'Argentina [Argentine Republic]',
   'type' => 'country-code',
 ],
  [
@@ -370,7 +369,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'arpa',
-  'description' => 'Internet Architecture Board [IAB]',
+  'description' => 'Address and Routing Parameter Area',
   'type' => 'infrastructure',
 ],
  [
@@ -385,7 +384,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'as',
-  'description' => 'AS Domain Registry',
+  'description' => 'American Samoa',
   'type' => 'country-code',
 ],
  [
@@ -395,7 +394,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'asia',
-  'description' => 'DotAsia Organisation Ltd.',
+  'description' => 'Organisations and individuals in the Asia-Pacific region',
   'type' => 'sponsored',
 ],
  [
@@ -405,7 +404,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'at',
-  'description' => 'nic.at GmbH',
+  'description' => 'Austria [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -420,7 +419,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'au',
-  'description' => '.au Domain Administration [auDA]',
+  'description' => 'Australia [Commonwealth of]',
   'type' => 'country-code',
 ],
  [
@@ -470,7 +469,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'aw',
-  'description' => 'SETAR',
+  'description' => 'Aruba',
   'type' => 'country-code',
 ],
  [
@@ -480,7 +479,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ax',
-  'description' => 'Ålands landskapsregering',
+  'description' => 'Åland Islands',
   'type' => 'country-code',
 ],
  [
@@ -490,7 +489,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'az',
-  'description' => 'IntraNS',
+  'description' => 'Azerbaijan [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -500,7 +499,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'ba',
-  'description' => 'Universtiy Telinformatic Centre [UTIC]',
+  'description' => 'Bosnia and Herzegovina',
   'type' => 'country-code',
 ],
  [
@@ -585,9 +584,7 @@ c/o Cable and Wireless [Ascension Island]',
 ],
  [
   'domain' => 'bb',
-  'description' => 'Government of Barbados
-Ministry of Economic Affairs and Development
-Telecommunications Unit',
+  'description' => 'Barbados',
   'type' => 'country-code',
 ],
  [
@@ -617,12 +614,12 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bd',
-  'description' => 'Posts and Telecommunications Division',
+  'description' => 'Bangladesh [People\'s Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'be',
-  'description' => 'DNS Belgium vzw/asbl',
+  'description' => 'Belgium [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -667,17 +664,17 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bf',
-  'description' => 'ARCE-AutoritÈ de RÈgulation des Communications Electroniques',
+  'description' => 'Burkina Faso',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bg',
-  'description' => 'Register.BG',
+  'description' => 'Bulgaria [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bh',
-  'description' => 'Telecommunications Regulatory Authority [TRA]',
+  'description' => 'Bahrain [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -687,7 +684,7 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bi',
-  'description' => 'Centre National de l\'Informatique',
+  'description' => 'Burundi [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -722,17 +719,17 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'biz',
-  'description' => 'Neustar, Inc.',
+  'description' => 'Business',
   'type' => 'generic-restricted',
 ],
  [
   'domain' => 'bj',
-  'description' => 'Benin Telecoms S.A.',
+  'description' => 'Benin [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bl',
-  'description' => 'Not assigned',
+  'description' => 'Saint Barthélemy [Collectivity of] {unassigned - see also: .gp and .fr}',
   'type' => 'country-code',
 ],
  [
@@ -772,7 +769,7 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bm',
-  'description' => 'Registry General Department, Ministry of Home Affairs',
+  'description' => 'Bermuda',
   'type' => 'country-code',
 ],
  [
@@ -787,7 +784,7 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bn',
-  'description' => 'Authority for Info-communications Technology Industry of Brunei Darussalam [AITI]',
+  'description' => 'Brunei [Nation of Brunei - the Abode of Peace] [Negara Brunei Darussalam]',
   'type' => 'country-code',
 ],
  [
@@ -802,7 +799,7 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bo',
-  'description' => 'Agencia para el Desarrollo de la Información de la Sociedad en Bolivia',
+  'description' => 'Bolivia [Plurinational State of]',
   'type' => 'country-code',
 ],
  [
@@ -882,12 +879,12 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bq',
-  'description' => 'Not assigned',
+  'description' => 'Caribbean Netherlands [Bonaire - Sint Eustatius and Saba] {unassigned - see also: .an and .nl}',
   'type' => 'country-code',
 ],
  [
   'domain' => 'br',
-  'description' => 'Comite Gestor da Internet no Brasil',
+  'description' => 'Brazil [Federative Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -922,12 +919,12 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bs',
-  'description' => 'The College of the Bahamas',
+  'description' => 'Bahamas [Commonwealth of the]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bt',
-  'description' => 'Ministry of Information and Communications',
+  'description' => 'Bhutan [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -967,22 +964,22 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'bv',
-  'description' => 'UNINETT Norid A/S',
+  'description' => 'Bouvet Island',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bw',
-  'description' => 'Botswana Communications Regulatory Authority [BOCRA]',
+  'description' => 'Botswana [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'by',
-  'description' => 'Reliable Software, Ltd.',
+  'description' => 'Belarus [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bz',
-  'description' => 'University of Belize',
+  'description' => 'Belize',
   'type' => 'country-code',
 ],
  [
@@ -992,7 +989,7 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'ca',
-  'description' => 'Canadian Internet Registration Authority [CIRA] Autorité Canadienne pour les enregistrements Internet [ACEI]',
+  'description' => 'Canada',
   'type' => 'country-code',
 ],
  [
@@ -1127,7 +1124,7 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'cat',
-  'description' => 'Fundacio puntCAT',
+  'description' => 'Catalan',
   'type' => 'sponsored',
 ],
  [
@@ -1162,13 +1159,12 @@ Telecommunications Unit',
 ],
  [
   'domain' => 'cc',
-  'description' => 'eNIC Cocos [Keeling] Islands Pty.
-Ltd. d/b/a Island Internet Services',
+  'description' => 'Cocos [Keeling] Islands [Territory of the]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cd',
-  'description' => 'Office Congolais des Postes et Télécommunications - OCPT',
+  'description' => 'Congo [Democratic Republic of the] [Congo-Kinshasa]',
   'type' => 'country-code',
 ],
  [
@@ -1193,7 +1189,7 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'cf',
-  'description' => 'Societe Centrafricaine de Telecommunications [SOCATEL]',
+  'description' => 'Central African Republic',
   'type' => 'country-code',
 ],
  [
@@ -1208,12 +1204,12 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'cg',
-  'description' => 'ONPT Congo and Interpoint Switzerland',
+  'description' => 'Congo [Republic of] [Congo-Brazzaville]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ch',
-  'description' => 'SWITCH The Swiss Education & Research Network',
+  'description' => 'Switzerland [Swiss Confederation]',
   'type' => 'country-code',
 ],
  [
@@ -1278,7 +1274,7 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'ci',
-  'description' => 'Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire [ARTCI]',
+  'description' => 'Ivory Coast [Republic of Côte d\'Ivoire]',
   'type' => 'country-code',
 ],
  [
@@ -1323,12 +1319,12 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'ck',
-  'description' => 'Telecom Cook Islands Ltd.',
+  'description' => 'Cook Islands',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cl',
-  'description' => 'NIC Chile [University of Chile]',
+  'description' => 'Chile [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1378,17 +1374,17 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'cm',
-  'description' => 'Cameroon Telecommunications [CAMTEL]',
+  'description' => 'Cameroon [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cn',
-  'description' => 'China Internet Network Information Center [CNNIC]',
+  'description' => 'China [People\'s Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'co',
-  'description' => '.CO Internet S.A.S.',
+  'description' => 'Colombia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1418,7 +1414,7 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'com',
-  'description' => 'VeriSign Global Registry Services',
+  'description' => 'Commercial organizations',
   'type' => 'generic',
 ],
  [
@@ -1498,7 +1494,7 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'coop',
-  'description' => 'DotCooperation LLC',
+  'description' => 'Cooperatives',
   'type' => 'sponsored',
 ],
  [
@@ -1528,8 +1524,7 @@ Ltd. d/b/a Island Internet Services',
 ],
  [
   'domain' => 'cr',
-  'description' => 'National Academy of Sciences
-Academia Nacional de Ciencias',
+  'description' => 'Costa Rica [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1579,9 +1574,7 @@ Academia Nacional de Ciencias',
 ],
  [
   'domain' => 'cu',
-  'description' => 'CENIAInternet
-Industria y San Jose
-Capitolio Nacional',
+  'description' => 'Cuba [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1591,22 +1584,22 @@ Capitolio Nacional',
 ],
  [
   'domain' => 'cv',
-  'description' => 'Agência Nacional das Comunicações [ANAC]',
+  'description' => 'Cape Verde [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cw',
-  'description' => 'University of Curacao',
+  'description' => 'Curaçao [Country of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cx',
-  'description' => 'Christmas Island Domain Administration Limited',
+  'description' => 'Christmas Island [Territory of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cy',
-  'description' => 'University of Cyprus',
+  'description' => 'Cyprus [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1621,7 +1614,7 @@ Capitolio Nacional',
 ],
  [
   'domain' => 'cz',
-  'description' => 'CZ.NIC, z.s.p.o',
+  'description' => 'Czech Republic',
   'type' => 'country-code',
 ],
  [
@@ -1676,7 +1669,7 @@ Capitolio Nacional',
 ],
  [
   'domain' => 'de',
-  'description' => 'DENIC eG',
+  'description' => 'Germany [Federal Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1801,17 +1794,17 @@ Capitolio Nacional',
 ],
  [
   'domain' => 'dj',
-  'description' => 'Djibouti Telecom S.A',
+  'description' => 'Djibouti [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'dk',
-  'description' => 'Dansk Internet Forum',
+  'description' => 'Denmark [Kingdom of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'dm',
-  'description' => 'DotDM Corporation',
+  'description' => 'Dominica [Commonwealth of]',
   'type' => 'country-code',
 ],
  [
@@ -1821,8 +1814,7 @@ Capitolio Nacional',
 ],
  [
   'domain' => 'do',
-  'description' => 'Pontificia Universidad Catolica Madre y Maestra
-Recinto Santo Tomas de Aquino',
+  'description' => 'Dominican Republic',
   'type' => 'country-code',
 ],
  [
@@ -1922,7 +1914,7 @@ Recinto Santo Tomas de Aquino',
 ],
  [
   'domain' => 'dz',
-  'description' => 'CERIST',
+  'description' => 'Algeria [People\'s Democratic Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1937,7 +1929,7 @@ Recinto Santo Tomas de Aquino',
 ],
  [
   'domain' => 'ec',
-  'description' => 'ECUADORDOMAIN S.A.',
+  'description' => 'Ecuador [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -1952,7 +1944,7 @@ Recinto Santo Tomas de Aquino',
 ],
  [
   'domain' => 'edu',
-  'description' => 'EDUCAUSE',
+  'description' => 'Educational establishments',
   'type' => 'sponsored',
 ],
  [
@@ -1962,18 +1954,17 @@ Recinto Santo Tomas de Aquino',
 ],
  [
   'domain' => 'ee',
-  'description' => 'Eesti Interneti Sihtasutus [EIS]',
+  'description' => 'Estonia [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'eg',
-  'description' => 'Egyptian Universities Network [EUN]
-Supreme Council of Universities',
+  'description' => 'Egypt [Arab Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'eh',
-  'description' => 'Not assigned',
+  'description' => 'Western Sahara {reserved}',
   'type' => 'country-code',
 ],
  [
@@ -2023,7 +2014,7 @@ Supreme Council of Universities',
 ],
  [
   'domain' => 'er',
-  'description' => 'Eritrea Telecommunication Services Corporation [EriTel]',
+  'description' => 'Eritrea [State of]',
   'type' => 'country-code',
 ],
  [
@@ -2038,7 +2029,7 @@ Supreme Council of Universities',
 ],
  [
   'domain' => 'es',
-  'description' => 'Red.es',
+  'description' => 'Spain [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -2058,7 +2049,7 @@ Supreme Council of Universities',
 ],
  [
   'domain' => 'et',
-  'description' => 'Ethio telecom',
+  'description' => 'Ethiopia [Federal Democratic Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -2068,7 +2059,7 @@ Supreme Council of Universities',
 ],
  [
   'domain' => 'eu',
-  'description' => 'EURid vzw/asbl',
+  'description' => 'European Union',
   'type' => 'country-code',
 ],
  [
@@ -2193,7 +2184,7 @@ Supreme Council of Universities',
 ],
  [
   'domain' => 'fi',
-  'description' => 'Finnish Communications Regulatory Authority',
+  'description' => 'Finland [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -2268,13 +2259,12 @@ Supreme Council of Universities',
 ],
  [
   'domain' => 'fj',
-  'description' => 'The University of the South Pacific
-IT Services',
+  'description' => 'Fiji [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'fk',
-  'description' => 'Falkland Islands Government',
+  'description' => 'Falkland Islands [Malvinas]',
   'type' => 'country-code',
 ],
  [
@@ -2314,12 +2304,12 @@ IT Services',
 ],
  [
   'domain' => 'fm',
-  'description' => 'FSM Telecommunications Corporation',
+  'description' => 'Micronesia [Federated States of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'fo',
-  'description' => 'FO Council',
+  'description' => 'Faroe Islands',
   'type' => 'country-code',
 ],
  [
@@ -2374,7 +2364,7 @@ IT Services',
 ],
  [
   'domain' => 'fr',
-  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
+  'description' => 'France [French Republic]',
   'type' => 'country-code',
 ],
  [
@@ -2449,7 +2439,7 @@ IT Services',
 ],
  [
   'domain' => 'ga',
-  'description' => 'Agence Nationale des Infrastructures Numériques et des Fréquences [ANINF]',
+  'description' => 'Gabon [Gabonese Republic]',
   'type' => 'country-code',
 ],
  [
@@ -2494,7 +2484,7 @@ IT Services',
 ],
  [
   'domain' => 'gb',
-  'description' => 'Reserved Domain - IANA',
+  'description' => 'United Kingdom [United Kingdom of Great Britain and Northern Ireland]',
   'type' => 'country-code',
 ],
  [
@@ -2504,7 +2494,7 @@ IT Services',
 ],
  [
   'domain' => 'gd',
-  'description' => 'The National Telecommunications Regulatory Commission [NTRC]',
+  'description' => 'Grenada',
   'type' => 'country-code',
 ],
  [
@@ -2514,7 +2504,7 @@ IT Services',
 ],
  [
   'domain' => 'ge',
-  'description' => 'Caucasus Online LLC',
+  'description' => 'Georgia',
   'type' => 'country-code',
 ],
  [
@@ -2539,12 +2529,12 @@ IT Services',
 ],
  [
   'domain' => 'gf',
-  'description' => 'Net Plus',
+  'description' => 'French Guiana',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gg',
-  'description' => 'Island Networks Ltd.',
+  'description' => 'Guernsey [Bailiwick of]',
   'type' => 'country-code',
 ],
  [
@@ -2554,12 +2544,12 @@ IT Services',
 ],
  [
   'domain' => 'gh',
-  'description' => 'Network Computer Systems Limited',
+  'description' => 'Ghana [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gi',
-  'description' => 'Sapphire Networks',
+  'description' => 'Gibraltar',
   'type' => 'country-code',
 ],
  [
@@ -2584,7 +2574,7 @@ IT Services',
 ],
  [
   'domain' => 'gl',
-  'description' => 'TELE Greenland A/S',
+  'description' => 'Greenland',
   'type' => 'country-code',
 ],
  [
@@ -2614,7 +2604,7 @@ IT Services',
 ],
  [
   'domain' => 'gm',
-  'description' => 'GM-NIC',
+  'description' => 'Gambia [Republic of The]',
   'type' => 'country-code',
 ],
  [
@@ -2639,7 +2629,7 @@ IT Services',
 ],
  [
   'domain' => 'gn',
-  'description' => 'Centre National des Sciences Halieutiques de Boussoura',
+  'description' => 'Guinea [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -2699,23 +2689,22 @@ IT Services',
 ],
  [
   'domain' => 'gov',
-  'description' => 'General Services Administration
-Attn: QTDC, 2E08 [.gov Domain Registration]',
+  'description' => 'US government',
   'type' => 'sponsored',
 ],
  [
   'domain' => 'gp',
-  'description' => 'Networking Technologies Group',
+  'description' => 'Guadeloupe',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gq',
-  'description' => 'GETESA',
+  'description' => 'Equatorial Guinea [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gr',
-  'description' => 'ICS-FORTH GR',
+  'description' => 'Greece [Hellenic Republic]',
   'type' => 'country-code',
 ],
  [
@@ -2755,17 +2744,17 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'gs',
-  'description' => 'Government of South Georgia and South Sandwich Islands [GSGSSI]',
+  'description' => 'South Georgia and the South Sandwich Islands',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gt',
-  'description' => 'Universidad del Valle de Guatemala',
+  'description' => 'Guatemala [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gu',
-  'description' => 'University of Guam',
+  'description' => 'Guam',
   'type' => 'country-code',
 ],
  [
@@ -2800,12 +2789,12 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'gw',
-  'description' => 'Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau',
+  'description' => 'Guinea-Bissau [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gy',
-  'description' => 'University of Guyana',
+  'description' => 'Guyana [Co-operative Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -2900,7 +2889,7 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'hk',
-  'description' => 'Hong Kong Internet Registration Corporation Ltd.',
+  'description' => 'Hong Kong [Hong Kong Special Administrative Region of the People\'s Republic of China]',
   'type' => 'country-code',
 ],
  [
@@ -2910,12 +2899,12 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'hm',
-  'description' => 'HM Domain Registry',
+  'description' => 'Heard Island and McDonald Islands',
   'type' => 'country-code',
 ],
  [
   'domain' => 'hn',
-  'description' => 'Red de Desarrollo Sostenible Honduras',
+  'description' => 'Honduras [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3015,7 +3004,7 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'hr',
-  'description' => 'CARNet - Croatian Academic and Research Network',
+  'description' => 'Croatia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3025,7 +3014,7 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'ht',
-  'description' => 'Consortium FDS/RDDH',
+  'description' => 'Haiti [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3035,7 +3024,7 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'hu',
-  'description' => 'Council of Hungarian Internet Providers [CHIP]',
+  'description' => 'Hungary',
   'type' => 'country-code',
 ],
  [
@@ -3075,14 +3064,12 @@ Attn: QTDC, 2E08 [.gov Domain Registration]',
 ],
  [
   'domain' => 'id',
-  'description' => 'Perkumpulan Pengelola Nama Domain Internet Indonesia [PANDI]',
+  'description' => 'Indonesia [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ie',
-  'description' => 'University College Dublin
-Computing Services
-Computer Centre',
+  'description' => 'Ireland [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3107,12 +3094,12 @@ Computer Centre',
 ],
  [
   'domain' => 'il',
-  'description' => 'Internet Society of Israel',
+  'description' => 'Israel [State of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'im',
-  'description' => 'Isle of Man Government',
+  'description' => 'Isle of Man',
   'type' => 'country-code',
 ],
  [
@@ -3137,7 +3124,7 @@ Computer Centre',
 ],
  [
   'domain' => 'in',
-  'description' => 'National Internet Exchange of India',
+  'description' => 'India [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3152,7 +3139,7 @@ Computer Centre',
 ],
  [
   'domain' => 'info',
-  'description' => 'Afilias Limited',
+  'description' => 'Informational sites',
   'type' => 'generic',
 ],
  [
@@ -3182,7 +3169,7 @@ Computer Centre',
 ],
  [
   'domain' => 'int',
-  'description' => 'Internet Assigned Numbers Authority',
+  'description' => 'International treaty-based organizations',
   'type' => 'sponsored',
 ],
  [
@@ -3207,8 +3194,7 @@ Computer Centre',
 ],
  [
   'domain' => 'io',
-  'description' => 'IO Top Level Domain Registry
-Cable and Wireless',
+  'description' => 'British Indian Ocean Territory',
   'type' => 'country-code',
 ],
  [
@@ -3218,12 +3204,12 @@ Cable and Wireless',
 ],
  [
   'domain' => 'iq',
-  'description' => 'Communications and Media Commission [CMC]',
+  'description' => 'Iraq [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ir',
-  'description' => 'Institute for Research in Fundamental Sciences',
+  'description' => 'Iran [Islamic Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3233,7 +3219,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'is',
-  'description' => 'ISNIC - Internet Iceland ltd.',
+  'description' => 'Iceland',
   'type' => 'country-code',
 ],
  [
@@ -3258,7 +3244,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'it',
-  'description' => 'IIT - CNR',
+  'description' => 'Italy [Italian Republic]',
   'type' => 'country-code',
 ],
  [
@@ -3303,7 +3289,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'je',
-  'description' => 'Island Networks [Jersey] Ltd.',
+  'description' => 'Jersey [Bailiwick of]',
   'type' => 'country-code',
 ],
  [
@@ -3338,7 +3324,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'jm',
-  'description' => 'University of West Indies',
+  'description' => 'Jamaica [Commonwealth of]',
   'type' => 'country-code',
 ],
  [
@@ -3353,12 +3339,12 @@ Cable and Wireless',
 ],
  [
   'domain' => 'jo',
-  'description' => 'National Information Technology Center [NITC]',
+  'description' => 'Jordan [Hashemite Kingdom of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'jobs',
-  'description' => 'Employ Media LLC',
+  'description' => 'Employment-related sites',
   'type' => 'sponsored',
 ],
  [
@@ -3378,7 +3364,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'jp',
-  'description' => 'Japan Registry Services Co., Ltd.',
+  'description' => 'Japan',
   'type' => 'country-code',
 ],
  [
@@ -3413,7 +3399,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'ke',
-  'description' => 'Kenya Network Information Center [KeNIC]',
+  'description' => 'Kenya [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3438,17 +3424,17 @@ Cable and Wireless',
 ],
  [
   'domain' => 'kg',
-  'description' => 'AsiaInfo Telecommunication Enterprise',
+  'description' => 'Kyrgyzstan [Kyrgyz Republic]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kh',
-  'description' => 'Telecommunication Regulator of Cambodia [TRC]',
+  'description' => 'Cambodia [Kingdom of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ki',
-  'description' => 'Ministry of Communications, Transport, and Tourism Development',
+  'description' => 'Kiribati [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3483,12 +3469,12 @@ Cable and Wireless',
 ],
  [
   'domain' => 'km',
-  'description' => 'Comores Telecom',
+  'description' => 'Comoros [Union of the]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kn',
-  'description' => 'Ministry of Finance, Sustainable Development Information & Technology',
+  'description' => 'Saint Kitts and Nevis [Federation of]',
   'type' => 'country-code',
 ],
  [
@@ -3508,7 +3494,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'kp',
-  'description' => 'Star Joint Venture Company',
+  'description' => 'Korea [Democratic People\'s Republic of] [North Korea]',
   'type' => 'country-code',
 ],
  [
@@ -3523,7 +3509,7 @@ Cable and Wireless',
 ],
  [
   'domain' => 'kr',
-  'description' => 'Korea Internet & Security Agency [KISA]',
+  'description' => 'Korea [Republic of] [South Korea]',
   'type' => 'country-code',
 ],
  [
@@ -3543,12 +3529,12 @@ Cable and Wireless',
 ],
  [
   'domain' => 'kw',
-  'description' => 'Communications and Information Technology Regulatory Authority',
+  'description' => 'Kuwait [State of Kuwait]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ky',
-  'description' => 'Utility Regulation and Competition Office [OfReg]',
+  'description' => 'Cayman Islands',
   'type' => 'country-code',
 ],
  [
@@ -3558,12 +3544,12 @@ Cable and Wireless',
 ],
  [
   'domain' => 'kz',
-  'description' => 'Association of IT Companies of Kazakhstan',
+  'description' => 'Kazakhstan [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'la',
-  'description' => 'Lao National Internet Committee [LANIC], Ministry of Posts and Telecommunications',
+  'description' => 'Laos [Lao People\'s Democratic Republic]',
   'type' => 'country-code',
 ],
  [
@@ -3648,13 +3634,12 @@ Cable and Wireless',
 ],
  [
   'domain' => 'lb',
-  'description' => 'American University of Beirut
-Computing and Networking Services',
+  'description' => 'Lebanon [Lebanese Republic]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'lc',
-  'description' => 'University of Puerto Rico',
+  'description' => 'Saint Lucia',
   'type' => 'country-code',
 ],
  [
@@ -3699,7 +3684,7 @@ Computing and Networking Services',
 ],
  [
   'domain' => 'li',
-  'description' => 'SWITCH The Swiss Education & Research Network',
+  'description' => 'Liechtenstein [Principality of]',
   'type' => 'country-code',
 ],
  [
@@ -3789,8 +3774,7 @@ Computing and Networking Services',
 ],
  [
   'domain' => 'lk',
-  'description' => 'Council for Information Technology
-LK Domain Registrar',
+  'description' => 'Sri Lanka [Democratic Socialist Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3860,17 +3844,17 @@ LK Domain Registrar',
 ],
  [
   'domain' => 'lr',
-  'description' => 'Data Technology Solutions, Inc.',
+  'description' => 'Liberia [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ls',
-  'description' => 'National University of Lesotho',
+  'description' => 'Lesotho [Kingdom of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'lt',
-  'description' => 'Kaunas University of Technology',
+  'description' => 'Lithuania [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -3885,7 +3869,7 @@ LK Domain Registrar',
 ],
  [
   'domain' => 'lu',
-  'description' => 'RESTENA',
+  'description' => 'Luxembourg [Grand Duchy of]',
   'type' => 'country-code',
 ],
  [
@@ -3910,19 +3894,17 @@ LK Domain Registrar',
 ],
  [
   'domain' => 'lv',
-  'description' => 'University of Latvia
-Institute of Mathematics and Computer Science
-Department of Network Solutions [DNS]',
+  'description' => 'Latvia [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ly',
-  'description' => 'General Post and Telecommunication Company',
+  'description' => 'Libya',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ma',
-  'description' => 'Agence Nationale de Réglementation des Télécommunications [ANRT]',
+  'description' => 'Morocco',
   'type' => 'country-code',
 ],
  [
@@ -4012,8 +3994,7 @@ Department of Network Solutions [DNS]',
 ],
  [
   'domain' => 'mc',
-  'description' => 'Gouvernement de Monaco
-Direction des Communications Electroniques',
+  'description' => 'Monaco [Principality of]',
   'type' => 'country-code',
 ],
  [
@@ -4033,12 +4014,12 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'md',
-  'description' => 'MoldData S.E.',
+  'description' => 'Moldova [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'me',
-  'description' => 'Government of Montenegro',
+  'description' => 'Montenegro',
   'type' => 'country-code',
 ],
  [
@@ -4098,17 +4079,17 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mf',
-  'description' => 'Not assigned',
+  'description' => 'Saint Martin [Collectivity of] {unassigned - see also: .gp and .fr}',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mg',
-  'description' => 'NIC-MG [Network Information Center Madagascar]',
+  'description' => 'Madagascar [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mh',
-  'description' => 'Office of the Cabinet',
+  'description' => 'Marshall Islands [Republic of the]',
   'type' => 'country-code',
 ],
  [
@@ -4123,7 +4104,7 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mil',
-  'description' => 'DoD Network Information Center',
+  'description' => 'US military',
   'type' => 'sponsored',
 ],
  [
@@ -4148,12 +4129,12 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mk',
-  'description' => 'Macedonian Academic Research Network Skopje',
+  'description' => 'Macedonia [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ml',
-  'description' => 'Agence des Technologies de l’Information et de la Communication',
+  'description' => 'Mali [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4168,7 +4149,7 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mm',
-  'description' => 'Ministry of Communications, Posts & Telegraphs',
+  'description' => 'Myanmar [Republic of the Union of] [Burma]',
   'type' => 'country-code',
 ],
  [
@@ -4178,17 +4159,17 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mn',
-  'description' => 'Datacom Co., Ltd.',
+  'description' => 'Mongolia',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mo',
-  'description' => 'Macao Post and Telecommunications Bureau [CTT]',
+  'description' => 'Macau [Macau Special Administrative Region of the People\'s Republic of China] [Macao]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mobi',
-  'description' => 'Afilias Technologies Limited dba dotMobi',
+  'description' => 'Mobile',
   'type' => 'generic',
 ],
  [
@@ -4288,22 +4269,22 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mp',
-  'description' => 'Saipan Datacom, Inc.',
+  'description' => 'Northern Mariana Islands [Commonwealth of the]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mq',
-  'description' => 'MEDIASERV',
+  'description' => 'Martinique',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mr',
-  'description' => 'Université de Nouakchott Al Aasriya',
+  'description' => 'Mauritania [Islamic Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ms',
-  'description' => 'MNI Networks Ltd.',
+  'description' => 'Montserrat',
   'type' => 'country-code',
 ],
  [
@@ -4313,7 +4294,7 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mt',
-  'description' => 'NIC [Malta]',
+  'description' => 'Malta [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4333,12 +4314,12 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mu',
-  'description' => 'Internet Direct Ltd',
+  'description' => 'Mauritius [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'museum',
-  'description' => 'Museum Domain Management Association',
+  'description' => 'Museums',
   'type' => 'sponsored',
 ],
  [
@@ -4353,34 +4334,32 @@ Direction des Communications Electroniques',
 ],
  [
   'domain' => 'mv',
-  'description' => 'Dhiraagu Pvt. Ltd. [DHIVEHINET]',
+  'description' => 'Maldives [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mw',
-  'description' => 'Malawi Sustainable Development Network Programme
-[Malawi SDNP]',
+  'description' => 'Malawi [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mx',
-  'description' => 'NIC-Mexico
-ITESM - Campus Monterrey',
+  'description' => 'Mexico [United Mexican States]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'my',
-  'description' => 'MYNIC Berhad',
+  'description' => 'Malaysia',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mz',
-  'description' => 'Centro de Informatica de Universidade Eduardo Mondlane',
+  'description' => 'Mozambique [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'na',
-  'description' => 'Namibian Network Information Center',
+  'description' => 'Namibia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4400,7 +4379,7 @@ ITESM - Campus Monterrey',
 ],
  [
   'domain' => 'name',
-  'description' => 'VeriSign Information Services, Inc.',
+  'description' => 'Individuals',
   'type' => 'generic-restricted',
 ],
  [
@@ -4425,12 +4404,12 @@ ITESM - Campus Monterrey',
 ],
  [
   'domain' => 'nc',
-  'description' => 'Office des Postes et Telecommunications',
+  'description' => 'New Caledonia',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ne',
-  'description' => 'SONITEL',
+  'description' => 'Niger [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4440,7 +4419,7 @@ ITESM - Campus Monterrey',
 ],
  [
   'domain' => 'net',
-  'description' => 'VeriSign Global Registry Services',
+  'description' => 'Network',
   'type' => 'generic',
 ],
  [
@@ -4495,7 +4474,7 @@ ITESM - Campus Monterrey',
 ],
  [
   'domain' => 'nf',
-  'description' => 'Norfolk Island Data Services',
+  'description' => 'Norfolk Island [Territory of]',
   'type' => 'country-code',
 ],
  [
@@ -4505,7 +4484,7 @@ ITESM - Campus Monterrey',
 ],
  [
   'domain' => 'ng',
-  'description' => 'Nigeria Internet Registration Association',
+  'description' => 'Nigeria [Federal Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4520,8 +4499,7 @@ ITESM - Campus Monterrey',
 ],
  [
   'domain' => 'ni',
-  'description' => 'Universidad Nacional del Ingernieria
-Centro de Computo',
+  'description' => 'Nicaragua [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4556,12 +4534,12 @@ Centro de Computo',
 ],
  [
   'domain' => 'nl',
-  'description' => 'SIDN [Stichting Internet  Domeinregistratie Nederland]',
+  'description' => 'Netherlands',
   'type' => 'country-code',
 ],
  [
   'domain' => 'no',
-  'description' => 'UNINETT Norid A/S',
+  'description' => 'Norway [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -4596,12 +4574,12 @@ Centro de Computo',
 ],
  [
   'domain' => 'np',
-  'description' => 'Mercantile Communications Pvt. Ltd.',
+  'description' => 'Nepal [Federal Democratic Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'nr',
-  'description' => 'CENPAC NET',
+  'description' => 'Nauru [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4621,7 +4599,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'nu',
-  'description' => 'The IUSN Foundation',
+  'description' => 'Niue',
   'type' => 'country-code',
 ],
  [
@@ -4631,7 +4609,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'nz',
-  'description' => 'InternetNZ',
+  'description' => 'New Zealand',
   'type' => 'country-code',
 ],
  [
@@ -4681,7 +4659,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'om',
-  'description' => 'Telecommunications Regulatory Authority [TRA]',
+  'description' => 'Oman [Sultanate of]',
   'type' => 'country-code',
 ],
  [
@@ -4736,7 +4714,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'org',
-  'description' => 'Public Interest Registry [PIR]',
+  'description' => 'Non-profit organizations',
   'type' => 'generic',
 ],
  [
@@ -4776,7 +4754,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'pa',
-  'description' => 'Universidad Tecnologica de Panama',
+  'description' => 'Panama [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4841,7 +4819,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'pe',
-  'description' => 'Red Cientifica Peruana',
+  'description' => 'Peru [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4851,7 +4829,7 @@ Centro de Computo',
 ],
  [
   'domain' => 'pf',
-  'description' => 'Gouvernement de la Polynésie française',
+  'description' => 'French Polynesia and Clipperton Island',
   'type' => 'country-code',
 ],
  [
@@ -4861,14 +4839,12 @@ Centro de Computo',
 ],
  [
   'domain' => 'pg',
-  'description' => 'PNG DNS Administration
-Vice Chancellors Office
-The Papua New Guinea University of Technology',
+  'description' => 'Papua New Guinea [Independent State of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ph',
-  'description' => 'PH Domain Foundation',
+  'description' => 'Philippines [Republic of the]',
   'type' => 'country-code',
 ],
  [
@@ -4963,12 +4939,12 @@ The Papua New Guinea University of Technology',
 ],
  [
   'domain' => 'pk',
-  'description' => 'PKNIC',
+  'description' => 'Pakistan [Islamic Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pl',
-  'description' => 'Research and Academic Computer Network',
+  'description' => 'Poland [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -4998,12 +4974,12 @@ The Papua New Guinea University of Technology',
 ],
  [
   'domain' => 'pm',
-  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
+  'description' => 'Saint Pierre and Miquelon',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pn',
-  'description' => 'Pitcairn Island Administration',
+  'description' => 'Pitcairn Islands [Pitcairn - Henderson - Ducie and Oeno Islands]',
   'type' => 'country-code',
 ],
  [
@@ -5038,7 +5014,7 @@ The Papua New Guinea University of Technology',
 ],
  [
   'domain' => 'pr',
-  'description' => 'Gauss Research Laboratory Inc.',
+  'description' => 'Puerto Rico [Commonwealth of]',
   'type' => 'country-code',
 ],
  [
@@ -5063,8 +5039,7 @@ The Papua New Guinea University of Technology',
 ],
  [
   'domain' => 'pro',
-  'description' => 'Registry Services Corporation
-dba RegistryPro',
+  'description' => 'Profession',
   'type' => 'generic-restricted',
 ],
  [
@@ -5119,14 +5094,12 @@ dba RegistryPro',
 ],
  [
   'domain' => 'ps',
-  'description' => 'Ministry Of Telecommunications &
-Information Technology,
-Government Computer Center.',
+  'description' => 'Palestine [State of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pt',
-  'description' => 'Associação DNS.PT',
+  'description' => 'Portugal [Portuguese Republic]',
   'type' => 'country-code',
 ],
  [
@@ -5136,7 +5109,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'pw',
-  'description' => 'Micronesia Investment and Development Corporation',
+  'description' => 'Palau [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5146,12 +5119,12 @@ Government Computer Center.',
 ],
  [
   'domain' => 'py',
-  'description' => 'NIC-PY',
+  'description' => 'Paraguay [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'qa',
-  'description' => 'Communications Regulatory Authority',
+  'description' => 'Qatar [State of]',
   'type' => 'country-code',
 ],
  [
@@ -5191,7 +5164,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 're',
-  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
+  'description' => 'Réunion',
   'type' => 'country-code',
 ],
  [
@@ -5356,7 +5329,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'ro',
-  'description' => 'National Institute for R&D in Informatics',
+  'description' => 'Romania',
   'type' => 'country-code',
 ],
  [
@@ -5386,7 +5359,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'rs',
-  'description' => 'Serbian National Internet Domain Registry [RNIDS]',
+  'description' => 'Serbia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5396,7 +5369,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'ru',
-  'description' => 'Coordination Center for TLD RU',
+  'description' => 'Russia [Russian Federation]',
   'type' => 'country-code',
 ],
  [
@@ -5416,7 +5389,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'rw',
-  'description' => 'Rwanda Information Communication and Technology Association [RICTA]',
+  'description' => 'Rwanda [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5431,7 +5404,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sa',
-  'description' => 'Communications and Information Technology Commission',
+  'description' => 'Saudi Arabia [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -5521,7 +5494,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sb',
-  'description' => 'Solomon Telekom Company Limited',
+  'description' => 'Solomon Islands',
   'type' => 'country-code',
 ],
  [
@@ -5536,7 +5509,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sc',
-  'description' => 'VCS Pty Ltd',
+  'description' => 'Seychelles [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5601,12 +5574,12 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sd',
-  'description' => 'Sudan Internet Society',
+  'description' => 'Sudan [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'se',
-  'description' => 'The Internet Infrastructure Foundation',
+  'description' => 'Sweden [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -5681,12 +5654,12 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sg',
-  'description' => 'Singapore Network Information Centre [SGNIC] Pte Ltd',
+  'description' => 'Singapore [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sh',
-  'description' => 'Government of St. Helena',
+  'description' => 'Saint Helena',
   'type' => 'country-code',
 ],
  [
@@ -5756,7 +5729,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'si',
-  'description' => 'Academic and Research Network of Slovenia [ARNES]',
+  'description' => 'Slovenia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5781,12 +5754,12 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sj',
-  'description' => 'UNINETT Norid A/S',
+  'description' => 'Svalbard and Jan Mayen {not in use - see also: .no}',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sk',
-  'description' => 'SK-NIC, a.s.',
+  'description' => 'Slovakia [Slovak Republic]',
   'type' => 'country-code',
 ],
  [
@@ -5811,7 +5784,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sl',
-  'description' => 'Sierratel',
+  'description' => 'Sierra Leone [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5821,7 +5794,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sm',
-  'description' => 'Telecom Italia San Marino S.p.A.',
+  'description' => 'San Marino [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5836,8 +5809,7 @@ Government Computer Center.',
 ],
  [
   'domain' => 'sn',
-  'description' => 'Universite Cheikh Anta Diop
-NIC Senegal',
+  'description' => 'Senegal [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5847,7 +5819,7 @@ NIC Senegal',
 ],
  [
   'domain' => 'so',
-  'description' => 'Ministry of Post and Telecommunications',
+  'description' => 'Somalia [Federal Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5927,7 +5899,7 @@ NIC Senegal',
 ],
  [
   'domain' => 'sr',
-  'description' => 'Telesur',
+  'description' => 'Suriname [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -5942,12 +5914,12 @@ NIC Senegal',
 ],
  [
   'domain' => 'ss',
-  'description' => 'Not assigned',
+  'description' => 'South Sudan [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'st',
-  'description' => 'Tecnisys',
+  'description' => 'São Tomé and Príncipe [Democratic Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6032,8 +6004,7 @@ NIC Senegal',
 ],
  [
   'domain' => 'su',
-  'description' => 'Russian Institute for Development of Public Networks
-[ROSNIIROS]',
+  'description' => 'Soviet Union [Union of Soviet Socialist Republics]',
   'type' => 'country-code',
 ],
  [
@@ -6073,7 +6044,7 @@ NIC Senegal',
 ],
  [
   'domain' => 'sv',
-  'description' => 'SVNet',
+  'description' => 'El Salvador [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6093,12 +6064,12 @@ NIC Senegal',
 ],
  [
   'domain' => 'sx',
-  'description' => 'SX Registry SA B.V.',
+  'description' => 'Sint Maarten',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sy',
-  'description' => 'National Agency for Network Services [NANS]',
+  'description' => 'Syria [Syrian Arab Republic]',
   'type' => 'country-code',
 ],
  [
@@ -6118,8 +6089,7 @@ NIC Senegal',
 ],
  [
   'domain' => 'sz',
-  'description' => 'University of Swaziland
-Department of Computer Science',
+  'description' => 'Swaziland [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -6174,7 +6144,7 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tc',
-  'description' => 'Melrex TC',
+  'description' => 'Turks and Caicos Islands',
   'type' => 'country-code',
 ],
  [
@@ -6184,7 +6154,7 @@ Department of Computer Science',
 ],
  [
   'domain' => 'td',
-  'description' => 'l\'Agence de Développement des Technologies de l\'Information et de la Communication [ADETIC]',
+  'description' => 'Chad [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6209,7 +6179,7 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tel',
-  'description' => 'Telnames Ltd.',
+  'description' => 'Telephone',
   'type' => 'sponsored',
 ],
  [
@@ -6239,17 +6209,17 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tf',
-  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
+  'description' => 'French Southern and Antarctic Lands [Territory of the]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tg',
-  'description' => 'Autorite de Reglementation des secteurs de Postes et de Telecommunications [ART&P]',
+  'description' => 'Togo [Togolese Republic]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'th',
-  'description' => 'Thai Network Information Center Foundation',
+  'description' => 'Thailand [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -6304,7 +6274,7 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tj',
-  'description' => 'Information Technology Center',
+  'description' => 'Tajikistan [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6319,7 +6289,7 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tk',
-  'description' => 'Telecommunication Tokelau Corporation [Teletok]',
+  'description' => 'Tokelau',
   'type' => 'country-code',
 ],
  [
@@ -6329,12 +6299,12 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tl',
-  'description' => 'Autoridade Nacional de Comunicações',
+  'description' => 'Timor-Leste [Democratic Republic of] [East Timor]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tm',
-  'description' => 'TM Domain Registry Ltd',
+  'description' => 'Turkmenistan',
   'type' => 'country-code',
 ],
  [
@@ -6344,14 +6314,12 @@ Department of Computer Science',
 ],
  [
   'domain' => 'tn',
-  'description' => 'Agence Tunisienne d\'Internet',
+  'description' => 'Tunisia [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'to',
-  'description' => 'Government of the Kingdom of Tonga
-H.R.H. Crown Prince Tupouto\'a
-c/o Consulate of Tonga',
+  'description' => 'Tonga [Kingdom of]',
   'type' => 'country-code',
 ],
  [
@@ -6411,13 +6379,12 @@ c/o Consulate of Tonga',
 ],
  [
   'domain' => 'tp',
-  'description' => 'Retired',
+  'description' => 'Timor-Leste [Democratic Republic of] [East Timor] {being phased out - also see: .tl}',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tr',
-  'description' => 'Middle East Technical University
-Department of Computer Engineering',
+  'description' => 'Turkey [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6437,7 +6404,7 @@ Department of Computer Engineering',
 ],
  [
   'domain' => 'travel',
-  'description' => 'Dog	Beach, LLC',
+  'description' => 'Travel',
   'type' => 'sponsored',
 ],
  [
@@ -6467,8 +6434,7 @@ Department of Computer Engineering',
 ],
  [
   'domain' => 'tt',
-  'description' => 'University of the West Indies
-Faculty of Engineering',
+  'description' => 'Trinidad and Tobago [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6493,7 +6459,7 @@ Faculty of Engineering',
 ],
  [
   'domain' => 'tv',
-  'description' => 'Ministry of Finance and Tourism',
+  'description' => 'Tuvalu',
   'type' => 'country-code',
 ],
  [
@@ -6503,17 +6469,17 @@ Faculty of Engineering',
 ],
  [
   'domain' => 'tw',
-  'description' => 'Taiwan Network Information Center [TWNIC]',
+  'description' => 'Taiwan [Republic of China]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tz',
-  'description' => 'Tanzania Network Information Centre [tzNIC]',
+  'description' => 'Tanzania [United Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ua',
-  'description' => 'Hostmaster Ltd.',
+  'description' => 'Ukraine',
   'type' => 'country-code',
 ],
  [
@@ -6533,17 +6499,17 @@ Faculty of Engineering',
 ],
  [
   'domain' => 'ug',
-  'description' => 'Uganda Online Ltd.',
+  'description' => 'Uganda [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uk',
-  'description' => 'Nominet UK',
+  'description' => 'United Kingdom [United Kingdom of Great Britain and Northern Ireland]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'um',
-  'description' => 'Not assigned',
+  'description' => 'United States Minor Outlying Islands {formerly - retired 2010 - see also: .us}',
   'type' => 'country-code',
 ],
  [
@@ -6573,23 +6539,22 @@ Faculty of Engineering',
 ],
  [
   'domain' => 'us',
-  'description' => 'NeuStar, Inc.',
+  'description' => 'United States of America and United States Minor Outlying Islands',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uy',
-  'description' => 'SeCIU - Universidad de la Republica',
+  'description' => 'Uruguay [Oriental Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uz',
-  'description' => 'Computerization and Information Technologies Developing Center
-UZINFOCOM',
+  'description' => 'Uzbekistan [Republic of]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'va',
-  'description' => 'Holy See - Vatican City State',
+  'description' => 'Vatican City [Vatican City State]',
   'type' => 'country-code',
 ],
  [
@@ -6609,12 +6574,12 @@ UZINFOCOM',
 ],
  [
   'domain' => 'vc',
-  'description' => 'Ministry of Telecommunications, Science, Technology and Industry',
+  'description' => 'Saint Vincent and the Grenadines',
   'type' => 'country-code',
 ],
  [
   'domain' => 've',
-  'description' => 'Comisión Nacional de Telecomunicaciones [CONATEL]',
+  'description' => 'Venezuela [Bolivarian Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6644,12 +6609,12 @@ UZINFOCOM',
 ],
  [
   'domain' => 'vg',
-  'description' => 'Telecommunications Regulatory Commission of the Virgin Islands',
+  'description' => 'British Virgin Islands [Virgin Islands]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'vi',
-  'description' => 'Virgin Islands Public Telecommunications System, Inc.',
+  'description' => 'United States Virgin Islands [United States Virgin Islands]',
   'type' => 'country-code',
 ],
  [
@@ -6729,7 +6694,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'vn',
-  'description' => 'Ministry of Information and Communications of Socialist Republic of Viet Nam',
+  'description' => 'Vietnam [Socialist Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6769,7 +6734,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'vu',
-  'description' => 'Telecom Vanuatu Limited',
+  'description' => 'Vanuatu [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -6864,7 +6829,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'wf',
-  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
+  'description' => 'Wallis and Futuna [Territory of the Wallis and Futuna Islands]',
   'type' => 'country-code',
 ],
  [
@@ -6944,7 +6909,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'ws',
-  'description' => 'Government of Samoa Ministry of Foreign Affairs & Trade',
+  'description' => 'Samoa [Independent State of]',
   'type' => 'country-code',
 ],
  [
@@ -7804,7 +7769,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'xxx',
-  'description' => 'ICM Registry LLC',
+  'description' => 'Adult entertainment',
   'type' => 'sponsored',
 ],
  [
@@ -7834,7 +7799,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'ye',
-  'description' => 'TeleYemen',
+  'description' => 'Yemen [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -7864,7 +7829,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'yt',
-  'description' => 'Association Française pour le Nommage Internet en Coopération [A.F.N.I.C.]',
+  'description' => 'Mayotte [Department of]',
   'type' => 'country-code',
 ],
  [
@@ -7874,7 +7839,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'za',
-  'description' => 'ZA Domain Name Authority',
+  'description' => 'South Africa [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -7904,7 +7869,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'zm',
-  'description' => 'Zambia Information and Communications Technology Authority [ZICTA]',
+  'description' => 'Zambia [Republic of]',
   'type' => 'country-code',
 ],
  [
@@ -7919,7 +7884,7 @@ UZINFOCOM',
 ],
  [
   'domain' => 'zw',
-  'description' => 'Postal and Telecommunications Regulatory Authority of Zimbabwe [POTRAZ]',
+  'description' => 'Zimbabwe [Republic of]',
   'type' => 'country-code',
 ]];
     

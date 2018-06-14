@@ -15,7 +15,7 @@ const stringify = require('csv-stringify');
 const parse = require('csv-parse');
 const fs = require('fs-extra');
 const path = require('path');
-const md5File = require('md5-file/promise');
+const md5File = require('md5-file');
 const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
@@ -103,7 +103,10 @@ if (!program.quiet) {
     });
 
     console.log('done');
-    //console.error('NOTICE: the following "countries" did not have an assigned top level domain: ' + missingTld.join(', '));
+    
+    if (!program.quiet) {
+       console.log(meName + ': NOTICE: the following "countries" did not have an assigned top level domain: ' + missingTld.join(', '));
+    }
 
     process.stdout.write("building description / TLD hashmap...");
     let tld2Desc = {};
@@ -133,95 +136,95 @@ if (!program.quiet) {
 
     parser.write(fs.readFileSync(fileTldDescCsv));
 
-    parser.end();
+    parser.end(function() {
+      console.log("done");
 
-    console.log("done");
+      const tdPosMap = {
+          domain: 0,
+          type: 1,
+          manager: 2,
+      };
 
-    const tdPosMap = {
-        domain: 0,
-        type: 1,
-        manager: 2,
-    };
+      let tldSet = [];
 
-    let tldSet = [];
+      process.stdout.write("parsing IANA data...");
+      $('#tld-table').find('tr').each((i, element) => {
+          let tld = {
+              domain: null,
+              type: null,
+              manager: null,
+          };
+          let tldData = [];
+          // console.log('i ' + i);
+          // console.log(element);
+          $(element).find("td").each((iTd, elementTd) => {
+              // console.log('iTd...');
+              // console.log(iTd);
+              tldData.push($(elementTd).text());
+          });
 
-    process.stdout.write("parsing IANA data...");
-    $('#tld-table').find('tr').each((i, element) => {
-        let tld = {
-            domain: null,
-            type: null,
-            manager: null,
-        };
-        let tldData = [];
-        // console.log('i ' + i);
-        // console.log(element);
-        $(element).find("td").each((iTd, elementTd) => {
-            // console.log('iTd...');
-            // console.log(iTd);
-            tldData.push($(elementTd).text());
-        });
+          for (var prop in tld) {
+              if (typeof(tldData[tdPosMap[prop]]) !== 'undefined') {
+                  tld[prop] = tldData[tdPosMap[prop]];
+              }
+          }
 
-        for (var prop in tld) {
-            if (typeof(tldData[tdPosMap[prop]]) !== 'undefined') {
-                tld[prop] = tldData[tdPosMap[prop]];
-            }
-        }
+          if (!tld.domain) {
+              return;
+          }
 
-        if (!tld.domain) {
-            return;
-        }
+          tld.domain = tld.domain.replace(/\s/g, '').replace(/\./g, '');
 
-        tld.domain = tld.domain.replace(/\s/g, '').replace(/\./g, '');
+          tldSet.push(tld);
 
-        tldSet.push(tld);
+      });
+      console.log('done');
 
+      const stringifier = stringify({ delimiter: ',' });
+      stringifier.on('readable', () => {
+          let row;
+          while (row = stringifier.read()) {
+              fs.appendFileSync(fileNewTldsCsv, row, 'utf8')
+          }
+      });
+
+      process.stdout.write("serializing new 'tlds.csv'...");
+      for (var i = 0; i < tldSet.length; i++) {
+          let tld = tldSet[i];
+          let csvRow = [tld.domain];
+          if ((tld.type == 'country-code') && (typeof(tld2CountryName[tld.domain]) !== 'undefined')) {
+              csvRow.push(tld2CountryName[tld.domain]);
+          } else {
+              if (typeof(tld2Desc[tld.domain]) !== 'undefined') {
+                  csvRow.push(tld2Desc[tld.domain]);
+              } else {
+                  csvRow.push(tld.manager);
+              }
+          }
+          csvRow.push(tld.type);
+          stringifier.write(csvRow);
+
+      }
+      stringifier.end();
+      console.log('done');
+
+      if (fs.existsSync(fileTldsCsv)) {
+          const newMd5 = md5File.sync(fileNewTldsCsv);
+          const csvMd5 = md5File.sync(fileTldsCsv);
+          if (csvMd5 == newMd5) {
+              console.error(meName + ": (NOTICE) ignoring newly generated 'tlds.csv' file that is identical to the existing file (md5: " + csvMd5 + ", path: " + fileTldsCsv + ")");
+              return;
+          }
+          const pathinfoTldsCsv = pathinfo(fileTldsCsv);
+          const fileBackupTldsCsv = pathinfoTldsCsv.dirname + pathinfoTldsCsv.sep + pathinfoTldsCsv.basename + '-' + csvMd5 + '-backup.csv';
+          if (!fs.existsSync(fileBackupTldsCsv)) {
+              fs.copySync(fileTldsCsv, fileBackupTldsCsv);
+          }
+      }
+
+      process.stdout.write("saving new 'tlds.csv'...");
+      fs.copySync(fileNewTldsCsv, fileTldsCsv);
+      console.log('done');      
     });
-    console.log('done');
-
-    const stringifier = stringify({ delimiter: ',' });
-    stringifier.on('readable', () => {
-        let row;
-        while (row = stringifier.read()) {
-            fs.appendFileSync(fileNewTldsCsv, row, 'utf8')
-        }
-    });
-
-    process.stdout.write("serializing new 'tlds.csv'...");
-    for (var i = 0; i < tldSet.length; i++) {
-        let tld = tldSet[i];
-        let csvRow = [tld.domain];
-        if ((tld.type == 'country-code') && (typeof(tld2CountryName[tld.domain]) !== 'undefined')) {
-            csvRow.push(tld2CountryName[tld.domain]);
-        } else {
-            if (typeof(tld2Desc[tld.domain]) !== 'undefined') {
-                csvRow.push(tld2Desc[tld.domain]);
-            } else {
-                csvRow.push(tld.manager);
-            }
-        }
-        csvRow.push(tld.type);
-        stringifier.write(csvRow);
-
-    }
-    stringifier.end();
-    console.log('done');
-
-    if (fs.existsSync(fileTldsCsv)) {
-        const newMd5 = await md5File(fileNewTldsCsv);
-        const csvMd5 = await md5File(fileTldsCsv);
-        if (csvMd5 == newMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'tlds.csv' file that is identical to the existing file (md5: " + csvMd5 + ", path: " + fileTldsCsv + ")");
-            return;
-        }
-        const pathinfoTldsCsv = pathinfo(fileTldsCsv);
-        const fileBackupTldsCsv = pathinfoTldsCsv.dirname + pathinfoTldsCsv.sep + pathinfoTldsCsv.basename + '-' + csvMd5 + '-backup.csv';
-        if (!fs.existsSync(fileBackupTldsCsv)) {
-            fs.copySync(fileTldsCsv, fileBackupTldsCsv);
-        }
-    }
-
-    process.stdout.write("saving new 'tlds.csv'...");
-    fs.copySync(fileNewTldsCsv, fileTldsCsv);
-    console.log('done');
 
 })();
