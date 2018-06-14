@@ -94,12 +94,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ad',
-  'description' => 'Andorra [Principality of]',
+  'description' => 'Andorra (Principality of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'adac',
-  'description' => 'Allgemeiner Deutscher Automobil-Club e.V. [ADAC]',
+  'description' => 'Allgemeiner Deutscher Automobil-Club e.V. (ADAC)',
   'type' => 'generic',
 ],
  [
@@ -134,7 +134,7 @@ class TldInfo {
 ],
  [
   'domain' => 'af',
-  'description' => 'Afghanistan [Islamic Republic of]',
+  'description' => 'Afghanistan (Islamic Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -159,7 +159,7 @@ class TldInfo {
 ],
  [
   'domain' => 'agakhan',
-  'description' => 'Fondation Aga Khan [Aga Khan Foundation]',
+  'description' => 'Fondation Aga Khan (Aga Khan Foundation)',
   'type' => 'generic',
 ],
  [
@@ -199,12 +199,12 @@ class TldInfo {
 ],
  [
   'domain' => 'akdn',
-  'description' => 'Fondation Aga Khan [Aga Khan Foundation]',
+  'description' => 'Fondation Aga Khan (Aga Khan Foundation)',
   'type' => 'generic',
 ],
  [
   'domain' => 'al',
-  'description' => 'Albania [Republic of]',
+  'description' => 'Albania (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -249,7 +249,7 @@ class TldInfo {
 ],
  [
   'domain' => 'am',
-  'description' => 'Armenia [Republic of]',
+  'description' => 'Armenia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -309,7 +309,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ao',
-  'description' => 'Angola [Republic of]',
+  'description' => 'Angola (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -344,7 +344,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ar',
-  'description' => 'Argentina [Argentine Republic]',
+  'description' => 'Argentina (Argentine Republic)',
   'type' => 'country-code',
 ],
  [
@@ -404,7 +404,7 @@ class TldInfo {
 ],
  [
   'domain' => 'at',
-  'description' => 'Austria [Republic of]',
+  'description' => 'Austria (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -419,7 +419,7 @@ class TldInfo {
 ],
  [
   'domain' => 'au',
-  'description' => 'Australia [Commonwealth of]',
+  'description' => 'Australia (Commonwealth of)',
   'type' => 'country-code',
 ],
  [
@@ -489,7 +489,7 @@ class TldInfo {
 ],
  [
   'domain' => 'az',
-  'description' => 'Azerbaijan [Republic of]',
+  'description' => 'Azerbaijan (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -569,7 +569,7 @@ class TldInfo {
 ],
  [
   'domain' => 'basketball',
-  'description' => 'Fédération Internationale de Basketball [FIBA]',
+  'description' => 'Fédération Internationale de Basketball (FIBA)',
   'type' => 'generic',
 ],
  [
@@ -614,12 +614,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bd',
-  'description' => 'Bangladesh [People\'s Republic of]',
+  'description' => 'Bangladesh (People\'s Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'be',
-  'description' => 'Belgium [Kingdom of]',
+  'description' => 'Belgium (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -669,22 +669,22 @@ class TldInfo {
 ],
  [
   'domain' => 'bg',
-  'description' => 'Bulgaria [Republic of]',
+  'description' => 'Bulgaria (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bh',
-  'description' => 'Bahrain [Kingdom of]',
+  'description' => 'Bahrain (Kingdom of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bharti',
-  'description' => 'Bharti Enterprises [Holding] Private Limited',
+  'description' => 'Bharti Enterprises (Holding) Private Limited',
   'type' => 'generic',
 ],
  [
   'domain' => 'bi',
-  'description' => 'Burundi [Republic of]',
+  'description' => 'Burundi (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -724,12 +724,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bj',
-  'description' => 'Benin [Republic of]',
+  'description' => 'Benin (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bl',
-  'description' => 'Saint Barthélemy [Collectivity of] {unassigned - see also: .gp and .fr}',
+  'description' => 'Saint Barthélemy (Collectivity of) {unassigned - see also: .gp and .fr}',
   'type' => 'country-code',
 ],
  [
@@ -784,7 +784,7 @@ class TldInfo {
 ],
  [
   'domain' => 'bn',
-  'description' => 'Brunei [Nation of Brunei - the Abode of Peace] [Negara Brunei Darussalam]',
+  'description' => 'Brunei (Nation of Brunei - the Abode of Peace) [Negara Brunei Darussalam]',
   'type' => 'country-code',
 ],
  [
@@ -799,7 +799,7 @@ class TldInfo {
 ],
  [
   'domain' => 'bo',
-  'description' => 'Bolivia [Plurinational State of]',
+  'description' => 'Bolivia (Plurinational State of)',
   'type' => 'country-code',
 ],
  [
@@ -884,7 +884,7 @@ class TldInfo {
 ],
  [
   'domain' => 'br',
-  'description' => 'Brazil [Federative Republic of]',
+  'description' => 'Brazil (Federative Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -919,12 +919,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bs',
-  'description' => 'Bahamas [Commonwealth of the]',
+  'description' => 'Bahamas (Commonwealth of the)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'bt',
-  'description' => 'Bhutan [Kingdom of]',
+  'description' => 'Bhutan (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -969,12 +969,12 @@ class TldInfo {
 ],
  [
   'domain' => 'bw',
-  'description' => 'Botswana [Republic of]',
+  'description' => 'Botswana (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'by',
-  'description' => 'Belarus [Republic of]',
+  'description' => 'Belarus (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1134,7 +1134,7 @@ class TldInfo {
 ],
  [
   'domain' => 'catholic',
-  'description' => 'Pontificium Consilium de Comunicationibus Socialibus [PCCS] [Pontifical Council for Social Communication]',
+  'description' => 'Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)',
   'type' => 'generic',
 ],
  [
@@ -1159,12 +1159,12 @@ class TldInfo {
 ],
  [
   'domain' => 'cc',
-  'description' => 'Cocos [Keeling] Islands [Territory of the]',
+  'description' => 'Cocos (Keeling) Islands (Territory of the)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cd',
-  'description' => 'Congo [Democratic Republic of the] [Congo-Kinshasa]',
+  'description' => 'Congo (Democratic Republic of the) [Congo-Kinshasa]',
   'type' => 'country-code',
 ],
  [
@@ -1184,7 +1184,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cern',
-  'description' => 'European Organization for Nuclear Research ["CERN"]',
+  'description' => 'European Organization for Nuclear Research ("CERN")',
   'type' => 'generic',
 ],
  [
@@ -1204,12 +1204,12 @@ class TldInfo {
 ],
  [
   'domain' => 'cg',
-  'description' => 'Congo [Republic of] [Congo-Brazzaville]',
+  'description' => 'Congo (Republic of) [Congo-Brazzaville]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ch',
-  'description' => 'Switzerland [Swiss Confederation]',
+  'description' => 'Switzerland (Swiss Confederation)',
   'type' => 'country-code',
 ],
  [
@@ -1274,7 +1274,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ci',
-  'description' => 'Ivory Coast [Republic of Côte d\'Ivoire]',
+  'description' => 'Ivory Coast (Republic of Côte d\'Ivoire)',
   'type' => 'country-code',
 ],
  [
@@ -1324,7 +1324,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cl',
-  'description' => 'Chile [Republic of]',
+  'description' => 'Chile (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1374,17 +1374,17 @@ class TldInfo {
 ],
  [
   'domain' => 'cm',
-  'description' => 'Cameroon [Republic of]',
+  'description' => 'Cameroon (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cn',
-  'description' => 'China [People\'s Republic of]',
+  'description' => 'China (People\'s Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'co',
-  'description' => 'Colombia [Republic of]',
+  'description' => 'Colombia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1524,7 +1524,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cr',
-  'description' => 'Costa Rica [Republic of]',
+  'description' => 'Costa Rica (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1559,7 +1559,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cruise',
-  'description' => 'Viking River Cruises [Bermuda] Ltd.',
+  'description' => 'Viking River Cruises (Bermuda) Ltd.',
   'type' => 'generic',
 ],
  [
@@ -1574,7 +1574,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cu',
-  'description' => 'Cuba [Republic of]',
+  'description' => 'Cuba (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1584,22 +1584,22 @@ class TldInfo {
 ],
  [
   'domain' => 'cv',
-  'description' => 'Cape Verde [Republic of]',
+  'description' => 'Cape Verde (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cw',
-  'description' => 'Curaçao [Country of]',
+  'description' => 'Curaçao (Country of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cx',
-  'description' => 'Christmas Island [Territory of]',
+  'description' => 'Christmas Island (Territory of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'cy',
-  'description' => 'Cyprus [Republic of]',
+  'description' => 'Cyprus (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1669,7 +1669,7 @@ class TldInfo {
 ],
  [
   'domain' => 'de',
-  'description' => 'Germany [Federal Republic of]',
+  'description' => 'Germany (Federal Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1794,17 +1794,17 @@ class TldInfo {
 ],
  [
   'domain' => 'dj',
-  'description' => 'Djibouti [Republic of]',
+  'description' => 'Djibouti (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'dk',
-  'description' => 'Denmark [Kingdom of]',
+  'description' => 'Denmark (Kingdom of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'dm',
-  'description' => 'Dominica [Commonwealth of]',
+  'description' => 'Dominica (Commonwealth of)',
   'type' => 'country-code',
 ],
  [
@@ -1839,7 +1839,7 @@ class TldInfo {
 ],
  [
   'domain' => 'doha',
-  'description' => 'Communications Regulatory Authority [CRA]',
+  'description' => 'Communications Regulatory Authority (CRA)',
   'type' => 'generic',
 ],
  [
@@ -1914,7 +1914,7 @@ class TldInfo {
 ],
  [
   'domain' => 'dz',
-  'description' => 'Algeria [People\'s Democratic Republic of]',
+  'description' => 'Algeria (People\'s Democratic Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1929,7 +1929,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ec',
-  'description' => 'Ecuador [Republic of]',
+  'description' => 'Ecuador (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -1954,12 +1954,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ee',
-  'description' => 'Estonia [Republic of]',
+  'description' => 'Estonia (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'eg',
-  'description' => 'Egypt [Arab Republic of]',
+  'description' => 'Egypt (Arab Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -2014,7 +2014,7 @@ class TldInfo {
 ],
  [
   'domain' => 'er',
-  'description' => 'Eritrea [State of]',
+  'description' => 'Eritrea (State of)',
   'type' => 'country-code',
 ],
  [
@@ -2029,7 +2029,7 @@ class TldInfo {
 ],
  [
   'domain' => 'es',
-  'description' => 'Spain [Kingdom of]',
+  'description' => 'Spain (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -2049,12 +2049,12 @@ class TldInfo {
 ],
  [
   'domain' => 'et',
-  'description' => 'Ethiopia [Federal Democratic Republic of]',
+  'description' => 'Ethiopia (Federal Democratic Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'etisalat',
-  'description' => 'Emirates Telecommunications Corporation [trading as Etisalat]',
+  'description' => 'Emirates Telecommunications Corporation (trading as Etisalat)',
   'type' => 'generic',
 ],
  [
@@ -2064,7 +2064,7 @@ class TldInfo {
 ],
  [
   'domain' => 'eurovision',
-  'description' => 'European Broadcasting Union [EBU]',
+  'description' => 'European Broadcasting Union (EBU)',
   'type' => 'generic',
 ],
  [
@@ -2184,7 +2184,7 @@ class TldInfo {
 ],
  [
   'domain' => 'fi',
-  'description' => 'Finland [Republic of]',
+  'description' => 'Finland (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -2259,12 +2259,12 @@ class TldInfo {
 ],
  [
   'domain' => 'fj',
-  'description' => 'Fiji [Republic of]',
+  'description' => 'Fiji (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'fk',
-  'description' => 'Falkland Islands [Malvinas]',
+  'description' => 'Falkland Islands (Malvinas)',
   'type' => 'country-code',
 ],
  [
@@ -2304,7 +2304,7 @@ class TldInfo {
 ],
  [
   'domain' => 'fm',
-  'description' => 'Micronesia [Federated States of]',
+  'description' => 'Micronesia (Federated States of)',
   'type' => 'country-code',
 ],
  [
@@ -2364,7 +2364,7 @@ class TldInfo {
 ],
  [
   'domain' => 'fr',
-  'description' => 'France [French Republic]',
+  'description' => 'France (French Republic)',
   'type' => 'country-code',
 ],
  [
@@ -2439,7 +2439,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ga',
-  'description' => 'Gabon [Gabonese Republic]',
+  'description' => 'Gabon (Gabonese Republic)',
   'type' => 'country-code',
 ],
  [
@@ -2484,7 +2484,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gb',
-  'description' => 'United Kingdom [United Kingdom of Great Britain and Northern Ireland]',
+  'description' => 'United Kingdom (United Kingdom of Great Britain and Northern Ireland)',
   'type' => 'country-code',
 ],
  [
@@ -2534,7 +2534,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gg',
-  'description' => 'Guernsey [Bailiwick of]',
+  'description' => 'Guernsey (Bailiwick of)',
   'type' => 'country-code',
 ],
  [
@@ -2544,7 +2544,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gh',
-  'description' => 'Ghana [Republic of]',
+  'description' => 'Ghana (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -2604,7 +2604,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gm',
-  'description' => 'Gambia [Republic of The]',
+  'description' => 'Gambia (Republic of The)',
   'type' => 'country-code',
 ],
  [
@@ -2629,7 +2629,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gn',
-  'description' => 'Guinea [Republic of]',
+  'description' => 'Guinea (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -2699,12 +2699,12 @@ class TldInfo {
 ],
  [
   'domain' => 'gq',
-  'description' => 'Equatorial Guinea [Republic of]',
+  'description' => 'Equatorial Guinea (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gr',
-  'description' => 'Greece [Hellenic Republic]',
+  'description' => 'Greece (Hellenic Republic)',
   'type' => 'country-code',
 ],
  [
@@ -2749,7 +2749,7 @@ class TldInfo {
 ],
  [
   'domain' => 'gt',
-  'description' => 'Guatemala [Republic of]',
+  'description' => 'Guatemala (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -2789,12 +2789,12 @@ class TldInfo {
 ],
  [
   'domain' => 'gw',
-  'description' => 'Guinea-Bissau [Republic of]',
+  'description' => 'Guinea-Bissau (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'gy',
-  'description' => 'Guyana [Co-operative Republic of]',
+  'description' => 'Guyana (Co-operative Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -2889,7 +2889,7 @@ class TldInfo {
 ],
  [
   'domain' => 'hk',
-  'description' => 'Hong Kong [Hong Kong Special Administrative Region of the People\'s Republic of China]',
+  'description' => 'Hong Kong (Hong Kong Special Administrative Region of the People\'s Republic of China)',
   'type' => 'country-code',
 ],
  [
@@ -2904,7 +2904,7 @@ class TldInfo {
 ],
  [
   'domain' => 'hn',
-  'description' => 'Honduras [Republic of]',
+  'description' => 'Honduras (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3004,17 +3004,17 @@ class TldInfo {
 ],
  [
   'domain' => 'hr',
-  'description' => 'Croatia [Republic of]',
+  'description' => 'Croatia (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'hsbc',
-  'description' => 'HSBC Global Services [UK] Limited',
+  'description' => 'HSBC Global Services (UK) Limited',
   'type' => 'generic',
 ],
  [
   'domain' => 'ht',
-  'description' => 'Haiti [Republic of]',
+  'description' => 'Haiti (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3064,12 +3064,12 @@ class TldInfo {
 ],
  [
   'domain' => 'id',
-  'description' => 'Indonesia [Republic of]',
+  'description' => 'Indonesia (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ie',
-  'description' => 'Ireland [Republic of]',
+  'description' => 'Ireland (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3094,7 +3094,7 @@ class TldInfo {
 ],
  [
   'domain' => 'il',
-  'description' => 'Israel [State of]',
+  'description' => 'Israel (State of)',
   'type' => 'country-code',
 ],
  [
@@ -3104,7 +3104,7 @@ class TldInfo {
 ],
  [
   'domain' => 'imamat',
-  'description' => 'Fondation Aga Khan [Aga Khan Foundation]',
+  'description' => 'Fondation Aga Khan (Aga Khan Foundation)',
   'type' => 'generic',
 ],
  [
@@ -3124,7 +3124,7 @@ class TldInfo {
 ],
  [
   'domain' => 'in',
-  'description' => 'India [Republic of]',
+  'description' => 'India (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3204,12 +3204,12 @@ class TldInfo {
 ],
  [
   'domain' => 'iq',
-  'description' => 'Iraq [Republic of]',
+  'description' => 'Iraq (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ir',
-  'description' => 'Iran [Islamic Republic of]',
+  'description' => 'Iran (Islamic Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3229,7 +3229,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ismaili',
-  'description' => 'Fondation Aga Khan [Aga Khan Foundation]',
+  'description' => 'Fondation Aga Khan (Aga Khan Foundation)',
   'type' => 'generic',
 ],
  [
@@ -3244,7 +3244,7 @@ class TldInfo {
 ],
  [
   'domain' => 'it',
-  'description' => 'Italy [Italian Republic]',
+  'description' => 'Italy (Italian Republic)',
   'type' => 'country-code',
 ],
  [
@@ -3289,7 +3289,7 @@ class TldInfo {
 ],
  [
   'domain' => 'je',
-  'description' => 'Jersey [Bailiwick of]',
+  'description' => 'Jersey (Bailiwick of)',
   'type' => 'country-code',
 ],
  [
@@ -3324,7 +3324,7 @@ class TldInfo {
 ],
  [
   'domain' => 'jm',
-  'description' => 'Jamaica [Commonwealth of]',
+  'description' => 'Jamaica (Commonwealth of)',
   'type' => 'country-code',
 ],
  [
@@ -3339,7 +3339,7 @@ class TldInfo {
 ],
  [
   'domain' => 'jo',
-  'description' => 'Jordan [Hashemite Kingdom of]',
+  'description' => 'Jordan (Hashemite Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -3399,7 +3399,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ke',
-  'description' => 'Kenya [Republic of]',
+  'description' => 'Kenya (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3424,17 +3424,17 @@ class TldInfo {
 ],
  [
   'domain' => 'kg',
-  'description' => 'Kyrgyzstan [Kyrgyz Republic]',
+  'description' => 'Kyrgyzstan (Kyrgyz Republic)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kh',
-  'description' => 'Cambodia [Kingdom of]',
+  'description' => 'Cambodia (Kingdom of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ki',
-  'description' => 'Kiribati [Republic of]',
+  'description' => 'Kiribati (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3469,12 +3469,12 @@ class TldInfo {
 ],
  [
   'domain' => 'km',
-  'description' => 'Comoros [Union of the]',
+  'description' => 'Comoros (Union of the)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kn',
-  'description' => 'Saint Kitts and Nevis [Federation of]',
+  'description' => 'Saint Kitts and Nevis (Federation of)',
   'type' => 'country-code',
 ],
  [
@@ -3494,12 +3494,12 @@ class TldInfo {
 ],
  [
   'domain' => 'kp',
-  'description' => 'Korea [Democratic People\'s Republic of] [North Korea]',
+  'description' => 'Korea (Democratic People\'s Republic of) [North Korea]',
   'type' => 'country-code',
 ],
  [
   'domain' => 'kpmg',
-  'description' => 'KPMG International Cooperative [KPMG International Genossenschaft]',
+  'description' => 'KPMG International Cooperative (KPMG International Genossenschaft)',
   'type' => 'generic',
 ],
  [
@@ -3509,7 +3509,7 @@ class TldInfo {
 ],
  [
   'domain' => 'kr',
-  'description' => 'Korea [Republic of] [South Korea]',
+  'description' => 'Korea (Republic of) [South Korea]',
   'type' => 'country-code',
 ],
  [
@@ -3529,7 +3529,7 @@ class TldInfo {
 ],
  [
   'domain' => 'kw',
-  'description' => 'Kuwait [State of Kuwait]',
+  'description' => 'Kuwait (State of Kuwait)',
   'type' => 'country-code',
 ],
  [
@@ -3544,12 +3544,12 @@ class TldInfo {
 ],
  [
   'domain' => 'kz',
-  'description' => 'Kazakhstan [Republic of]',
+  'description' => 'Kazakhstan (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'la',
-  'description' => 'Laos [Lao People\'s Democratic Republic]',
+  'description' => 'Laos (Lao People\'s Democratic Republic)',
   'type' => 'country-code',
 ],
  [
@@ -3634,7 +3634,7 @@ class TldInfo {
 ],
  [
   'domain' => 'lb',
-  'description' => 'Lebanon [Lebanese Republic]',
+  'description' => 'Lebanon (Lebanese Republic)',
   'type' => 'country-code',
 ],
  [
@@ -3684,7 +3684,7 @@ class TldInfo {
 ],
  [
   'domain' => 'li',
-  'description' => 'Liechtenstein [Principality of]',
+  'description' => 'Liechtenstein (Principality of)',
   'type' => 'country-code',
 ],
  [
@@ -3774,7 +3774,7 @@ class TldInfo {
 ],
  [
   'domain' => 'lk',
-  'description' => 'Sri Lanka [Democratic Socialist Republic of]',
+  'description' => 'Sri Lanka (Democratic Socialist Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3844,17 +3844,17 @@ class TldInfo {
 ],
  [
   'domain' => 'lr',
-  'description' => 'Liberia [Republic of]',
+  'description' => 'Liberia (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ls',
-  'description' => 'Lesotho [Kingdom of]',
+  'description' => 'Lesotho (Kingdom of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'lt',
-  'description' => 'Lithuania [Republic of]',
+  'description' => 'Lithuania (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3869,7 +3869,7 @@ class TldInfo {
 ],
  [
   'domain' => 'lu',
-  'description' => 'Luxembourg [Grand Duchy of]',
+  'description' => 'Luxembourg (Grand Duchy of)',
   'type' => 'country-code',
 ],
  [
@@ -3894,7 +3894,7 @@ class TldInfo {
 ],
  [
   'domain' => 'lv',
-  'description' => 'Latvia [Republic of]',
+  'description' => 'Latvia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -3919,7 +3919,7 @@ class TldInfo {
 ],
  [
   'domain' => 'maif',
-  'description' => 'Mutuelle Assurance Instituteur France [MAIF]',
+  'description' => 'Mutuelle Assurance Instituteur France (MAIF)',
   'type' => 'generic',
 ],
  [
@@ -3994,7 +3994,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mc',
-  'description' => 'Monaco [Principality of]',
+  'description' => 'Monaco (Principality of)',
   'type' => 'country-code',
 ],
  [
@@ -4014,7 +4014,7 @@ class TldInfo {
 ],
  [
   'domain' => 'md',
-  'description' => 'Moldova [Republic of]',
+  'description' => 'Moldova (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4079,17 +4079,17 @@ class TldInfo {
 ],
  [
   'domain' => 'mf',
-  'description' => 'Saint Martin [Collectivity of] {unassigned - see also: .gp and .fr}',
+  'description' => 'Saint Martin (Collectivity of) {unassigned - see also: .gp and .fr}',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mg',
-  'description' => 'Madagascar [Republic of]',
+  'description' => 'Madagascar (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mh',
-  'description' => 'Marshall Islands [Republic of the]',
+  'description' => 'Marshall Islands (Republic of the)',
   'type' => 'country-code',
 ],
  [
@@ -4129,12 +4129,12 @@ class TldInfo {
 ],
  [
   'domain' => 'mk',
-  'description' => 'Macedonia [Republic of]',
+  'description' => 'Macedonia (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ml',
-  'description' => 'Mali [Republic of]',
+  'description' => 'Mali (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4149,7 +4149,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mm',
-  'description' => 'Myanmar [Republic of the Union of] [Burma]',
+  'description' => 'Myanmar (Republic of the Union of) [Burma]',
   'type' => 'country-code',
 ],
  [
@@ -4164,7 +4164,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mo',
-  'description' => 'Macau [Macau Special Administrative Region of the People\'s Republic of China] [Macao]',
+  'description' => 'Macau (Macau Special Administrative Region of the People\'s Republic of China) [Macao]',
   'type' => 'country-code',
 ],
  [
@@ -4229,7 +4229,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mormon',
-  'description' => 'IRI Domain Management, LLC ["Applicant"]',
+  'description' => 'IRI Domain Management, LLC ("Applicant")',
   'type' => 'generic',
 ],
  [
@@ -4239,7 +4239,7 @@ class TldInfo {
 ],
  [
   'domain' => 'moscow',
-  'description' => 'Foundation for Assistance for Internet Technologies and Infrastructure Development [FAITID]',
+  'description' => 'Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)',
   'type' => 'generic',
 ],
  [
@@ -4269,7 +4269,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mp',
-  'description' => 'Northern Mariana Islands [Commonwealth of the]',
+  'description' => 'Northern Mariana Islands (Commonwealth of the)',
   'type' => 'country-code',
 ],
  [
@@ -4279,7 +4279,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mr',
-  'description' => 'Mauritania [Islamic Republic of]',
+  'description' => 'Mauritania (Islamic Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4294,7 +4294,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mt',
-  'description' => 'Malta [Republic of]',
+  'description' => 'Malta (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4314,7 +4314,7 @@ class TldInfo {
 ],
  [
   'domain' => 'mu',
-  'description' => 'Mauritius [Republic of]',
+  'description' => 'Mauritius (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4334,17 +4334,17 @@ class TldInfo {
 ],
  [
   'domain' => 'mv',
-  'description' => 'Maldives [Republic of]',
+  'description' => 'Maldives (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mw',
-  'description' => 'Malawi [Republic of]',
+  'description' => 'Malawi (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'mx',
-  'description' => 'Mexico [United Mexican States]',
+  'description' => 'Mexico (United Mexican States)',
   'type' => 'country-code',
 ],
  [
@@ -4354,12 +4354,12 @@ class TldInfo {
 ],
  [
   'domain' => 'mz',
-  'description' => 'Mozambique [Republic of]',
+  'description' => 'Mozambique (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'na',
-  'description' => 'Namibia [Republic of]',
+  'description' => 'Namibia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4409,7 +4409,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ne',
-  'description' => 'Niger [Republic of]',
+  'description' => 'Niger (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4474,7 +4474,7 @@ class TldInfo {
 ],
  [
   'domain' => 'nf',
-  'description' => 'Norfolk Island [Territory of]',
+  'description' => 'Norfolk Island (Territory of)',
   'type' => 'country-code',
 ],
  [
@@ -4484,7 +4484,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ng',
-  'description' => 'Nigeria [Federal Republic of]',
+  'description' => 'Nigeria (Federal Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4494,12 +4494,12 @@ class TldInfo {
 ],
  [
   'domain' => 'nhk',
-  'description' => 'Japan Broadcasting Corporation [NHK]',
+  'description' => 'Japan Broadcasting Corporation (NHK)',
   'type' => 'generic',
 ],
  [
   'domain' => 'ni',
-  'description' => 'Nicaragua [Republic of]',
+  'description' => 'Nicaragua (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4539,7 +4539,7 @@ class TldInfo {
 ],
  [
   'domain' => 'no',
-  'description' => 'Norway [Kingdom of]',
+  'description' => 'Norway (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -4569,17 +4569,17 @@ class TldInfo {
 ],
  [
   'domain' => 'nowtv',
-  'description' => 'Starbucks [HK] Limited',
+  'description' => 'Starbucks (HK) Limited',
   'type' => 'generic',
 ],
  [
   'domain' => 'np',
-  'description' => 'Nepal [Federal Democratic Republic of]',
+  'description' => 'Nepal (Federal Democratic Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'nr',
-  'description' => 'Nauru [Republic of]',
+  'description' => 'Nauru (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4659,7 +4659,7 @@ class TldInfo {
 ],
  [
   'domain' => 'om',
-  'description' => 'Oman [Sultanate of]',
+  'description' => 'Oman (Sultanate of)',
   'type' => 'country-code',
 ],
  [
@@ -4754,7 +4754,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pa',
-  'description' => 'Panama [Republic of]',
+  'description' => 'Panama (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4819,7 +4819,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pe',
-  'description' => 'Peru [Republic of]',
+  'description' => 'Peru (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4839,12 +4839,12 @@ class TldInfo {
 ],
  [
   'domain' => 'pg',
-  'description' => 'Papua New Guinea [Independent State of]',
+  'description' => 'Papua New Guinea (Independent State of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'ph',
-  'description' => 'Philippines [Republic of the]',
+  'description' => 'Philippines (Republic of the)',
   'type' => 'country-code',
 ],
  [
@@ -4939,12 +4939,12 @@ class TldInfo {
 ],
  [
   'domain' => 'pk',
-  'description' => 'Pakistan [Islamic Republic of]',
+  'description' => 'Pakistan (Islamic Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pl',
-  'description' => 'Poland [Republic of]',
+  'description' => 'Poland (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -4979,7 +4979,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pn',
-  'description' => 'Pitcairn Islands [Pitcairn - Henderson - Ducie and Oeno Islands]',
+  'description' => 'Pitcairn Islands (Pitcairn - Henderson - Ducie and Oeno Islands)',
   'type' => 'country-code',
 ],
  [
@@ -5014,7 +5014,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pr',
-  'description' => 'Puerto Rico [Commonwealth of]',
+  'description' => 'Puerto Rico (Commonwealth of)',
   'type' => 'country-code',
 ],
  [
@@ -5094,12 +5094,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ps',
-  'description' => 'Palestine [State of]',
+  'description' => 'Palestine (State of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'pt',
-  'description' => 'Portugal [Portuguese Republic]',
+  'description' => 'Portugal (Portuguese Republic)',
   'type' => 'country-code',
 ],
  [
@@ -5109,7 +5109,7 @@ class TldInfo {
 ],
  [
   'domain' => 'pw',
-  'description' => 'Palau [Republic of]',
+  'description' => 'Palau (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5119,12 +5119,12 @@ class TldInfo {
 ],
  [
   'domain' => 'py',
-  'description' => 'Paraguay [Republic of]',
+  'description' => 'Paraguay (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'qa',
-  'description' => 'Qatar [State of]',
+  'description' => 'Qatar (State of)',
   'type' => 'country-code',
 ],
  [
@@ -5154,7 +5154,7 @@ class TldInfo {
 ],
  [
   'domain' => 'radio',
-  'description' => 'European Broadcasting Union [EBU]',
+  'description' => 'European Broadcasting Union (EBU)',
   'type' => 'generic',
 ],
  [
@@ -5294,7 +5294,7 @@ class TldInfo {
 ],
  [
   'domain' => 'richardli',
-  'description' => 'Pacific Century Asset Management [HK] Limited',
+  'description' => 'Pacific Century Asset Management (HK) Limited',
   'type' => 'generic',
 ],
  [
@@ -5359,7 +5359,7 @@ class TldInfo {
 ],
  [
   'domain' => 'rs',
-  'description' => 'Serbia [Republic of]',
+  'description' => 'Serbia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5369,7 +5369,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ru',
-  'description' => 'Russia [Russian Federation]',
+  'description' => 'Russia (Russian Federation)',
   'type' => 'country-code',
 ],
  [
@@ -5389,7 +5389,7 @@ class TldInfo {
 ],
  [
   'domain' => 'rw',
-  'description' => 'Rwanda [Republic of]',
+  'description' => 'Rwanda (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5404,7 +5404,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sa',
-  'description' => 'Saudi Arabia [Kingdom of]',
+  'description' => 'Saudi Arabia (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -5509,17 +5509,17 @@ class TldInfo {
 ],
  [
   'domain' => 'sc',
-  'description' => 'Seychelles [Republic of]',
+  'description' => 'Seychelles (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sca',
-  'description' => 'SVENSKA CELLULOSA AKTIEBOLAGET SCA [publ]',
+  'description' => 'SVENSKA CELLULOSA AKTIEBOLAGET SCA (publ)',
   'type' => 'generic',
 ],
  [
   'domain' => 'scb',
-  'description' => 'The Siam Commercial Bank Public Company Limited ["SCB"]',
+  'description' => 'The Siam Commercial Bank Public Company Limited ("SCB")',
   'type' => 'generic',
 ],
  [
@@ -5574,12 +5574,12 @@ class TldInfo {
 ],
  [
   'domain' => 'sd',
-  'description' => 'Sudan [Republic of]',
+  'description' => 'Sudan (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'se',
-  'description' => 'Sweden [Kingdom of]',
+  'description' => 'Sweden (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -5589,7 +5589,7 @@ class TldInfo {
 ],
  [
   'domain' => 'seat',
-  'description' => 'SEAT, S.A. [Sociedad Unipersonal]',
+  'description' => 'SEAT, S.A. (Sociedad Unipersonal)',
   'type' => 'generic',
 ],
  [
@@ -5654,7 +5654,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sg',
-  'description' => 'Singapore [Republic of]',
+  'description' => 'Singapore (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5729,7 +5729,7 @@ class TldInfo {
 ],
  [
   'domain' => 'si',
-  'description' => 'Slovenia [Republic of]',
+  'description' => 'Slovenia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5759,7 +5759,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sk',
-  'description' => 'Slovakia [Slovak Republic]',
+  'description' => 'Slovakia (Slovak Republic)',
   'type' => 'country-code',
 ],
  [
@@ -5784,7 +5784,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sl',
-  'description' => 'Sierra Leone [Republic of]',
+  'description' => 'Sierra Leone (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5794,12 +5794,12 @@ class TldInfo {
 ],
  [
   'domain' => 'sm',
-  'description' => 'San Marino [Republic of]',
+  'description' => 'San Marino (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'smart',
-  'description' => 'Smart Communications, Inc. [SMART]',
+  'description' => 'Smart Communications, Inc. (SMART)',
   'type' => 'generic',
 ],
  [
@@ -5809,17 +5809,17 @@ class TldInfo {
 ],
  [
   'domain' => 'sn',
-  'description' => 'Senegal [Republic of]',
+  'description' => 'Senegal (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'sncf',
-  'description' => 'SNCF [Société Nationale des Chemins de fer Francais]',
+  'description' => 'SNCF (Société Nationale des Chemins de fer Francais)',
   'type' => 'generic',
 ],
  [
   'domain' => 'so',
-  'description' => 'Somalia [Federal Republic of]',
+  'description' => 'Somalia (Federal Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5884,7 +5884,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sport',
-  'description' => 'Global Association of International Sports Federations [GAISF]',
+  'description' => 'Global Association of International Sports Federations (GAISF)',
   'type' => 'generic',
 ],
  [
@@ -5899,7 +5899,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sr',
-  'description' => 'Suriname [Republic of]',
+  'description' => 'Suriname (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -5914,12 +5914,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ss',
-  'description' => 'South Sudan [Republic of]',
+  'description' => 'South Sudan (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'st',
-  'description' => 'São Tomé and Príncipe [Democratic Republic of]',
+  'description' => 'São Tomé and Príncipe (Democratic Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6004,7 +6004,7 @@ class TldInfo {
 ],
  [
   'domain' => 'su',
-  'description' => 'Soviet Union [Union of Soviet Socialist Republics]',
+  'description' => 'Soviet Union (Union of Soviet Socialist Republics)',
   'type' => 'country-code',
 ],
  [
@@ -6044,7 +6044,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sv',
-  'description' => 'El Salvador [Republic of]',
+  'description' => 'El Salvador (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6069,7 +6069,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sy',
-  'description' => 'Syria [Syrian Arab Republic]',
+  'description' => 'Syria (Syrian Arab Republic)',
   'type' => 'country-code',
 ],
  [
@@ -6089,7 +6089,7 @@ class TldInfo {
 ],
  [
   'domain' => 'sz',
-  'description' => 'Swaziland [Kingdom of]',
+  'description' => 'Swaziland (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -6154,7 +6154,7 @@ class TldInfo {
 ],
  [
   'domain' => 'td',
-  'description' => 'Chad [Republic of]',
+  'description' => 'Chad (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6194,7 +6194,7 @@ class TldInfo {
 ],
  [
   'domain' => 'temasek',
-  'description' => 'Temasek Holdings [Private] Limited',
+  'description' => 'Temasek Holdings (Private) Limited',
   'type' => 'generic',
 ],
  [
@@ -6209,17 +6209,17 @@ class TldInfo {
 ],
  [
   'domain' => 'tf',
-  'description' => 'French Southern and Antarctic Lands [Territory of the]',
+  'description' => 'French Southern and Antarctic Lands (Territory of the)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tg',
-  'description' => 'Togo [Togolese Republic]',
+  'description' => 'Togo (Togolese Republic)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'th',
-  'description' => 'Thailand [Kingdom of]',
+  'description' => 'Thailand (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -6274,7 +6274,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tj',
-  'description' => 'Tajikistan [Republic of]',
+  'description' => 'Tajikistan (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6299,7 +6299,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tl',
-  'description' => 'Timor-Leste [Democratic Republic of] [East Timor]',
+  'description' => 'Timor-Leste (Democratic Republic of) [East Timor]',
   'type' => 'country-code',
 ],
  [
@@ -6314,12 +6314,12 @@ class TldInfo {
 ],
  [
   'domain' => 'tn',
-  'description' => 'Tunisia [Republic of]',
+  'description' => 'Tunisia (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'to',
-  'description' => 'Tonga [Kingdom of]',
+  'description' => 'Tonga (Kingdom of)',
   'type' => 'country-code',
 ],
  [
@@ -6379,12 +6379,12 @@ class TldInfo {
 ],
  [
   'domain' => 'tp',
-  'description' => 'Timor-Leste [Democratic Republic of] [East Timor] {being phased out - also see: .tl}',
+  'description' => 'Timor-Leste (Democratic Republic of) [East Timor] {being phased out - also see: .tl}',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tr',
-  'description' => 'Turkey [Republic of]',
+  'description' => 'Turkey (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6434,7 +6434,7 @@ class TldInfo {
 ],
  [
   'domain' => 'tt',
-  'description' => 'Trinidad and Tobago [Republic of]',
+  'description' => 'Trinidad and Tobago (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6469,12 +6469,12 @@ class TldInfo {
 ],
  [
   'domain' => 'tw',
-  'description' => 'Taiwan [Republic of China]',
+  'description' => 'Taiwan (Republic of China)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'tz',
-  'description' => 'Tanzania [United Republic of]',
+  'description' => 'Tanzania (United Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6499,12 +6499,12 @@ class TldInfo {
 ],
  [
   'domain' => 'ug',
-  'description' => 'Uganda [Republic of]',
+  'description' => 'Uganda (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uk',
-  'description' => 'United Kingdom [United Kingdom of Great Britain and Northern Ireland]',
+  'description' => 'United Kingdom (United Kingdom of Great Britain and Northern Ireland)',
   'type' => 'country-code',
 ],
  [
@@ -6544,17 +6544,17 @@ class TldInfo {
 ],
  [
   'domain' => 'uy',
-  'description' => 'Uruguay [Oriental Republic of]',
+  'description' => 'Uruguay (Oriental Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'uz',
-  'description' => 'Uzbekistan [Republic of]',
+  'description' => 'Uzbekistan (Republic of)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'va',
-  'description' => 'Vatican City [Vatican City State]',
+  'description' => 'Vatican City (Vatican City State)',
   'type' => 'country-code',
 ],
  [
@@ -6579,7 +6579,7 @@ class TldInfo {
 ],
  [
   'domain' => 've',
-  'description' => 'Venezuela [Bolivarian Republic of]',
+  'description' => 'Venezuela (Bolivarian Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6609,12 +6609,12 @@ class TldInfo {
 ],
  [
   'domain' => 'vg',
-  'description' => 'British Virgin Islands [Virgin Islands]',
+  'description' => 'British Virgin Islands (Virgin Islands)',
   'type' => 'country-code',
 ],
  [
   'domain' => 'vi',
-  'description' => 'United States Virgin Islands [United States Virgin Islands]',
+  'description' => 'United States Virgin Islands (United States Virgin Islands)',
   'type' => 'country-code',
 ],
  [
@@ -6634,7 +6634,7 @@ class TldInfo {
 ],
  [
   'domain' => 'viking',
-  'description' => 'Viking River Cruises [Bermuda] Ltd.',
+  'description' => 'Viking River Cruises (Bermuda) Ltd.',
   'type' => 'generic',
 ],
  [
@@ -6694,7 +6694,7 @@ class TldInfo {
 ],
  [
   'domain' => 'vn',
-  'description' => 'Vietnam [Socialist Republic of]',
+  'description' => 'Vietnam (Socialist Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6734,7 +6734,7 @@ class TldInfo {
 ],
  [
   'domain' => 'vu',
-  'description' => 'Vanuatu [Republic of]',
+  'description' => 'Vanuatu (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -6829,7 +6829,7 @@ class TldInfo {
 ],
  [
   'domain' => 'wf',
-  'description' => 'Wallis and Futuna [Territory of the Wallis and Futuna Islands]',
+  'description' => 'Wallis and Futuna (Territory of the Wallis and Futuna Islands)',
   'type' => 'country-code',
 ],
  [
@@ -6909,7 +6909,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ws',
-  'description' => 'Samoa [Independent State of]',
+  'description' => 'Samoa (Independent State of)',
   'type' => 'country-code',
 ],
  [
@@ -6994,7 +6994,7 @@ class TldInfo {
 ],
  [
   'domain' => '한국',
-  'description' => 'KISA [Korea Internet & Security Agency]',
+  'description' => 'KISA (Korea Internet & Security Agency)',
   'type' => 'country-code',
 ],
  [
@@ -7004,7 +7004,7 @@ class TldInfo {
 ],
  [
   'domain' => '大众汽车',
-  'description' => 'Volkswagen [China] Investment Co., Ltd.',
+  'description' => 'Volkswagen (China) Investment Co., Ltd.',
   'type' => 'generic',
 ],
  [
@@ -7074,7 +7074,7 @@ class TldInfo {
 ],
  [
   'domain' => 'москва',
-  'description' => 'Foundation for Assistance for Internet Technologies and Infrastructure Development [FAITID]',
+  'description' => 'Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)',
   'type' => 'generic',
 ],
  [
@@ -7089,7 +7089,7 @@ class TldInfo {
 ],
  [
   'domain' => 'католик',
-  'description' => 'Pontificium Consilium de Comunicationibus Socialibus [PCCS] [Pontifical Council for Social Communication]',
+  'description' => 'Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)',
   'type' => 'generic',
 ],
  [
@@ -7109,7 +7109,7 @@ class TldInfo {
 ],
  [
   'domain' => 'срб',
-  'description' => 'Serbian National Internet Domain Registry [RNIDS]',
+  'description' => 'Serbian National Internet Domain Registry (RNIDS)',
   'type' => 'country-code',
 ],
  [
@@ -7144,7 +7144,7 @@ class TldInfo {
 ],
  [
   'domain' => '淡马锡',
-  'description' => 'Temasek Holdings [Private] Limited',
+  'description' => 'Temasek Holdings (Private) Limited',
   'type' => 'generic',
 ],
  [
@@ -7174,12 +7174,12 @@ class TldInfo {
 ],
  [
   'domain' => 'சிங்கப்பூர்',
-  'description' => 'Singapore Network Information Centre [SGNIC] Pte Ltd',
+  'description' => 'Singapore Network Information Centre (SGNIC) Pte Ltd',
   'type' => 'country-code',
 ],
  [
   'domain' => '商标',
-  'description' => 'HU YI GLOBAL INFORMATION RESOURCES[HOLDING] COMPANY.HONGKONG LIMITED',
+  'description' => 'HU YI GLOBAL INFORMATION RESOURCES(HOLDING) COMPANY.HONGKONG LIMITED',
   'type' => 'generic',
 ],
  [
@@ -7249,12 +7249,12 @@ class TldInfo {
 ],
  [
   'domain' => '中国',
-  'description' => 'China Internet Network Information Center [CNNIC]',
+  'description' => 'China Internet Network Information Center (CNNIC)',
   'type' => 'country-code',
 ],
  [
   'domain' => '中國',
-  'description' => 'China Internet Network Information Center [CNNIC]',
+  'description' => 'China Internet Network Information Center (CNNIC)',
   'type' => 'country-code',
 ],
  [
@@ -7344,7 +7344,7 @@ class TldInfo {
 ],
  [
   'domain' => '餐厅',
-  'description' => 'HU YI GLOBAL INFORMATION RESOURCES [HOLDING] COMPANY. HONGKONG LIMITED',
+  'description' => 'HU YI GLOBAL INFORMATION RESOURCES (HOLDING) COMPANY. HONGKONG LIMITED',
   'type' => 'generic',
 ],
  [
@@ -7359,7 +7359,7 @@ class TldInfo {
 ],
  [
   'domain' => 'укр',
-  'description' => 'Ukrainian Network Information Centre [UANIC], Inc.',
+  'description' => 'Ukrainian Network Information Centre (UANIC), Inc.',
   'type' => 'country-code',
 ],
  [
@@ -7394,12 +7394,12 @@ class TldInfo {
 ],
  [
   'domain' => '台湾',
-  'description' => 'Taiwan Network Information Center [TWNIC]',
+  'description' => 'Taiwan Network Information Center (TWNIC)',
   'type' => 'country-code',
 ],
  [
   'domain' => '台灣',
-  'description' => 'Taiwan Network Information Center [TWNIC]',
+  'description' => 'Taiwan Network Information Center (TWNIC)',
   'type' => 'country-code',
 ],
  [
@@ -7424,7 +7424,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏عمان‎',
-  'description' => 'Telecommunications Regulatory Authority [TRA]',
+  'description' => 'Telecommunications Regulatory Authority (TRA)',
   'type' => 'country-code',
 ],
  [
@@ -7434,7 +7434,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏ایران‎',
-  'description' => 'Institute for Research in Fundamental Sciences [IPM]',
+  'description' => 'Institute for Research in Fundamental Sciences (IPM)',
   'type' => 'country-code',
 ],
  [
@@ -7444,12 +7444,12 @@ class TldInfo {
 ],
  [
   'domain' => '‏اتصالات‎',
-  'description' => 'Emirates Telecommunications Corporation [trading as Etisalat]',
+  'description' => 'Emirates Telecommunications Corporation (trading as Etisalat)',
   'type' => 'generic',
 ],
  [
   'domain' => '‏امارات‎',
-  'description' => 'Telecommunications Regulatory Authority [TRA]',
+  'description' => 'Telecommunications Regulatory Authority (TRA)',
   'type' => 'country-code',
 ],
  [
@@ -7469,7 +7469,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏الاردن‎',
-  'description' => 'National Information Technology Center [NITC]',
+  'description' => 'National Information Technology Center (NITC)',
   'type' => 'country-code',
 ],
  [
@@ -7489,7 +7489,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏المغرب‎',
-  'description' => 'Agence Nationale de Réglementation des Télécommunications [ANRT]',
+  'description' => 'Agence Nationale de Réglementation des Télécommunications (ANRT)',
   'type' => 'country-code',
 ],
  [
@@ -7509,7 +7509,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏كاثوليك‎',
-  'description' => 'Pontificium Consilium de Comunicationibus Socialibus [PCCS] [Pontifical Council for Social Communication]',
+  'description' => 'Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)',
   'type' => 'generic',
 ],
  [
@@ -7524,7 +7524,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏عراق‎',
-  'description' => 'Communications and Media Commission [CMC]',
+  'description' => 'Communications and Media Commission (CMC)',
   'type' => 'country-code',
 ],
  [
@@ -7534,7 +7534,7 @@ class TldInfo {
 ],
  [
   'domain' => '澳門',
-  'description' => 'Macao Post and Telecommunications Bureau [CTT]',
+  'description' => 'Macao Post and Telecommunications Bureau (CTT)',
   'type' => 'country-code',
 ],
  [
@@ -7564,7 +7564,7 @@ class TldInfo {
 ],
  [
   'domain' => 'გე',
-  'description' => 'Information Technologies Development Center [ITDC]',
+  'description' => 'Information Technologies Development Center (ITDC)',
   'type' => 'country-code',
 ],
  [
@@ -7589,7 +7589,7 @@ class TldInfo {
 ],
  [
   'domain' => '‏سورية‎',
-  'description' => 'National Agency for Network Services [NANS]',
+  'description' => 'National Agency for Network Services (NANS)',
   'type' => 'country-code',
 ],
  [
@@ -7674,7 +7674,7 @@ class TldInfo {
 ],
  [
   'domain' => '天主教',
-  'description' => 'Pontificium Consilium de Comunicationibus Socialibus [PCCS] [Pontifical Council for Social Communication]',
+  'description' => 'Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)',
   'type' => 'generic',
 ],
  [
@@ -7744,12 +7744,12 @@ class TldInfo {
 ],
  [
   'domain' => '新加坡',
-  'description' => 'Singapore Network Information Centre [SGNIC] Pte Ltd',
+  'description' => 'Singapore Network Information Centre (SGNIC) Pte Ltd',
   'type' => 'country-code',
 ],
  [
   'domain' => '‏فلسطين‎',
-  'description' => 'Ministry of Telecom & Information Technology [MTIT]',
+  'description' => 'Ministry of Telecom & Information Technology (MTIT)',
   'type' => 'country-code',
 ],
  [
@@ -7799,7 +7799,7 @@ class TldInfo {
 ],
  [
   'domain' => 'ye',
-  'description' => 'Yemen [Republic of]',
+  'description' => 'Yemen (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -7829,7 +7829,7 @@ class TldInfo {
 ],
  [
   'domain' => 'yt',
-  'description' => 'Mayotte [Department of]',
+  'description' => 'Mayotte (Department of)',
   'type' => 'country-code',
 ],
  [
@@ -7839,7 +7839,7 @@ class TldInfo {
 ],
  [
   'domain' => 'za',
-  'description' => 'South Africa [Republic of]',
+  'description' => 'South Africa (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -7849,7 +7849,7 @@ class TldInfo {
 ],
  [
   'domain' => 'zara',
-  'description' => 'Industria de Diseño Textil, S.A. [INDITEX, S.A.]',
+  'description' => 'Industria de Diseño Textil, S.A. (INDITEX, S.A.)',
   'type' => 'generic',
 ],
  [
@@ -7869,7 +7869,7 @@ class TldInfo {
 ],
  [
   'domain' => 'zm',
-  'description' => 'Zambia [Republic of]',
+  'description' => 'Zambia (Republic of)',
   'type' => 'country-code',
 ],
  [
@@ -7879,12 +7879,12 @@ class TldInfo {
 ],
  [
   'domain' => 'zuerich',
-  'description' => 'Kanton Zürich [Canton of Zurich]',
+  'description' => 'Kanton Zürich (Canton of Zurich)',
   'type' => 'generic',
 ],
  [
   'domain' => 'zw',
-  'description' => 'Zimbabwe [Republic of]',
+  'description' => 'Zimbabwe (Republic of)',
   'type' => 'country-code',
 ]];
     
