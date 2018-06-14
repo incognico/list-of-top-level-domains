@@ -61,9 +61,8 @@ if (!program.quiet) {
     let parser = parse({ delimiter: ',' });
 
     let tldType = {};
-
+    let i = 0;
     parser.on('readable', function() {
-        let i = 0;
         let row, domain, type;
         while (row = parser.read()) {
             if (!row.length) {
