@@ -12,7 +12,7 @@ const country = require('countryjs');
 const parse = require('csv-parse');
 const fs = require('fs-extra');
 const path = require('path');
-const md5File = require('md5-file/promise');
+const md5File = require('md5-file');
 const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
@@ -45,7 +45,7 @@ if (!program.quiet) {
     let existingMd5 = null;
 
     if (fs.existsSync(fileTldTypeJs)) {
-        existingMd5 = await md5File(fileTldTypeJs);
+        existingMd5 = md5File.sync(fileTldTypeJs);
         const pathinfoTlds = pathinfo(fileTldTypeJs);
         const fileBackupTlds = pathinfoTlds.dirname + pathinfoTlds.sep + pathinfoTlds.basename + '-' + existingMd5 + '-backup.js';
         if (!fs.existsSync(fileBackupTlds)) {
@@ -80,25 +80,25 @@ if (!program.quiet) {
 
     parser.write(fs.readFileSync(fileTldsCsv));
 
-    parser.end();
+    parser.end(function() {
+      console.log("done");
 
-    console.log("done");
+      process.stdout.write("generating new 'tld-type.json' file...");
 
-    process.stdout.write("generating new 'tld-type.json' file...");
+      fs.appendFileSync(fileNewTldTypeJson, JSON.stringify(tldType, null, 2));
 
-    fs.appendFileSync(fileNewTldTypeJson, JSON.stringify(tldType, null, 2));
+      console.log("done");
 
-    console.log("done");
+      if (existingMd5) {
+          const newMd5 = md5File.sync(fileNewTldTypeJson);
+          if (newMd5 == existingMd5) {
+              console.error(meName + ": (NOTICE) ignoring newly generated 'tld-type.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldTypeJs + ")");
+              return;
+          }
+      }
+      fs.copySync(fileNewTldTypeJson, fileTldTypeJs);
 
-    if (existingMd5) {
-        const newMd5 = await md5File(fileNewTldTypeJson);
-        if (newMd5 == existingMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'tld-type.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldTypeJs + ")");
-            return;
-        }
-    }
-    fs.copySync(fileNewTldTypeJson, fileTldTypeJs);
-
-    console.log("saved new 'tld-type.json' file");
+      console.log("saved new 'tld-type.json' file");      
+    });
 
 })();

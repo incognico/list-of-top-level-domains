@@ -12,7 +12,7 @@ const country = require('countryjs');
 const parse = require('csv-parse');
 const fs = require('fs-extra');
 const path = require('path');
-const md5File = require('md5-file/promise');
+const md5File = require('md5-file');
 const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
@@ -48,7 +48,7 @@ if (!program.quiet) {
     let existingMd5 = null;
 
     if (fs.existsSync(fileTldInfoJs)) {
-        existingMd5 = await md5File(fileTldInfoJs);
+        existingMd5 = md5File.sync(fileTldInfoJs);
         const pathinfoTlds = pathinfo(fileTldInfoJs);
         const fileBackupTlds = pathinfoTlds.dirname + pathinfoTlds.sep + pathinfoTlds.basename + '-' + existingMd5 + '-backup.js';
         if (!fs.existsSync(fileBackupTlds)) {
@@ -92,29 +92,29 @@ if (!program.quiet) {
 
     parser.write(fs.readFileSync(fileTldsCsv));
 
-    parser.end();
+    parser.end(function() {
+      console.log("done");
 
-    console.log("done");
+      process.stdout.write("generating new 'info.js' file...");
 
-    process.stdout.write("generating new 'info.js' file...");
+      fs.writeFileSync(fileNewTldInfoJs, tldInfoStartTldInfo);
 
-    fs.writeFileSync(fileNewTldInfoJs, tldInfoStartTldInfo);
+      fs.appendFileSync(fileNewTldInfoJs, JSON.stringify(tldInfo, null, 2));
 
-    fs.appendFileSync(fileNewTldInfoJs, JSON.stringify(tldInfo, null, 2));
+      fs.appendFileSync(fileNewTldInfoJs, tldInfoEndTldInfo);
 
-    fs.appendFileSync(fileNewTldInfoJs, tldInfoEndTldInfo);
+      console.log("done");
 
-    console.log("done");
+      if (existingMd5) {
+          const newMd5 = md5File.sync(fileNewTldInfoJs);
+          if (newMd5 == existingMd5) {
+              console.error(meName + ": (NOTICE) ignoring newly generated 'info.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldInfoJs + ")");
+              return;
+          }
+      }
+      fs.copySync(fileNewTldInfoJs, fileTldInfoJs);
 
-    if (existingMd5) {
-        const newMd5 = await md5File(fileNewTldInfoJs);
-        if (newMd5 == existingMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'info.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldInfoJs + ")");
-            return;
-        }
-    }
-    fs.copySync(fileNewTldInfoJs, fileTldInfoJs);
-
-    console.log("saved new 'info.js' file");
+      console.log("saved new 'info.js' file");      
+    });
 
 })();

@@ -12,7 +12,7 @@ const country = require('countryjs');
 const parse = require('csv-parse');
 const fs = require('fs-extra');
 const path = require('path');
-const md5File = require('md5-file/promise');
+const md5File = require('md5-file');
 const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
@@ -45,7 +45,7 @@ if (!program.quiet) {
     let existingMd5 = null;
 
     if (fs.existsSync(fileTldDescJs)) {
-        existingMd5 = await md5File(fileTldDescJs);
+        existingMd5 = md5File.sync(fileTldDescJs);
         const pathinfoTlds = pathinfo(fileTldDescJs);
         const fileBackupTlds = pathinfoTlds.dirname + pathinfoTlds.sep + pathinfoTlds.basename + '-' + existingMd5 + '-backup.js';
         if (!fs.existsSync(fileBackupTlds)) {
@@ -80,25 +80,25 @@ if (!program.quiet) {
 
     parser.write(fs.readFileSync(fileTldsCsv));
 
-    parser.end();
+    parser.end(function() {
+      console.log("done");
 
-    console.log("done");
+      process.stdout.write("generating new 'tld-desc.json' file...");
 
-    process.stdout.write("generating new 'tld-desc.json' file...");
+      fs.appendFileSync(fileNewTldDescJson, JSON.stringify(tldDesc, null, 2));
 
-    fs.appendFileSync(fileNewTldDescJson, JSON.stringify(tldDesc, null, 2));
+      console.log("done");
 
-    console.log("done");
+      if (existingMd5) {
+          const newMd5 = md5File.sync(fileNewTldDescJson);
+          if (newMd5 == existingMd5) {
+              console.error(meName + ": (NOTICE) ignoring newly generated 'tld-desc.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldDescJs + ")");
+              return;
+          }
+      }
+      fs.copySync(fileNewTldDescJson, fileTldDescJs);
 
-    if (existingMd5) {
-        const newMd5 = await md5File(fileNewTldDescJson);
-        if (newMd5 == existingMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'tld-desc.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldDescJs + ")");
-            return;
-        }
-    }
-    fs.copySync(fileNewTldDescJson, fileTldDescJs);
-
-    console.log("saved new 'tld-desc.json' file");
+      console.log("saved new 'tld-desc.json' file");      
+    });
 
 })();

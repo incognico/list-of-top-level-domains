@@ -12,7 +12,7 @@ const country = require('countryjs');
 const parse = require('csv-parse');
 const fs = require('fs-extra');
 const path = require('path');
-const md5File = require('md5-file/promise');
+const md5File = require('md5-file');
 const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
@@ -45,7 +45,7 @@ if (!program.quiet) {
     let existingMd5 = null;
 
     if (fs.existsSync(fileTldListJson)) {
-        existingMd5 = await md5File(fileTldListJson);
+        existingMd5 = md5File.sync(fileTldListJson);
         const pathinfoTlds = pathinfo(fileTldListJson);
         const fileBackupTlds = pathinfoTlds.dirname + pathinfoTlds.sep + pathinfoTlds.basename + '-' + existingMd5 + '-backup.json';
         if (!fs.existsSync(fileBackupTlds)) {
@@ -74,24 +74,24 @@ if (!program.quiet) {
 
     parser.write(fs.readFileSync(fileTldsCsv));
 
-    parser.end();
+    parser.end(function() {
+      console.log("done");
 
-    console.log("done");
+      process.stdout.write("generating new 'tld-list.json' file...");
 
-    process.stdout.write("generating new 'tld-list.json' file...");
+      fs.writeFileSync(fileNewTldListJson, JSON.stringify(tldEnum, null, 2));
 
-    fs.writeFileSync(fileNewTldListJson, JSON.stringify(tldEnum, null, 2));
+      console.log("done");
 
-    console.log("done");
-
-    if (existingMd5) {
-        const newMd5 = await md5File(fileNewTldListJson);
-        if (newMd5 == existingMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'tld-list.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldListJson + ")");
-            return;
-        }
-    }
-    fs.copySync(fileNewTldListJson, fileTldListJson);
-    console.log("saved new 'tld-list.json' file");
+      if (existingMd5) {
+          const newMd5 = md5File.sync(fileNewTldListJson);
+          if (newMd5 == existingMd5) {
+              console.error(meName + ": (NOTICE) ignoring newly generated 'tld-list.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldListJson + ")");
+              return;
+          }
+      }
+      fs.copySync(fileNewTldListJson, fileTldListJson);
+      console.log("saved new 'tld-list.json' file");      
+    });
 
 })();

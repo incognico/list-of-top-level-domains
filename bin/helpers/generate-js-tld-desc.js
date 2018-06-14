@@ -12,7 +12,7 @@ const country = require('countryjs');
 const parse = require('csv-parse');
 const fs = require('fs-extra');
 const path = require('path');
-const md5File = require('md5-file/promise');
+const md5File = require('md5-file');
 const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
@@ -35,7 +35,6 @@ if (!program.quiet) {
     console.log("   Generates new JavaScript format file 'desc.js' from the 'tlds.csv' file");
     console.log("");
 }
-
 (async() => {
 
     const tldDescStartTldDesc = 'module.exports = ';
@@ -48,7 +47,7 @@ if (!program.quiet) {
     let existingMd5 = null;
 
     if (fs.existsSync(fileTldDescJs)) {
-        existingMd5 = await md5File(fileTldDescJs);
+        existingMd5 = md5File.sync(fileTldDescJs);
         const pathinfoTlds = pathinfo(fileTldDescJs);
         const fileBackupTlds = pathinfoTlds.dirname + pathinfoTlds.sep + pathinfoTlds.basename + '-' + existingMd5 + '-backup.js';
         if (!fs.existsSync(fileBackupTlds)) {
@@ -61,9 +60,9 @@ if (!program.quiet) {
     let parser = parse({ delimiter: ',' });
 
     let tldDesc = {};
-
+    let i;
     parser.on('readable', function() {
-        let i = 0;
+        if (!i) i=0;
         let row, domain, desc;
         while (row = parser.read()) {
             if (!row.length) {
@@ -75,37 +74,47 @@ if (!program.quiet) {
               process.exit(1);
             }
             domain=row[0];
+            if (!domain) {
+              console.error(meName + ": (FATAL) invalid 'tlds.csv', empty column 1 on row #" + i + " in '" + fileTldsCsv+"'");
+              process.exit(1);
+            }
+            
             desc=row[1];
+            
             tldDesc[domain]=desc;
+
             i++;
         }
     });
+    
 
     parser.write(fs.readFileSync(fileTldsCsv));
 
-    parser.end();
+    parser.end(function() {
+      console.log("done");
 
-    console.log("done");
+      process.stdout.write("generating new 'desc.js' file...");
 
-    process.stdout.write("generating new 'desc.js' file...");
+      fs.writeFileSync(fileNewTldDescJs, tldDescStartTldDesc);
 
-    fs.writeFileSync(fileNewTldDescJs, tldDescStartTldDesc);
+      fs.appendFileSync(fileNewTldDescJs, JSON.stringify(tldDesc, null, 2));
+      
+      fs.appendFileSync(fileNewTldDescJs, tldDescEndTldDesc);
 
-    fs.appendFileSync(fileNewTldDescJs, JSON.stringify(tldDesc, null, 2));
+      console.log("done");
 
-    fs.appendFileSync(fileNewTldDescJs, tldDescEndTldDesc);
+      if (existingMd5) {
+          const newMd5 = md5File.sync(fileNewTldDescJs);
+          if (newMd5 == existingMd5) {
+              console.error(meName + ": (NOTICE) ignoring newly generated 'desc.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldDescJs + ")");
+              return;
+          }
+      }
+      fs.copySync(fileNewTldDescJs, fileTldDescJs);
 
-    console.log("done");
+      console.log("saved new 'desc.js' file");
+    });
 
-    if (existingMd5) {
-        const newMd5 = await md5File(fileNewTldDescJs);
-        if (newMd5 == existingMd5) {
-            console.error(meName + ": (NOTICE) ignoring newly generated 'desc.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldDescJs + ")");
-            return;
-        }
-    }
-    fs.copySync(fileNewTldDescJs, fileTldDescJs);
 
-    console.log("saved new 'desc.js' file");
 
 })();
