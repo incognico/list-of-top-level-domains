@@ -130,6 +130,11 @@ else
 fi
 
 #
+# execute TSV helper
+#
+helper generate-tsv-tlds-tsv.js "Tab-Separated-Values 'tlds.tsv'"
+
+#
 # execute JavaScript helpers
 #
 helper generate-js-tld-desc.js "JavaScript 'desc.js'"
