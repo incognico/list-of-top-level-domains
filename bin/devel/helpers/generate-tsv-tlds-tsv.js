@@ -100,7 +100,6 @@ if (!program.quiet) {
           let csvRow = [tld.domain];
           csvRow.push(tld.description);
           csvRow.push(tld.type);
-          csvRow.push(tld.type);
           stringifier.write(csvRow);
 
       }
