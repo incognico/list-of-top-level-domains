@@ -1409,7 +1409,7 @@ class TldInfo {
 ],
  [
   'domain' => 'cologne',
-  'description' => 'punkt.wien GmbH',
+  'description' => 'dotKoeln GmbH',
   'type' => 'generic',
 ],
  [
@@ -3479,7 +3479,7 @@ class TldInfo {
 ],
  [
   'domain' => 'koeln',
-  'description' => 'punkt.wien GmbH',
+  'description' => 'dotKoeln GmbH',
   'type' => 'generic',
 ],
  [

@@ -1406,7 +1406,7 @@ module.exports = [
   },
   {
     "domain": "cologne",
-    "description": "punkt.wien GmbH",
+    "description": "dotKoeln GmbH",
     "type": "generic"
   },
   {
@@ -3476,7 +3476,7 @@ module.exports = [
   },
   {
     "domain": "koeln",
-    "description": "punkt.wien GmbH",
+    "description": "dotKoeln GmbH",
     "type": "generic"
   },
   {
