@@ -2,8 +2,8 @@
 <?php
 new class() {
     const ME_NAME = 'generate-php-tld-desc.php';
-    const TLDS_CSV_PATH = __DIR__ . '/../../tlds.csv';
-    const TLD_DESC_PATH = __DIR__ . '/../../formats/php/TldEnum/TldDesc.php';
+    const TLDS_CSV_PATH = __DIR__ . '/../../../tlds.csv';
+    const TLD_DESC_PATH = __DIR__ . '/../../../formats/php/TldEnum/TldDesc.php';
     private static $_quietMode = false;
     public function __construct() {
         $opt = getopt ( "q",['quiet']);

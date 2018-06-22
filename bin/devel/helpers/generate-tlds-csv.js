@@ -22,8 +22,8 @@ const tmp = require('tmp');
 
 tmp.setGracefulCleanup();
 
-const fileTldDescCsv = path.dirname(require.main.filename) + '/../../assets/tld-desc.csv';
-const fileTldsCsv = path.dirname(require.main.filename) + '/../../tlds.csv';
+const fileTldDescCsv = path.dirname(require.main.filename) + '/../../../assets/tld-desc.csv';
+const fileTldsCsv = path.dirname(require.main.filename) + '/../../../tlds.csv';
 const urlTldsAlpha = 'http://data.iana.org/TLD/tlds-alpha-by-domain.txt';
 const urlDomainsDb = 'https://www.iana.org/domains/root/db';
 

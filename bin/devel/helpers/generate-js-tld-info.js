@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meName = 'generate-js-tld-desc.js';
+const meName = 'generate-js-tld-info.js';
 
 process.on('unhandledRejection', error => {
     console.error(meName + ": (FATAL)", error);
@@ -19,8 +19,8 @@ const tmp = require('tmp');
 
 //tmp.setGracefulCleanup();
 
-const fileTldDescJs = path.dirname(require.main.filename) + '/../../formats/js/tld-enum/desc.js';
-const fileTldsCsv = path.dirname(require.main.filename) + '/../../tlds.csv';
+const fileTldInfoJs = path.dirname(require.main.filename) + '/../../../formats/js/tld-enum/info.js';
+const fileTldsCsv = path.dirname(require.main.filename) + '/../../../tlds.csv';
 
 program
     .option('-q, --quiet', 'Quiet Mode')
@@ -32,26 +32,27 @@ if (!program.quiet) {
     console.log("   see README.md for licensing and other information");
     console.log("   https://github.com/katmore/tld-enum#readme");
     console.log("");
-    console.log("   Generates new JavaScript format file 'desc.js' from the 'tlds.csv' file");
+    console.log("   Generates new JavaScript format file 'info.js' from the 'tlds.csv' file");
     console.log("");
 }
+
 (async() => {
 
-    const tldDescStartTldDesc = 'module.exports = ';
-    const tldDescEndTldDesc = ';';
+    const tldInfoStartTldInfo = 'module.exports = ';
+    const tldInfoEndTldInfo = ';';
 
     const tmpDir = tmp.dirSync({ unsafeCleanup: true });
 
-    const fileNewTldDescJs = tmpDir.name + '/desc.js';
+    const fileNewTldInfoJs = tmpDir.name + '/info.js';
 
     let existingMd5 = null;
 
-    if (fs.existsSync(fileTldDescJs)) {
-        existingMd5 = md5File.sync(fileTldDescJs);
-        const pathinfoTlds = pathinfo(fileTldDescJs);
+    if (fs.existsSync(fileTldInfoJs)) {
+        existingMd5 = md5File.sync(fileTldInfoJs);
+        const pathinfoTlds = pathinfo(fileTldInfoJs);
         const fileBackupTlds = pathinfoTlds.dirname + pathinfoTlds.sep + pathinfoTlds.basename + '-' + existingMd5 + '-backup.js';
         if (!fs.existsSync(fileBackupTlds)) {
-            fs.copySync(fileTldDescJs, fileBackupTlds);
+            fs.copySync(fileTldInfoJs, fileBackupTlds);
         }
     }
 
@@ -59,10 +60,10 @@ if (!program.quiet) {
 
     let parser = parse({ delimiter: ',' });
 
-    let tldDesc = {};
+    let tldInfo = [];
     let i = 0;
     parser.on('readable', function() {
-        let row, domain, desc;
+        let row, domain, desc, type;
         while (row = parser.read()) {
             if (!row.length) {
                 console.error(meName + ": (FATAL) invalid 'tlds.csv' row #" + i + " in '" + fileTldsCsv+"'");
@@ -72,48 +73,47 @@ if (!program.quiet) {
               console.error(meName + ": (FATAL) invalid 'tlds.csv', missing column 2 on row #" + i + " in '" + fileTldsCsv+"'");
               process.exit(1);
             }
-            domain=row[0];
-            if (!domain) {
-              console.error(meName + ": (FATAL) invalid 'tlds.csv', empty column 1 on row #" + i + " in '" + fileTldsCsv+"'");
+            if (typeof row[2] === 'undefined') {
+              console.error(meName + ": (FATAL) invalid 'tlds.csv', missing column 3 on row #" + i + " in '" + fileTldsCsv+"'");
               process.exit(1);
             }
-            
+            domain=row[0];
             desc=row[1];
-            
-            tldDesc[domain]=desc;
-
+            type=row[2];
+            tldInfo.push({
+               'domain' : domain,
+               'description' : desc,
+               'type' : type,
+            });
             i++;
         }
     });
-    
 
     parser.write(fs.readFileSync(fileTldsCsv));
 
     parser.end(function() {
       console.log("done");
 
-      process.stdout.write("generating new 'desc.js' file...");
+      process.stdout.write("generating new 'info.js' file...");
 
-      fs.writeFileSync(fileNewTldDescJs, tldDescStartTldDesc);
+      fs.writeFileSync(fileNewTldInfoJs, tldInfoStartTldInfo);
 
-      fs.appendFileSync(fileNewTldDescJs, JSON.stringify(tldDesc, null, 2));
-      
-      fs.appendFileSync(fileNewTldDescJs, tldDescEndTldDesc);
+      fs.appendFileSync(fileNewTldInfoJs, JSON.stringify(tldInfo, null, 2));
+
+      fs.appendFileSync(fileNewTldInfoJs, tldInfoEndTldInfo);
 
       console.log("done");
 
       if (existingMd5) {
-          const newMd5 = md5File.sync(fileNewTldDescJs);
+          const newMd5 = md5File.sync(fileNewTldInfoJs);
           if (newMd5 == existingMd5) {
-              console.error(meName + ": (NOTICE) ignoring newly generated 'desc.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldDescJs + ")");
+              console.error(meName + ": (NOTICE) ignoring newly generated 'info.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldInfoJs + ")");
               return;
           }
       }
-      fs.copySync(fileNewTldDescJs, fileTldDescJs);
+      fs.copySync(fileNewTldInfoJs, fileTldInfoJs);
 
-      console.log("saved new 'desc.js' file");
+      console.log("saved new 'info.js' file");      
     });
-
-
 
 })();

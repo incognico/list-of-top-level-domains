@@ -19,8 +19,8 @@ const tmp = require('tmp');
 
 //tmp.setGracefulCleanup();
 
-const fileTldDescJs = path.dirname(require.main.filename) + '/../../formats/json/tld-desc.json';
-const fileTldsCsv = path.dirname(require.main.filename) + '/../../tlds.csv';
+const fileTldDescJs = path.dirname(require.main.filename) + '/../../../formats/json/tld-desc.json';
+const fileTldsCsv = path.dirname(require.main.filename) + '/../../../tlds.csv';
 
 program
     .option('-q, --quiet', 'Quiet Mode')

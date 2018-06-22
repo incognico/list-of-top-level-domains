@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meName = 'generate-js-tld-type.json';
+const meName = 'generate-js-tld-type.js';
 
 process.on('unhandledRejection', error => {
     console.error(meName + ": (FATAL)", error);
@@ -19,8 +19,8 @@ const tmp = require('tmp');
 
 //tmp.setGracefulCleanup();
 
-const fileTldTypeJs = path.dirname(require.main.filename) + '/../../formats/json/tld-type.json';
-const fileTldsCsv = path.dirname(require.main.filename) + '/../../tlds.csv';
+const fileTldTypeJs = path.dirname(require.main.filename) + '/../../../formats/js/tld-enum/type.js';
+const fileTldsCsv = path.dirname(require.main.filename) + '/../../../tlds.csv';
 
 program
     .option('-q, --quiet', 'Quiet Mode')
@@ -32,15 +32,18 @@ if (!program.quiet) {
     console.log("   see README.md for licensing and other information");
     console.log("   https://github.com/katmore/tld-enum#readme");
     console.log("");
-    console.log("   Generates new JSON format file 'tld-type.json' from the 'tlds.csv' file");
+    console.log("   Generates new JavaScript format file 'type.js' from the 'tlds.csv' file");
     console.log("");
 }
 
 (async() => {
 
+    const tldTypeStartTldType = 'module.exports = ';
+    const tldTypeEndTldType = ';';
+
     const tmpDir = tmp.dirSync({ unsafeCleanup: true });
 
-    const fileNewTldTypeJson = tmpDir.name + '/tld-type.json';
+    const fileNewTldTypeJs = tmpDir.name + '/type.js';
 
     let existingMd5 = null;
 
@@ -82,22 +85,26 @@ if (!program.quiet) {
     parser.end(function() {
       console.log("done");
 
-      process.stdout.write("generating new 'tld-type.json' file...");
+      process.stdout.write("generating new 'type.js' file...");
 
-      fs.appendFileSync(fileNewTldTypeJson, JSON.stringify(tldType, null, 2));
+      fs.writeFileSync(fileNewTldTypeJs, tldTypeStartTldType);
+
+      fs.appendFileSync(fileNewTldTypeJs, JSON.stringify(tldType, null, 2));
+
+      fs.appendFileSync(fileNewTldTypeJs, tldTypeEndTldType);
 
       console.log("done");
 
       if (existingMd5) {
-          const newMd5 = md5File.sync(fileNewTldTypeJson);
+          const newMd5 = md5File.sync(fileNewTldTypeJs);
           if (newMd5 == existingMd5) {
-              console.error(meName + ": (NOTICE) ignoring newly generated 'tld-type.json' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldTypeJs + ")");
+              console.error(meName + ": (NOTICE) ignoring newly generated 'type.js' file that is identical to the existing file (md5: " + existingMd5 + ", path: " + fileTldTypeJs + ")");
               return;
           }
       }
-      fs.copySync(fileNewTldTypeJson, fileTldTypeJs);
+      fs.copySync(fileNewTldTypeJs, fileTldTypeJs);
 
-      console.log("saved new 'tld-type.json' file");      
+      console.log("saved new 'type.js' file");      
     });
 
 })();

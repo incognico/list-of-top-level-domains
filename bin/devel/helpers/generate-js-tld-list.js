@@ -17,8 +17,8 @@ const pathinfo = require('pathinfo');
 const program = require('commander');
 const tmp = require('tmp');
 
-const fileTldListJs = path.dirname(require.main.filename) + '/../../formats/js/tld-enum/list.js';
-const fileTldsCsv = path.dirname(require.main.filename) + '/../../tlds.csv';
+const fileTldListJs = path.dirname(require.main.filename) + '/../../../formats/js/tld-enum/list.js';
+const fileTldsCsv = path.dirname(require.main.filename) + '/../../../tlds.csv';
 
 program
     .option('-q, --quiet', 'Quiet Mode')
