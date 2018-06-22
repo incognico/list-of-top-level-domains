@@ -183,10 +183,10 @@ Additionally, for convenience, some native programming language formats have als
        An export module with an array comprised of "info" object elements of every IANA TLD.
     
 ## Updating the TLD format files
-All [TLD List Formats](#tld-list-formats) can be updated with the latest data from IANA by using the [**TLD Update Utility**](/bin/update-formats.sh).
+All [TLD List Formats](#tld-list-formats) can be updated with the latest data from IANA by using the [**TLD Update Utility**](/bin/devel/update-formats.sh).
 
 ```sh
-$ bin/update-formats.sh
+$ bin/devel/update-formats.sh
 ```
 
 ### TLD Update Utility Prerequisites
@@ -216,7 +216,7 @@ $ bin/update-formats.sh
    * If **tld-enum** was installed in an outside project using npm, then the **TLD Update Utility** can be executed from the *node_module* directory, as in the following example:
       
      ```sh
-     node_modules/tld-enum/bin/update-formats.sh
+     node_modules/tld-enum/bin/devel/update-formats.sh
      ```
 
 ### TLD Update Utility Usage
