@@ -15,7 +15,7 @@ ME_DIR="/$0"; ME_DIR=${ME_DIR%/*}; ME_DIR=${ME_DIR:-.}; ME_DIR=${ME_DIR#/}/; ME_
 ME_SHORTNAME='tldinfo'
 
 #
-# number of seconds before warning about needing an update
+# number of seconds before warning about TLD database needing an update
 #   2592000 seconds = 30 days
 #
 CHECKED_TIME_TTL=2592000
@@ -283,7 +283,6 @@ init_data_root() {
       >&2 echo "$ME_NAME: (fatal error) failed set permissions on data root '$root_path', do you need sudo?"
       exit 1
    }
-   #init_data_file "tlds.tsv"
    init_data_file "checked-time"
    init_data_file "release"
 }
@@ -337,6 +336,9 @@ print_data_file_path() { file_basename=$1
    echo $path
 }
 
+#
+# wheather to download TLDS database from CDN
+#
 INITIAL_TLDS_DOWNLOAD=0
 
 #
@@ -358,11 +360,10 @@ if [ "$INSTALL_MODE" = 1 ]; then
    }
    init_data_root
    INITIAL_TLDS_DOWNLOAD=1
-   #UPDATE_MODE=1
 fi
 
 #
-#
+# prepare tld database
 #
 TLDS_PATH=$(print_data_file_path tlds.tsv)
 PROJECT_TLDS_PATH=$ME_DIR/formats/tsv/tlds.tsv
@@ -387,7 +388,7 @@ if ( [ "$INSTALL_MODE" = 0 ] && [ ! -f "$TLDS_PATH" ] ); then
 fi
 
 #
-# wheather to check for update
+# determine wheather to check for update
 #
 CHECK_UPDATE=0
 LAST_CHECKED_TIME=$(print_data_file_contents checked-time)
@@ -476,13 +477,17 @@ if ( [ "$INITIAL_TLDS_DOWNLOAD" = 1 ] || [ "$UPDATE_MODE" = 1 ] || [ "$CHECK_UPD
    
 fi
 
+#
+# exit if install mode
+#
 if [ "$INSTALL_MODE" = 1 ]; then
    echo "install '$(basename $SYS_INSTALL_PATH)' success"
    exit 0
 fi
 
-#printf "%-25s %-12s\n" "CONTAINER" "IP-ADDR"
-
+#
+# show description and type if domain <SEARCH> singleton
+#
 if ( [ -n "$SEARCH" ] && [ "$STARTS_WITH" = 0 ] ); then
    SHOW_DESC=1; SHOW_TYPE=1
 fi
@@ -490,22 +495,40 @@ if [ "$STARTS_WITH" = 1 ]; then
    MATCH_COUNT=0
 fi
 
+#
+# configre IFS with {tab} delimiter
+#
 IFS_OLD=$IFS
 IFS=$(printf "\t")
 
+#
+# read tlds.tsv database
+#
 while read domain desc type; do
+   #
+   # apply <SEARCH> arg
+   #
    if [ -n "$SEARCH" ]; then
       if [ "$STARTS_WITH" = 0 ]; then
+         #
+         # match <SEARCH> singleton 
+         #
          if [ "$domain" != "$SEARCH" ]; then
             continue
          fi
       else
+         #
+         # match --starts-with <SEARCH> 
+         #
          case $domain in
             $SEARCH*) MATCH_COUNT=$((MATCH_COUNT+1));;
             *) continue;;
          esac
       fi
    fi
+   #
+   # concatenate TLD info for display
+   #
    line=
    if ( [ -z "$SEARCH" ] || [ "$STARTS_WITH" = 1 ] ); then
       line=$domain
@@ -519,18 +542,27 @@ while read domain desc type; do
       line="$line$type"
    }
    printf "$line\n"
+   #
+   # exit on matched <SEARCH> singleton 
+   #
    if ( [ -n "$SEARCH" ] && [ "$STARTS_WITH" = 0 ] ); then
       exit 0
    fi
 done < $TLDS_PATH
+
+#
+# set IFS to default delimiter
+#
 IFS=$IFS_OLD
 
+#
+# display summary for results of --starts-with <SEARCH> 
+#
 if ( [ -n "$SEARCH" ] && ( [ "$STARTS_WITH" = 0 ] || [ "$MATCH_COUNT" = 0 ] ) ); then
    [ "$STARTS_WITH" = 0 ] && >&2 echo "domain '$SEARCH' not found"
    [ "$MATCH_COUNT" = 0 ] && >&2 echo "no domains starting with '$SEARCH' found"
    exit 20
 fi
-
 if [ "$STARTS_WITH" = 1 ]; then
    >&2 echo ""
    if [ "$MATCH_COUNT" = "1" ]; then
