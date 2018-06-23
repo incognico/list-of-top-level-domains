@@ -1,0 +1,18 @@
+{
+    "name": "katmore/tld-enum",
+    "description": "Lists of every ICANN TLD in multiple formats",
+    "homepage": "https://github.com/katmore/tld-enum",
+    "autoload": {
+        "psr-4": {
+            "TldEnum\\": "formats/php/TldEnum/"
+        }
+    },
+    "license": [
+        "MIT",
+        "GPL-3.0+"
+    ],
+    "bin": ["bin/update-formats.sh"],
+    "require": {
+        "php": ">=7.2.1"
+    }
+}
