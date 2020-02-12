@@ -19,7 +19,7 @@
         "commander": "^2.15.1",
         "country-data": "0.0.31",
         "countryjs": "^1.8.0",
-        "csv-parse": "^2.5.0",
+        "csv-parse": "^4.4.6",
         "csv-stringify": "^2.1.0",
         "es6-promisify": "^5.0.0",
         "fs": "0.0.1-security",
